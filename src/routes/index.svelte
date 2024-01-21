@@ -1,4 +1,4 @@
-<!-- src/routes/+page.svelte -->
+<!-- src/routes/index.svelte -->
 <script>
     import Header from '$lib/Header.svelte';
     import Hero from './Hero.svelte';
@@ -6,6 +6,5 @@
   
   <Header />
   <Hero />
-  
-  <!-- Rest of your homepage content goes here -->
+  <!-- Add more content for your homepage as needed -->
   
