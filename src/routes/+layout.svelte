@@ -1,6 +1,7 @@
 <script lang="ts">
     import { locale, loadTranslations } from '$lib/translations';
     import type { Load } from '@sveltejs/kit';
+    import "../app.css";
   
     export const load: Load = async ({ url }) => {
       const initLocale = 'fr'; // Default to French
