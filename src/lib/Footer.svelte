@@ -20,7 +20,7 @@
 
         <!-- Social Media Links -->
         <div class="w-full md:w-1/4">
-          <h5 class="uppercase mb-4 font-bold">Follow Us</h5>
+          <h5 class="uppercase mb-4 font-bold">Suivez nous</h5>
           <ul class="flex items-center space-x-4">
             <li><a href="#" class="hover:text-gray-300">Facebook</a></li>
             <li><a href="#" class="hover:text-gray-300">Twitter</a></li>
