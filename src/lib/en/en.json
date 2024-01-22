@@ -2,12 +2,12 @@
     "navbar": {
         "home": "Home",
         "about": "About",
-        "english": "English",
-        "french": "Français"
+        "french": "French",
+        "english": "English"
     },
     "hero": {
-        "title": "Welcome to the Language Club!",
-        "subtitle": "Explore, Learn, and Connect through Languages",
+        "title": "Explore, Learn, and Connect through Languages",
+        "subtitle": "by EFEL CENTER",
         "cta": "Join Us Today"
     },
     "methods": {
