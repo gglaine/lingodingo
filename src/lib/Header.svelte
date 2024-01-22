@@ -1,13 +1,26 @@
-<!-- src/lib/Header.svelte -->
-<script>
-    // JavaScript for the Header component (if needed)
+<script lang="ts">
+ import { t, locale } from '$lib';
+  
+    function changeLocale(event: Event) {
+      const selectElement = event.target as HTMLSelectElement;
+      if (selectElement) {
+        locale.set(selectElement.value); // Update the i18n locale
+      }
+    }
   </script>
   
   <nav class="header">
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <!-- Add more navigation links as needed -->
+    <a href="/">{$t('common.navbar.home')}</a>
+    <a href="/about">{$t('common.navbar.about')}</a>
+    <select value={$locale} on:change="{changeLocale}">
+      <option value="en">{$t('common.navbar.english')}</option>
+      <option value="fr">{$t('common.navbar.french')}</option>
+      <!-- Other options -->
+    </select>
   </nav>
+  
+  <!-- Your styles here -->
+  
   
   <style>
     .header {

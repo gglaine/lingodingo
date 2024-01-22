@@ -1,4 +1,9 @@
 {
+    "navbar": {
+        "home": "Accueil",
+        "about": "À propos",
+        "french": "Francais"
+    },
     "hero": {
         "title": "Bienvenue au Club de Langues !",
         "subtitle": "Explorer, Apprendre et Se Connecter à travers les Langues",

@@ -6,6 +6,8 @@ export const load = async ({ url }) => {
 
     await loadTranslations(initLocale, pathname);
 
+    console.log('Translations loaded successfully');
+
     return {};
 };
 
