@@ -2,14 +2,16 @@
 <script>
     import Header from '$lib/Header.svelte';
     import Footer from '$lib/Footer.svelte';
-    import Hero from './Hero.svelte';
-    import Methods from './Methods.svelte';
-  import Sessions from './Sessions.svelte';
+    import Hero from '../components/Hero.svelte';
+    import Methods from '../components/Methods.svelte';
+  import Sessions from '../components/Sessions.svelte';
+  import Teachers from '../components/Teachers.svelte';
+  import Sponsors from '../components/Sponsors.svelte';
   </script>
   
   <div class="container mx-auto">
     <!-- Wrap your content inside a container -->
-    <Header />
+
   
     <!-- Add space between Header and Hero -->
     <div class="mt-8">
@@ -30,12 +32,19 @@
       <h2 class="text-2xl font-semibold mb-4">Sessions Section</h2>
       <Sessions />
     </div>
-          <!-- Add space between Methods and Sessions -->
-          <div class="mt-8">
-            <!-- Add a heading for Sessions section -->
-            <h2 class="text-2xl font-semibold mb-4">That's All Folks</h2>
-            <Footer />
-          </div>
+        <!-- Add space between Methods and Sessions -->
+        <div class="mt-8">
+          <!-- Add a heading for Sessions section -->
+          <h2 class="text-2xl font-semibold mb-4">Sessions Section</h2>
+          <Teachers/>
+        </div>
+            <!-- Add space between Methods and Sessions -->
+    <div class="mt-8">
+      <!-- Add a heading for Sessions section -->
+      <h2 class="text-2xl font-semibold mb-4">Sessions Section</h2>
+      <Sponsors />
+    </div>
+
   </div>
   
   

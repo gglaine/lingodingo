@@ -22,6 +22,50 @@
         "storytelling": {
             "title": "Storytelling",
             "description": "Dive into the art of storytelling. Share and create stories, enhancing comprehension and expression."
+        },
+        "dailyJournal": {
+            "title": "Daily Journal Writing",
+            "description": "Maintain a daily journal in English or French. Write about your day, thoughts, or experiences using new vocabulary."
+        },
+        "languagePartner": {
+            "title": "Language Partner Conversations",
+            "description": "Pair up with a language exchange partner. Set a weekly conversation schedule to chat and share in the target language."
+        },
+        "recipeTranslation": {
+            "title": "Recipe Translation",
+            "description": "Translate recipes from English or French into your native language, combining language learning with culinary skills."
+        },
+        "languageMedia": {
+            "title": "Language Podcasts and Videos",
+            "description": "Listen to podcasts or watch videos in the target language, then summarize or answer questions for comprehension."
+        },
+        "virtualQuiz": {
+            "title": "Virtual Language Quiz",
+            "description": "Participate in online quizzes covering grammar, vocabulary, and culture for self-assessment and fun."
+        },
+        "pictureStorytelling": {
+            "title": "Storytelling with Pictures",
+            "description": "Write short stories or describe scenes based on shared images, utilizing English or French creatively."
+        },
+        "mediaClub": {
+            "title": "Movie and Book Club",
+            "description": "Watch movies or read books in the target language, then discuss them focusing on language, plot, and culture."
+        },
+        "onlineGames": {
+            "title": "Online Language Games",
+            "description": "Recommend and play language learning games and apps for interactive vocabulary and grammar practice."
+        },
+        "socialMediaChallenge": {
+            "title": "Social Media Challenge",
+            "description": "Engage in weekly language challenges on social media, like posting photos with captions in the target language."
+        },
+        "flashcards": {
+            "title": "Flashcards and Vocabulary Lists",
+            "description": "Learn new words through shared vocabulary lists and practice with custom-made flashcards."
+        },
+        "penPals": {
+            "title": "Pen Pals",
+            "description": "Connect with pen pals who speak the target language, exchanging letters or emails for authentic communication."
         }
     },
     "sessions": {
@@ -40,6 +84,34 @@
         "bav": {
             "title": "Black American Vernacular",
             "description": "Learn about and explore the nuances of Black American Vernacular English."
+        },
+        "funnyWords": {
+            "title": "Funny-Sounding Words and False Friends",
+            "description": "Explore amusing words, tongue twisters, and false friends between English and French for a fun linguistic twist."
+        },
+        "exonyms": {
+            "title": "Discovering Exonyms",
+            "description": "Learn how different cultures refer to places and landmarks in their languages, enriching geographical and cultural knowledge."
+        },
+        "languageChallenges": {
+            "title": "Language Puzzles and Challenges",
+            "description": "Engage in crossword puzzles, word searches, and creative writing challenges using funny words, false friends, and exonyms."
+        },
+        "accentRecognition": {
+            "title": "Accent Recognition and Practice",
+            "description": "Practice imitating different accents and discuss the unique pronunciation and intonation patterns."
+        },
+        "madeUpWords": {
+            "title": "Creating New Words",
+            "description": "Invent and share new words, exploring the creativity and playfulness of language."
+        },
+        "museum": {
+            "title": "Adventure in time",
+            "description": "Guided visit, theme tours to discover."
+        },
+        "outdoor": {
+            "title": "Explore outdoor",
+            "description": "Invent and share new words, exploring the creativity and playfulness of language."
         }
     }
 }

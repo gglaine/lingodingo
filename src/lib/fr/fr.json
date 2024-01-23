@@ -2,31 +2,79 @@
     "navbar": {
         "home": "Accueil",
         "about": "À propos",
-        "french": "Francais",
-        "english": "English"
+        "french": "Français",
+        "english": "Anglais"
     },
     "hero": {
-        "title": "Explorer, Apprendre et Se Connecter à travers les Langues!",
-        "subtitle": "par EFEL center",
+        "title": "Explorer, Apprendre et Connecter à travers les Langues",
+        "subtitle": "par le CENTRE EFEL",
         "cta": "Rejoignez-nous Aujourd'hui"
     },
     "methods": {
         "clt": {
             "title": "Enseignement Communicatif des Langues",
-            "description": "Concentrez-vous sur la communication et l'interaction réelles. Participez à des jeux de rôles, des débats et des discussions."
+            "description": "Concentrez-vous sur la communication et l'interaction réelles. Engagez-vous dans des jeux de rôle, débats et discussions."
         },
         "tpr": {
             "title": "Réponse Physique Totale",
-            "description": "Combine l'apprentissage des langues avec l'activité physique. Utilisez des gestes et des mouvements pour associer les mots aux actions."
+            "description": "Combine l'apprentissage de la langue avec l'activité physique. Utilisez des gestes et mouvements pour associer des mots à des actions."
         },
         "storytelling": {
-            "title": "Art de Raconter des Histoires",
-            "description": "Plongez dans l'art du conte. Partagez et créez des histoires, améliorant la compréhension et l'expression."
+            "title": "Art de Raconter",
+            "description": "Plongez dans l'art de raconter des histoires. Partagez et créez des histoires, en améliorant la compréhension et l'expression."
+        },
+        "dailyJournal": {
+            "title": "Journal Quotidien",
+            "description": "Tenez un journal quotidien en anglais ou en français. Écrivez sur votre journée, vos pensées ou vos expériences en utilisant un nouveau vocabulaire."
+        },
+        "languagePartner": {
+            "title": "Conversations avec un Partenaire Linguistique",
+            "description": "Associez-vous avec un partenaire d'échange linguistique. Fixez un programme de conversation hebdomadaire pour discuter et partager dans la langue cible."
+        },
+        "recipeTranslation": {
+            "title": "Traduction de Recettes",
+            "description": "Traduisez des recettes de l'anglais ou du français dans votre langue maternelle, combinant l'apprentissage de la langue avec des compétences culinaires."
+        },
+        "languageMedia": {
+            "title": "Podcasts et Vidéos Linguistiques",
+            "description": "Écoutez des podcasts ou regardez des vidéos dans la langue cible, puis résumez ou répondez à des questions pour la compréhension."
+        },
+        "virtualQuiz": {
+            "title": "Quiz de Langue Virtuel",
+            "description": "Participez à des quiz en ligne couvrant la grammaire, le vocabulaire et la culture pour l'auto-évaluation et le plaisir."
+        },
+        "pictureStorytelling": {
+            "title": "Raconter des Histoires avec des Images",
+            "description": "Écrivez de courtes histoires ou décrivez des scènes basées sur des images partagées, en utilisant l'anglais ou le français de manière créative."
+        },
+        "languageBlogging": {
+            "title": "Blogs ou Vlogs Linguistiques",
+            "description": "Créez un blog ou un vlog dans la langue cible, partageant vos pensées, expériences ou histoires avec un public."
+        },
+        "mediaClub": {
+            "title": "Club de Cinéma et de Lecture",
+            "description": "Regardez des films ou lisez des livres dans la langue cible, puis discutez-les en vous concentrant sur la langue, l'intrigue et la culture."
+        },
+        "onlineGames": {
+            "title": "Jeux de Langue en Ligne",
+            "description": "Recommandez et jouez à des jeux d'apprentissage de langues et à des applications pour une pratique interactive du vocabulaire et de la grammaire."
+        },
+        "socialMediaChallenge": {
+            "title": "Défi sur les Réseaux Sociaux",
+            "description": "Participez à des défis linguistiques hebdomadaires sur les réseaux sociaux, comme poster des photos avec des légendes dans la langue cible."
+        },
+        "flashcards": {
+            "title": "Cartes Flash et Listes de Vocabulaire",
+            "description": "Apprenez de nouveaux mots grâce à des listes de vocabulaire partagées et pratiquez avec des cartes flash personnalisées."
+        },
+        "penPals": {
+            "title": "Correspondants",
+            "description": "Connectez-vous avec des correspondants qui parlent la langue cible, échangeant des lettres ou des e-mails pour une communication authentique."
         }
     },
     "sessions": {
         "accents": {
-            "title": "Explorer Différents Accents",
+            "title": "Exploration des Différents Accents",
             "description": "Identifiez et pratiquez divers accents anglais et français à travers des exercices interactifs."
         },
         "etymology": {
@@ -35,11 +83,31 @@
         },
         "news": {
             "title": "Lecture de l'Actualité",
-            "description": "Engagez-vous avec les événements actuels et pratiquez vos compétences linguistiques en lisant et discutant des articles de presse."
+            "description": "Engagez-vous avec des événements actuels et pratiquez vos compétences linguistiques en lisant et en discutant d'articles de presse."
         },
         "bav": {
             "title": "Vernaculaire Afro-Américain",
-            "description": "Apprenez et explorez les nuances du Vernaculaire Afro-Américain."
+            "description": "Découvrez et explorez les nuances du vernaculaire afro-américain."
+        },
+        "funnyWords": {
+            "title": "Mots Amusants et Faux Amis",
+            "description": "Explorez des mots amusants, des virelangues, et des faux amis entre l'anglais et le français pour une touche linguistique divertissante."
+        },
+        "exonyms": {
+            "title": "Découverte des Exonymes",
+            "description": "Apprenez comment différentes cultures désignent des lieux et des repères dans leurs langues, enrichissant les connaissances géographiques et culturelles."
+        },
+        "languageChallenges": {
+            "title": "Puzzles et Défis Linguistiques",
+            "description": "Participez à des mots croisés, des recherches de mots, et des défis d'écriture créative utilisant des mots amusants, des faux amis et des exonymes."
+        },
+        "accentRecognition": {
+            "title": "Reconnaissance et Pratique des Accents",
+            "description": "Pratiquez l'imitation de différents accents et discutez des modèles uniques de prononciation et d'intonation."
+        },
+        "madeUpWords": {
+            "title": "Création de Nouveaux Mots",
+            "description": "Inventez et partagez de nouveaux mots, en explorant la créativité et le côté ludique de la langue."
         }
     }
 }

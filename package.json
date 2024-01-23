@@ -26,6 +26,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"firebase": "^10.7.2",
 		"sveltekit-i18n": "^2.4.2"
 	}
 }
