@@ -1,21 +1,19 @@
-<!-- src/routes/layout.svelte -->
 <script lang="ts">
+  import { onMount } from 'svelte';
   import { locale, loadTranslations } from '$lib/translations';
-  import type { Load } from '@sveltejs/kit';
   import Header from '$lib/Header.svelte';
   import Footer from '$lib/Footer.svelte';
 
-  export const load: Load = async ({ url }) => {
-    const initLocale = 'fr'; // Default to French
-    await loadTranslations(initLocale, url.pathname);
-    locale.set(initLocale); // Correctly using the store's set method
+  // This assumes you've already configured svelte-i18n in your $lib/translations
+  // and that it exports a 'locale' store among other things.
 
-    return {};
-  };
+  onMount(() => {
+    const initLocale = localStorage.getItem('userLocale') || 'fr';
+    locale.set(initLocale); // This updates the app's current locale
+    loadTranslations(initLocale);
+  });
 </script>
 
 <Header />
-
 <slot />
-
 <Footer />

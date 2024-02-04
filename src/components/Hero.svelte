@@ -5,16 +5,16 @@
 <div class="hero relative flex flex-col items-center justify-center md:bg-contain" style="height: 70vh;"> <!-- Apply the inline style here -->
   <img src="/images/lingo-logo.png" alt="Logo" class="mb-4 w-48 h-48" /> <!-- Adjust the width and height as needed -->
 
-  <h1 class="text-4xl font-bold text-white mb-4">{$t('common.hero.title')}</h1>
-  <p class="text-2xl text-white mb-6">{$t('common.hero.subtitle')}</p>
-  <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">{$t('common.hero.cta')}</button>
+  <h1 class="text-4xl text-center font-bold text-slate-800 mb-4">{$t('common.hero.title')}</h1>
+  <p class="text-2xl text-slate-800 mb-6">{$t('common.hero.subtitle')}</p>
+  <button class="bg-blue-500 hover:bg-blue-700 text-white text-4xl font-bold py-4 px-6 rounded">{$t('common.hero.cta')}</button>
 </div>
 
 <style>
 /* Apply the blur effect to the pseudo-element */
 .hero::before {
   content: "";
-  background-image: url('/images/groupmob.png');
+
   background-size: cover;
   background-position: center;
   filter: blur(3px); /* Adjust the blur strength as needed */

@@ -3,13 +3,39 @@
         "home": "Home",
         "about": "About",
         "french": "French",
-        "english": "English"
+        "english": "English",
+        "contact": "Contact Us"
+    },
+    "footer": {
+        "follow": "Follow Us",
+        "contact": "Contact Us"
     },
     "hero": {
         "title": "Explore, Learn, and Connect through Languages",
         "subtitle": "by EFEL CENTER",
-        "cta": "Join Us Today"
+        "cta": "Join a session"
     },
+    "cta": {
+        "joinNow": "Join Now",
+        "joinNextSession": "Join A Session",
+        "learnMore": "Learn More",
+        "signUp": "Sign Up",
+        "getStarted": "Get Started",
+        "subscribe": "Subscribe",
+        "bookNow": "Book Now",
+        "download": "Download",
+        "explore": "Explore",
+        "contactUs": "Contact Us",
+        "share": "Share",
+        "sponsorUs": "Become An EFEL Sponsor",
+        "meetPeople": "Learn and speak with People from around the world"
+      },
+    "sections": {
+        "methods": "Methods Section",
+        "sessions": "Sessions Section",
+        "sponsors": "Our partners"
+      },
+    "learnMore": "Learn More",
     "methods": {
         "clt": {
             "title": "Communicative Language Teaching",

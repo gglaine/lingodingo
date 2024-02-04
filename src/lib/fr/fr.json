@@ -3,13 +3,38 @@
         "home": "Accueil",
         "about": "À propos",
         "french": "Français",
-        "english": "Anglais"
+        "english": "Anglais",
+        "contact": "Contact"
+    },
+    "footer": {
+        "follow": "Suivez-nous",
+        "contact": "Contact"
     },
     "hero": {
         "title": "Explorer, Apprendre et Connecter à travers les Langues",
         "subtitle": "par le CENTRE EFEL",
-        "cta": "Rejoignez-nous Aujourd'hui"
+        "cta": "Rejoins une session"
     },
+    "cta": {
+        "joinNow": "Rejoindre maintenant",
+        "joinNextSession": "Rejoindre une session",
+        "learnMore": "En savoir plus",
+        "signUp": "S'inscrire",
+        "getStarted": "Commencer",
+        "subscribe": "S'abonner",
+        "bookNow": "Réserver maintenant",
+        "download": "Télécharger",
+        "explore": "Explorer",
+        "contactUs": "Nous contacter",
+        "share": "Partager",
+        "meetPeople": "Faites vous des amis dans tous les pays"
+      },
+    "learnMore": "Apprends +",
+    "sections": {
+        "methods": "Section Méthodes",
+        "sessions": "Section Sessions",
+        "sponsors": "Partenaires"
+      },
     "methods": {
         "clt": {
             "title": "Enseignement Communicatif des Langues",
@@ -108,6 +133,14 @@
         "madeUpWords": {
             "title": "Création de Nouveaux Mots",
             "description": "Inventez et partagez de nouveaux mots, en explorant la créativité et le côté ludique de la langue."
+        },
+        "museum": {
+            "title": "Musée",
+            "description": "Visites guidées, sorties à thème."
+        },
+        "outdoor": {
+            "title": "Exploration en plein air",
+            "description": "Découvrez et explorez des espaces culturels ou naturels en anglais"
         }
     }
 }
