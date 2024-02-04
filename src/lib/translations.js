@@ -1,3 +1,4 @@
+//translations.js
 import i18n from 'sveltekit-i18n';
 
 /** @type {import('sveltekit-i18n').Config} */
