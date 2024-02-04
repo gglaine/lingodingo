@@ -24,7 +24,7 @@
   </div>
   <div class="flex-grow md:flex-grow-0 text-md flex justify-between items-center"> <!-- Adjust the flex-grow for mobile -->
     <div class="md:mr-4"> <!-- Logo container for desktop -->
-      <img src="/images/DINGOHEAD.png" alt="Logo" class="h-16 md:h-16"> <!-- Logo image -->
+      <a href="/" ><img src="/images/dingologo.png" alt="Logo" class="h-16 md:h-16"></a> <!-- Logo image -->
     </div>
     <a href="/" class="text-gray-800 hover:text-blue-500 px-3 py-2 rounded-md  font-medium">{$t('common.navbar.home')}</a>
     <a href="/about" class="text-gray-800 hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium">{$t('common.navbar.about')}</a>

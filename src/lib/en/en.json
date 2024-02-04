@@ -6,6 +6,21 @@
         "english": "English",
         "contact": "Contact Us"
     },
+    "about": {
+        "fun_workshops": "Fun Workshops",
+        "fun_workshops_text": "Join our interactive and fun workshops that make learning a new language exciting like an adventure. We've designed these sessions to be enjoyable, filled with laughter, and focused on improving your speaking skills.",
+        "inspired_learning_method": "Inspired Learning Method",
+        "inspired_learning_method_text": "Our unique teaching method draws inspiration from the rich traditions of African communities. Just like the children who gather around the 'arbre à palabres' to learn values, our approach brings together the best of language teaching experiences from the United States, France, and our deep African roots in Senegal.",
+        "explore_together": "Explore Together",
+        "explore_together_text": "Language learning is more enjoyable when you embark on this journey with fellow learners from around the world. Connect with others who share your passion for languages, cultures, and new experiences.",
+        "empower_your_voice": "Empower Your Voice",
+        "empower_your_voice_text": "We believe that learning a language is about more than just words; it's about finding your voice. Our platform empowers you to express yourself confidently in a new language, helping you unlock a world of opportunities and connections."
+      
+    },
+    "utils": {
+        "phone": "Phone",
+        "returnhome": "Back to homepage"
+    },
     "footer": {
         "follow": "Follow Us",
         "contact": "Contact Us"
@@ -32,8 +47,9 @@
       },
     "sections": {
         "methods": "Methods Section",
-        "sessions": "Sessions Section",
-        "sponsors": "Our partners"
+        "sessions": "Fun workshops open to all",
+        "sponsors": "Our partners",
+        "teachers": "Learn different accents"
       },
     "learnMore": "Learn More",
     "methods": {
