@@ -3,7 +3,7 @@
   import { locale, loadTranslations } from '$lib/translations';
   import Header from '$lib/Header.svelte';
   import Footer from '$lib/Footer.svelte';
-
+  import "../app.css";
   // This assumes you've already configured svelte-i18n in your $lib/translations
   // and that it exports a 'locale' store among other things.
 
