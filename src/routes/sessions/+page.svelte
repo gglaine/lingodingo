@@ -1,5 +1,5 @@
 <script>
-    import Sessions from '$lib/Sessions.svelte';
+    import Sessions from '../../components/Sessions.svelte';
   </script>
   
   <div class="container mx-auto">

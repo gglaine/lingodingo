@@ -2,7 +2,6 @@
 <script>
     import { t, locale } from '$lib';
   import Hero from '../components/Hero.svelte';
-  import Methods from '../components/Methods.svelte';
   import Sessions from '../components/Sessions.svelte';
   import Teachers from '../components/Teachers.svelte';
   import Sponsors from '../components/Sponsors.svelte';
