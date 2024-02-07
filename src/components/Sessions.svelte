@@ -2,13 +2,13 @@
   import { t } from '$lib';
 
   const sessions = [
-    { id: 'accents', image: '/images/various_ages.png', titleKey: 'common.sessions.accents.title', descKey: 'common.sessions.accents.description' },
-    { id: 'etymology', image: '/images/teaching_props.png', titleKey: 'common.sessions.etymology.title', descKey: 'common.sessions.etymology.description' },
-    { id: 'news', image: '/images/teaching_personnel.png', titleKey: 'common.sessions.news.title', descKey: 'common.sessions.news.description' },
-    { id: 'bav', image: '/images/street_class.png', titleKey: 'common.sessions.bav.title', descKey: 'common.sessions.bav.description' },
+    { id: 'accents', image: '/images/methods/various_ages.png', titleKey: 'common.sessions.accents.title', descKey: 'common.sessions.accents.description' },
+    { id: 'etymology', image: '/images/methods/teaching_props.png', titleKey: 'common.sessions.etymology.title', descKey: 'common.sessions.etymology.description' },
+    { id: 'news', image: '/images/methods/teaching_personnel.png', titleKey: 'common.sessions.news.title', descKey: 'common.sessions.news.description' },
+    { id: 'bav', image: '/images/methods/street_class.png', titleKey: 'common.sessions.bav.title', descKey: 'common.sessions.bav.description' },
     // Assuming 'outdoor_class', 'museum_class', and 'dingologo' are IDs for other sessions
-    { id: 'outdoor', image: '/images/outdoor_class.png', titleKey: 'common.sessions.outdoor.title', descKey: 'common.sessions.outdoor.description' },
-    { id: 'museum', image: '/images/museum_class.png', titleKey: 'common.sessions.museum.title', descKey: 'common.sessions.museum.description' },
+    { id: 'outdoor', image: '/images/methods/outdoor_class.png', titleKey: 'common.sessions.outdoor.title', descKey: 'common.sessions.outdoor.description' },
+    { id: 'museum', image: '/images/methods/museum_class.png', titleKey: 'common.sessions.museum.title', descKey: 'common.sessions.museum.description' },
     // If 'dingologo' is not a session but a logo, it wouldn't be listed here
   ];
 </script>

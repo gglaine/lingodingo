@@ -4,16 +4,30 @@
 </script>
 
 <main>
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-      {#each methodsData as method (method.id)}
-          <article class="border rounded-lg overflow-hidden shadow-md hover:shadow-lg">
-              <img src={method.imageSrc} alt={$t(method.titleKey)} class="w-full h-auto" />
-              <div class="p-4">
-                  <h2 class="text-xl font-semibold mb-2">{$t(method.titleKey)}</h2>
-                  <p class="text-gray-600">{$t(method.descKey)}</p>
-                  <a href={`/methods/${method.id}`} class="block mt-2 text-blue-500 hover:underline">{$t('common.learnMore')}</a>
-              </div>
+  <div class="p-8">
+    <h3 class="font-bold text-xl">French and English Easy Learning</h3>
+    <h3 class="font-bold text-xl">Can you F.E.E.L. It?</h3>
+    <p>Des méthodes pour tous, quel que soit votre niveau</p>
+    <p>Rejoignez une session sur le thème qui vous plait</p>
+  </div>
+ 
+  <!-- Update this div to use Tailwind's responsive utilities -->
+  <div class="p-8 pt-4 mb-4 md:columns-3 md:gap-4">
+    {#each methodsData as method (method.id)}
+      <!-- Use Tailwind's break-inside utility if available or fallback to inline style for older versions -->
+      <div class="mb-4 break-inside-avoid">
+        <a href={`/methods/${method.id}`} class="no-underline block">
+          <article class="border rounded-lg overflow-hidden shadow-md hover:shadow-lg hover:bg-gray-100 flex flex-col">
+            <img src={method.imageSrc} alt={$t(method.titleKey)} class="w-full h-auto object-cover">
+            <div class="p-4">
+              <h2 class="text-xl font-semibold text-gray-800 mb-2">{$t(method.titleKey)}</h2>
+              <p class="text-gray-600 mb-2">{$t(method.descKey)}</p>
+              <span class="block mt-2 text-blue-500 hover:underline">{$t('common.learnMore')}</span>
+            </div>
           </article>
-      {/each}
+        </a>
+      </div>
+    {/each}
   </div>
 </main>
+

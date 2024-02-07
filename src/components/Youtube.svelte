@@ -57,5 +57,5 @@
 
 <!-- Wrap the video in a responsive container -->
 <div class="responsive-video-container">
-  <div id="player" class="p-4 border-slate-200 border-8"></div>
+  <div id="player" class="p-4 border-slate-400 rounded-lg border-8"></div>
 </div>

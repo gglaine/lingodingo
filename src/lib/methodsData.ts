@@ -1,71 +1,59 @@
-// src/lib/methodsData.ts
-
-
 export interface MethodType {
   id: string;
   titleKey: string;
   descKey: string;
+  howItWorks: string;
+  whyYoullLoveIt: string;
+  getStartedTips: string;
+  joinTheCommunity: string;
+  successWith: string;
+  whatsNext: string;
   imageSrc: string;
-  // ... any other properties each method has
 }
-const methodsData = [
-    {
-      id: 'clt',
-      titleKey: 'common.methods.clt.title',
-      descKey: 'common.methods.clt.description',
-      imageSrc: '/images/diverse.png' // Original image, replace as needed
-    },
-    {
-      id: 'tpr',
-      titleKey: 'common.methods.tpr.title',
-      descKey: 'common.methods.tpr.description',
-      imageSrc: '/images/engaging_talk.png' // Original image, replace as needed
-    },
-    {
-      id: 'storytelling',
-      titleKey: 'common.methods.storytelling.title',
-      descKey: 'common.methods.storytelling.description',
-      imageSrc: '/images/storytelling.png' // Original image, replace as needed
-    },
-    // New methods with provided images
-    {
-      id: 'recipeTranslation',
-      titleKey: 'common.methods.recipeTranslation.title',
-      descKey: 'common.methods.recipeTranslation.description',
-      imageSrc: '/images/recipe.png' // Image for Recipe Translation
-    },
-    {
-      id: 'languageMedia',
-      titleKey: 'common.methods.languageMedia.title',
-      descKey: 'common.methods.languageMedia.description',
-      imageSrc: '/images/podcasts_and_videos.png' // Image for Language Podcasts and Videos
-    },
-    {
-      id: 'mediaClub',
-      titleKey: 'common.methods.mediaClub.title',
-      descKey: 'common.methods.mediaClub.description',
-      imageSrc: '/images/movie_club.png' // Image for Movie and Book Club
-    },
-    {
-      id: 'socialMediaChallenge',
-      titleKey: 'common.methods.socialMediaChallenge.title',
-      descKey: 'common.methods.socialMediaChallenge.description',
-      imageSrc: '/images/social_media_app.png' // Image for Social Media Challenge
-    },
-    {
-      id: 'flashcards',
-      titleKey: 'common.methods.flashcards.title',
-      descKey: 'common.methods.flashcards.description',
-      imageSrc: '/images/flashcards.png' // Image for Flashcards and Vocabulary Lists
-    },
-    {
-      id: 'penPals',
-      titleKey: 'common.methods.penPals.title',
-      descKey: 'common.methods.penPals.description',
-      imageSrc: '/images/penpals.png' // Image for Pen Pals
-    }
-    // ... Add any other methods as needed
-  ];
-  
-  export default methodsData;
-  
+
+// Define a base path for the i18n keys to avoid repetition
+const basePath = 'common.methods';
+
+// Function to generate a method object
+function createMethod(id: string, imageSrc: string): MethodType {
+  return {
+    id,
+    titleKey: `${basePath}.${id}.title`,
+    descKey: `${basePath}.${id}.description`,
+    howItWorks: `${basePath}.${id}.howItWorks`,
+    whyYoullLoveIt: `${basePath}.${id}.whyYoullLoveIt`,
+    getStartedTips: `${basePath}.${id}.getStartedTips`,
+    joinTheCommunity: `${basePath}.${id}.joinTheCommunity`,
+    successWith: `${basePath}.${id}.successWith`,
+    whatsNext: `${basePath}.${id}.whatsNext`,
+    imageSrc
+  };
+}
+
+const methodsData: MethodType[] = [
+  createMethod('clt', '/images/methods/diverse.png'),
+  createMethod('tpr', '/images/methods/engaging_talk.png'),
+  createMethod('storytelling', '/images/methods/storytelling.png'),
+  createMethod('dailyJournal', '/images/methods/diverse_class.png'),
+  createMethod('languagePartner', '/images/methods/group_mob.png'),
+  createMethod('recipeTranslation', '/images/methods/recipe.png'),
+  createMethod('languageMedia', '/images/methods/podcasts_and_videos.png'),
+  createMethod('virtualQuiz', '/images/methods/virtual_quiz.png'),
+  createMethod('pictureStorytelling', '/images/methods/picture_storytelling.png'),
+  createMethod('mediaClub', '/images/methods/media_club.png'),
+  createMethod('onlineGames', '/images/methods/online_games.png'),
+  createMethod('socialMediaChallenge', '/images/methods/social_media_challenge.png'),
+  createMethod('flashcards', '/images/methods/flashcards.png'),
+  createMethod('penPals', '/images/methods/pen_pals.png'),
+  // Assuming placeholders for any methods without specified images
+  createMethod('funnyWords', '/images/methods/placeholder.png'),
+  createMethod('exonyms', '/images/methods/exonyms.png'),
+  createMethod('languageChallenges', '/images/methods/placeholder.png'),
+  createMethod('accentRecognition', '/images/methods/placeholder.png'),
+  createMethod('madeUpWords', '/images/methods/placeholder.png'),
+  createMethod('museum', '/images/methods/placeholder.png'),
+  createMethod('outdoor', '/images/methods/placeholder.png'),
+];
+
+
+export default methodsData;

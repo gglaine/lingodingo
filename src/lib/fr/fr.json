@@ -52,65 +52,127 @@
       },
     "methods": {
         "clt": {
-            "title": "Enseignement Communicatif des Langues",
-            "description": "Concentrez-vous sur la communication et l'interaction réelles. Engagez-vous dans des jeux de rôle, débats et discussions."
-        },
-        "tpr": {
-            "title": "Réponse Physique Totale",
-            "description": "Combine l'apprentissage de la langue avec l'activité physique. Utilisez des gestes et mouvements pour associer des mots à des actions."
-        },
-        "storytelling": {
-            "title": "Art de Raconter",
-            "description": "Plongez dans l'art de raconter des histoires. Partagez et créez des histoires, en améliorant la compréhension et l'expression."
-        },
-        "dailyJournal": {
-            "title": "Journal Quotidien",
-            "description": "Tenez un journal quotidien en anglais ou en français. Écrivez sur votre journée, vos pensées ou vos expériences en utilisant un nouveau vocabulaire."
-        },
-        "languagePartner": {
-            "title": "Conversations avec un Partenaire Linguistique",
-            "description": "Associez-vous avec un partenaire d'échange linguistique. Fixez un programme de conversation hebdomadaire pour discuter et partager dans la langue cible."
-        },
-        "recipeTranslation": {
-            "title": "Traduction de Recettes",
-            "description": "Traduisez des recettes de l'anglais ou du français dans votre langue maternelle, combinant l'apprentissage de la langue avec des compétences culinaires."
-        },
-        "languageMedia": {
-            "title": "Podcasts et Vidéos Linguistiques",
-            "description": "Écoutez des podcasts ou regardez des vidéos dans la langue cible, puis résumez ou répondez à des questions pour la compréhension."
-        },
-        "virtualQuiz": {
-            "title": "Quiz de Langue Virtuel",
-            "description": "Participez à des quiz en ligne couvrant la grammaire, le vocabulaire et la culture pour l'auto-évaluation et le plaisir."
-        },
-        "pictureStorytelling": {
-            "title": "Raconter des Histoires avec des Images",
+            "title": "Parlez comme un natif avec l'Enseignement de la Langue Communicative !",
+            "description": "Plongez dans le monde de l'Enseignement de la Langue Communicative (CLT) et transformez votre expérience d'apprentissage des langues en une série de conversations captivantes et d'interactions dans le monde réel. Le CLT, c'est tout l'art d'utiliser la langue comme elle doit être utilisée : non pas seulement l'étudier, mais la vivre.",
+            "howItWorks": "Le CLT vous place au cœur de scénarios interactifs où votre apprentissage prend vie. À travers des jeux de rôle, des débats et des discussions de groupe, vous utiliserez votre langue cible dans des contextes authentiques, améliorant votre fluidité et votre confiance à chaque mot.",
+            "whyYoullLoveIt": "Dites adieu à la peur de parler et bonjour aux dialogues dynamiques ! Le CLT est parfait pour les apprenants qui veulent s'affranchir des manuels et se sentir à l'aise d'utiliser la langue dans des situations quotidiennes. Il s'agit de créer des connexions significatives, pas seulement de mémoriser des règles de grammaire.",
+            "getStartedTips": "Plongez dans nos défis de conversation conçus pour tous les niveaux. Commencez par de simples introductions et progressez jusqu'à débattre de sujets d'actualité. Nos outils interactifs et notre communauté solidaire facilitent la pratique à tout moment, n'importe où.",
+            "joinTheCommunity": "Rejoignez des groupes de discussion en direct, participez à des débats sur les forums et assistez à des rencontres virtuelles. Partagez votre parcours d'apprentissage, recevez des retours de vos pairs et découvrez la joie d'apprendre les langues par la conversation. C'est une excellente façon de rencontrer des compagnons de langue et de s'immerger dans la culture.",
+            "successWith": "Laissez-vous inspirer par les histoires d'utilisateurs qui sont devenus des locuteurs confiants grâce au CLT. De réussir des entretiens d'embauche dans une deuxième langue à se faire des amis à travers le monde, ces histoires de succès mettent en lumière le pouvoir transformateur de l'apprentissage de la langue communicative.",
+            "whatsNext": "Prêt à discuter, débattre et discuter votre chemin vers la maîtrise de la langue ? Explorez nos activités CLT, inscrivez-vous à des clubs de conversation ou rejoignez notre prochain débat. Votre voyage pour devenir un communicateur confiant commence ici !"
+          },
+          "tpr": {
+            "title": "Plongez dans l'action avec la Réponse Physique Totale !",
+            "description": "Libérez le pouvoir du mouvement dans votre parcours d'apprentissage des langues ! La Réponse Physique Totale (TPR) ne se limite pas à mémoriser des mots ; il s'agit de les animer à travers l'action. Parfait pour ceux qui aiment bouger, danser et s'engager activement dans leur processus d'apprentissage.",
+            "howItWorks": "Avec le TPR, vous suivrez des commandes, participerez à des jeux de rôle et danserez même à travers un nouveau vocabulaire et des phrases. Il s'agit de connecter les actions physiques à l'apprentissage des langues, rendant cela amusant et mémorable pour maîtriser votre langue cible.",
+            "whyYoullLoveIt": "Oubliez la mémorisation ennuyeuse ! Le TPR vous aide à apprendre une nouvelle langue de la manière dont vous avez naturellement appris votre première langue — à travers le mouvement et l'interaction. Vous vous souviendrez des mots et des expressions plus rapidement parce que vous les avez agis, pas seulement écrits.",
+            "getStartedTips": "Lancez-vous dans nos sessions TPR interactives conçues pour les débutants et plus. Commencez avec des actions simples comme 'sauter', 'marcher' et 'applaudir', et regardez à quelle vitesse vous assimilez de nouveaux termes. Aucune préparation nécessaire, juste une volonté de bouger et de s'amuser !",
+            "joinTheCommunity": "Connectez-vous avec d'autres passionnés de langues dans nos défis TPR. Partagez votre meilleure vidéo TPR, votez pour vos favoris et laissez-vous inspirer par les manières créatives dont les autres apprennent. C'est un moyen fantastique de se faire des amis et d'apprendre ensemble.",
+            "successWith": "Écoutez les utilisateurs qui ont transformé leurs compétences linguistiques avec le TPR. De se sentir plus confiant dans la conversation à se souvenir du vocabulaire comme jamais auparavant, ces histoires vous motiveront à essayer le TPR.",
+            "whatsNext": "Prêt à ajouter de l'action à votre apprentissage des langues ? Explorez nos défis TPR, rejoignez une session TPR en direct ou commencez simplement avec nos tutoriels TPR interactifs. Votre nouvelle méthode préférée d'apprentissage est à portée de clic !"
+          },
+          "storytelling": {
+            "title": "Narration",
+            "description": "Plongez dans l'art de la narration. Partagez et créez des histoires, améliorant la compréhension et l'expression."
+          },
+          "dailyJournal": {
+            "title": "Explorez votre monde avec l'écriture de journal quotidien !",
+            "description": "Embarquez dans un voyage personnel de découverte et de maîtrise de la langue avec l'écriture de journal quotidien. C'est votre toile privée pour exprimer des pensées, raconter des expériences et explorer de nouvelles idées, tout en améliorant vos compétences linguistiques. Que ce soit une réflexion sur votre journée, un journal de rêves ou un carnet de voyage, chaque entrée vous rapproche de la fluidité.",
+            "howItWorks": "Fixez-vous un objectif d'écriture quotidien et choisissez parmi une variété de thèmes ou créez les vôtres. Écrivez sur votre journée, vos aspirations ou tout ce qui suscite votre intérêt. Utilisez notre dictionnaire intégré et les outils linguistiques pour aider à rédiger vos entrées, en donnant de l'importance à chaque mot.",
+            "whyYoullLoveIt": "L'écriture de journal n'est pas seulement un moyen d'améliorer les compétences d'écriture ; il s'agit de se connecter avec soi-même dans une nouvelle langue. Elle encourage la cohérence, stimule la créativité et offre un sens tangible de progrès. De plus, c'est un excellent moyen de construire du vocabulaire et de la grammaire dans le contexte.",
+            "getStartedTips": "Commencez par de courtes entrées simples et augmentez progressivement la complexité. Utilisez les invites quotidiennes de l'application pour l'inspiration ou documentez votre parcours d'apprentissage des langues. Révisez les entrées passées pour réfléchir à votre progression et identifier les domaines à améliorer.",
+            "joinTheCommunity": "Partagez vos aperçus ou extraits de journalisation dans notre forum communautaire pour obtenir des retours, des encouragements et échanger des conseils avec d'autres rédacteurs de journaux. Participez à des défis mensuels de journalisation pour rester motivé et inspiré.",
+            "successWith": "Découvrez les histoires d'utilisateurs qui ont transformé leurs capacités linguistiques grâce à la journalisation quotidienne. De l'écriture de leur première entrée à la rédaction d'essais et d'histoires dans leur nouvelle langue, ces succès soulignent le pouvoir de la pratique constante et de l'expression personnelle.",
+            "whatsNext": "Êtes-vous prêt à commencer votre aventure de journalisation ? Plongez dans l'écriture quotidienne avec notre plateforme facile à utiliser, engagez-vous avec la communauté et regardez vos compétences linguistiques s'épanouir. Votre journal vous attend : que"
+          },
+          "languagePartner": {
+            "title": "Connectez-vous et conversez avec les conversations entre partenaires de langue !",
+            "description": "Découvrez la puissance du partenariat dans votre parcours d'apprentissage des langues avec les Conversations entre Partenaires de Langue. Il s'agit de se connecter avec d'autres apprenants pour pratiquer et s'immerger dans des conversations réelles et significatives. Que vous soyez débutant ou locuteur avancé, ces partenariats sont votre pont vers la fluidité et au-delà.",
+            "howItWorks": "Associez-vous avec un partenaire linguistique en fonction de vos objectifs d'apprentissage, de vos intérêts et de votre niveau de langue. Planifiez des sessions de chat régulières, échangez des messages et plongez dans divers sujets. C'est une expérience d'apprentissage mutuel où les deux partenaires enseignent et apprennent, en brisant les barrières une conversation à la fois.",
+            "whyYoullLoveIt": "Les Conversations entre Partenaires de Langue offrent un mélange unique d'apprentissage, d'échange culturel et d'amitié. Vous n'améliorerez pas seulement vos compétences linguistiques mais gagnerez également des aperçus sur différentes cultures, ferez des amitiés durables et élargirez votre perspective globale, tout en vous amusant !",
+            "getStartedTips": "Créez un profil mettant en avant vos objectifs de langue et vos intérêts. Parcourez les partenaires potentiels et envoyez un message pour commencer votre parcours de conversation. N'oubliez pas de fixer des horaires de conversation réguliers et d'explorer une variété de sujets pour maintenir l'intérêt.",
+            "joinTheCommunity": "Rejoignez notre communauté dynamique d'apprenants de langues ! Participez à des événements d'échange linguistique, partagez vos expériences et trouvez des conseils pour un échange linguistique efficace. C'est un espace de soutien pour améliorer votre apprentissage et vous connecter avec le monde.",
+            "successWith": "Laissez-vous inspirer par les histoires d'utilisateurs qui ont réalisé des progrès remarquables grâce aux conversations avec des partenaires linguistiques. De surmonter la peur de parler à maîtriser une nouvelle langue, ces histoires de succès démontrent le pouvoir de l'apprentissage collaboratif.",
+            "whatsNext": "Prêt à rencontrer votre partenaire linguistique ? Explorez notre communauté, trouvez votre match parfait et commencez à transformer votre parcours d'apprentissage des langues dès aujourd'hui. Votre prochaine conversation pourrait être la clé pour débloquer la fluidité !"
+          },
+          "recipeTranslation": {
+            "title": "Aventures culinaires avec la traduction de recettes !",
+            "description": "Pimentez votre apprentissage des langues en plongeant dans l'art de la Traduction de Recettes. C’est une délicieuse manière de mélanger votre amour pour la cuisine avec la maîtrise de la langue. Explorez les cuisines du monde entier, traduisez des recettes dans votre langue cible et cuisinez votre chemin vers la fluidité.",
+            "howItWorks": "Choisissez parmi une vaste collection de recettes internationales et traduisez-les dans votre langue d'apprentissage. Améliorez votre vocabulaire avec des termes culinaires, suivez des instructions dans une nouvelle langue et partagez vos créations culinaires avec la communauté.",
+            "whyYoullLoveIt": "La Traduction de Recettes est parfaite pour les gourmands et les passionnés de cuisine qui souhaitent rendre l'apprentissage des langues pratique et agréable. Vous apprendrez la langue dans son contexte, comprendrez les nuances culturelles à travers la cuisine et profiterez des récompenses savoureuses de vos séances d'étude !",
+            "getStartedTips": "Commencez par des recettes simples pour vous familiariser avec le vocabulaire de base de la cuisine. Passez progressivement à des plats plus complexes à mesure que vos compétences linguistiques s'améliorent. N'oubliez pas d'utiliser le dictionnaire intégré de l'application et les outils de traduction pour aider avec de nouveaux mots.",
+            "joinTheCommunity": "Partagez des photos de vos plats, échangez des recettes et participez à des défis de cuisine. C’est un excellent moyen de se connecter avec d'autres apprenants, de partager des conseils sur la cuisine et la langue, et d'explorer le monde culinaire à travers le prisme de la langue.",
+            "successWith": "Laissez-vous inspirer par des utilisateurs qui ont amélioré leurs compétences linguistiques et leur répertoire culinaire grâce à la traduction de recettes. De maîtriser la pâtisserie française parfaite à cuisiner un repas traditionnel japonais, ces histoires montrent l'intersection délicieuse de la langue et de la cuisine.",
+            "whatsNext": "Prêt à combiner votre passion pour la cuisine avec l'apprentissage des langues ? Commencez à traduire des recettes, rejoignez notre prochain défi culinaire et partagez vos créations. Bon appétit et bon apprentissage !"
+          },
+          "languageMedia": {
+            "title": "Immergez-vous avec des podcasts et vidéos en langue !",
+            "description": "Plongez dans le monde de l'apprentissage des langues à travers les médias dynamiques et captivants des podcasts et vidéos. C'est votre passeport pour écouter des locuteurs natifs, comprendre les contextes culturels et affiner vos compétences d'écoute et de compréhension — à votre propre rythme et confort.",
+            "howItWorks": "Parcourez notre vaste bibliothèque de podcasts et vidéos, sélectionnés pour s'adapter à tous les niveaux et intérêts. De conversations quotidiennes à des documentaires approfondis, immergez-vous dans des expériences linguistiques authentiques qui donnent vie aux mots et mettent la culture en perspective.",
+            "whyYoullLoveIt": "Avec les podcasts et vidéos, l'apprentissage semble moins être une étude et plus un divertissement. Améliorez vos compétences d'écoute, saisissez les nuances de la prononciation et du dialecte, et obtenez des aperçus sur la culture derrière la langue, tout en étant diverti.",
+            "getStartedTips": "Commencez avec du contenu qui correspond à votre niveau actuel pour construire la confiance. Utilisez des sous-titres et des transcriptions pour aider à la compréhension, et défiez-vous progressivement avec du matériel plus avancé. Répétez des sections, prenez des notes et essayez d'imiter la prononciation pour un apprentissage actif.",
+            "joinTheCommunity": "Partagez vos trouvailles préférées, discutez d'épisodes et participez à des soirées de visionnage ou des groupes d'écoute. C'est un moyen fantastique de s'engager avec le contenu, d'échanger des conseils d'apprentissage et de se connecter avec d'autres qui partagent votre passion pour la langue et la culture.",
+            "successWith": "Lisez sur les utilisateurs qui ont réalisé des progrès significatifs en intégrant des podcasts et vidéos dans leur routine d'apprentissage. Découvrez comment ils ont amélioré leur compréhension auditive, élargi leur vocabulaire et gagné des aperçus culturels, vous inspirant à explorer de nouvelles dimensions de l'apprentissage des langues.",
+            "whatsNext": "Prêt à explorer ? Plongez dans nos sélections organisées de podcasts et vidéos, rejoignez les discussions communautaires et laissez le monde de l'apprentissage des langues se dérouler. Votre prochaine émission ou podcast préféré attend d'accélérer votre parcours linguistique !"
+          },
+          "virtualQuiz": {
+            "title": "Testez vos compétences avec des quiz linguistiques virtuels !",
+            "description": "Mettez-vous au défi et voyez jusqu'où vous êtes arrivé avec nos quiz linguistiques virtuels. Conçus pour tester vos connaissances et repousser vos limites, ces quiz offrent un moyen ludique et interactif de réviser le vocabulaire, la grammaire et les nuances culturelles dans la langue de votre choix.",
+            "howItWorks": "Sélectionnez un quiz qui correspond à votre niveau de langue et à vos centres d'intérêt. Avec une variété de formats allant des questions à choix multiples aux défis audiovisuels, chaque quiz est une occasion d'appliquer ce que vous avez appris dans un cadre dynamique.",
+            "whyYoullLoveIt": "Les quiz fournissent un retour immédiat, vous permettant d'identifier vos forces et les domaines à améliorer. Ils constituent un excellent moyen de mesurer vos progrès, de rester motivé et de garder vos compétences linguistiques affûtées. De plus, le frisson de voir votre score s'améliorer à chaque tentative est inégalé !",
+            "getStartedTips": "Commencez par des sujets avec lesquels vous êtes à l'aise pour construire la confiance, puis attaquez progressivement des quiz plus difficiles. Utilisez les retours pour guider vos sessions d'étude, en vous concentrant sur les domaines où vous pouvez vous améliorer. Prendre des quiz régulièrement peut considérablement améliorer la rétention et la compréhension.",
+            "joinTheCommunity": "Partagez vos scores de quiz, défiez vos amis et participez à des tournois de quiz à l'échelle de la communauté. C'est une manière amusante de compétitionner, d'apprendre des autres et de célébrer vos progrès ensemble. Rejoignez des groupes de discussion pour échanger des stratégies de quiz et des conseils d'apprentissage.",
+            "successWith": "Découvrez comment des utilisateurs ont transformé leur parcours d'apprentissage des langues avec des quiz virtuels. De maîtriser des points de grammaire difficiles à élargir leur vocabulaire, leurs histoires vous inspireront à prendre vos compétences linguistiques au niveau supérieur grâce à des défis réguliers de quiz.",
+            "whatsNext": "Êtes-vous prêt à tester vos compétences linguistiques ? Plongez dans notre collection de quiz, établissez de nouveaux records personnels et explorez des domaines à développer. Votre chemin vers la maîtrise de la langue ne se trouve qu'à un quiz de distance !"
+          },
+          "pictureStorytelling": {
+            "title": "Narration avec des images",
             "description": "Écrivez de courtes histoires ou décrivez des scènes basées sur des images partagées, en utilisant l'anglais ou le français de manière créative."
-        },
-        "languageBlogging": {
-            "title": "Blogs ou Vlogs Linguistiques",
-            "description": "Créez un blog ou un vlog dans la langue cible, partageant vos pensées, expériences ou histoires avec un public."
-        },
-        "mediaClub": {
-            "title": "Club de Cinéma et de Lecture",
-            "description": "Regardez des films ou lisez des livres dans la langue cible, puis discutez-les en vous concentrant sur la langue, l'intrigue et la culture."
-        },
-        "onlineGames": {
-            "title": "Jeux de Langue en Ligne",
-            "description": "Recommandez et jouez à des jeux d'apprentissage de langues et à des applications pour une pratique interactive du vocabulaire et de la grammaire."
-        },
-        "socialMediaChallenge": {
-            "title": "Défi sur les Réseaux Sociaux",
-            "description": "Participez à des défis linguistiques hebdomadaires sur les réseaux sociaux, comme poster des photos avec des légendes dans la langue cible."
-        },
-        "flashcards": {
-            "title": "Cartes Flash et Listes de Vocabulaire",
-            "description": "Apprenez de nouveaux mots grâce à des listes de vocabulaire partagées et pratiquez avec des cartes flash personnalisées."
-        },
-        "penPals": {
-            "title": "Correspondants",
-            "description": "Connectez-vous avec des correspondants qui parlent la langue cible, échangeant des lettres ou des e-mails pour une communication authentique."
-        }
+          },
+          "mediaClub": {
+            "title": "Club de cinéma et de lecture",
+            "description": "Regardez des films ou lisez des livres dans la langue cible, puis discutez-en en vous concentrant sur la langue, l'intrigue et la culture."
+          },
+          "onlineGames": {
+            "title": "Améliorez vos compétences linguistiques avec des jeux en ligne !",
+            "description": "Transformez votre parcours d'apprentissage des langues en une aventure excitante avec des jeux de langues en ligne ! Il est temps de jouer votre chemin vers la fluidité, en utilisant des jeux interactifs et amusants conçus pour renforcer votre vocabulaire, votre grammaire et votre compréhension globale de la langue de manière dynamique et engageante.",
+            "howItWorks": "Choisissez parmi une large gamme de jeux qui correspondent à votre niveau de langue et à vos intérêts. Des puzzles de mots et des quiz de trivia aux aventures d'histoires interactives, chaque jeu est une chance de pratiquer et d'appliquer vos compétences linguistiques dans des scénarios en temps réel.",
+            "whyYoullLoveIt": "Qui a dit que l'apprentissage ne pouvait pas être amusant ? Avec nos jeux de langue, vous apprécierez le frisson du défi, célébrerez vos victoires et remarquerez à peine à quel point vous apprenez à chaque clic. C'est le mélange parfait de divertissement et d'éducation, adapté à tous les âges et niveaux d'apprentissage.",
+            "getStartedTips": "Commencez par des jeux qui se concentrent sur vos objectifs d'apprentissage actuels, que ce soit la construction de vocabulaire, la maîtrise de la grammaire ou la pratique de la conversation. Établissez des scores personnels élevés, concourez avec des amis ou relevez des défis quotidiens pour garder votre parcours d'apprentissage frais et excitant.",
+            "joinTheCommunity": "Devenez partie d'une communauté mondiale d'apprenants de langues et de joueurs. Partagez vos jeux favoris, échangez des astuces pour conquérir les niveaux et formez des équipes pour des défis multijoueurs. Célébrez vos progrès et réalisations avec des apprenants du monde entier !",
+            "successWith": "Laissez-vous inspirer par des histoires de nos utilisateurs qui ont fait des progrès remarquables grâce aux jeux d'apprentissage des langues. Des débutants qui ont élargi leur vocabulaire aux apprenants avancés qui ont poli leurs compétences grammaticales, voyez comment intégrer le jeu dans la pratique peut mener à un véritable succès.",
+            "whatsNext": "Êtes-vous prêt à jouer votre chemin vers la maîtrise de la langue ? Explorez notre bibliothèque de jeux, participez à des compétitions communautaires et découvrez de nouvelles manières amusantes d'apprendre. Que les jeux commencent, et regardez vos compétences linguistiques s'envoler !"
+          },
+          "socialMediaChallenge": {
+            "title": "Rejoignez le buzz avec les défis sur les réseaux sociaux !",
+            "description": "Amplifiez votre apprentissage des langues en participant à nos défis sur les réseaux sociaux ! C'est une manière vibrante de pratiquer votre langue cible, de vous connecter avec une communauté mondiale et de montrer vos compétences. Des campagnes de hashtags aux défis vidéo thématiques, il y a toujours une nouvelle et excitante manière de s'engager.",
+            "howItWorks": "Chaque semaine, nous lançons un nouveau défi lié à un objectif d'apprentissage des langues, comme l'utilisation de nouveau vocabulaire, la pratique de la prononciation ou l'exploration d'expressions culturelles. Partagez votre réponse sur votre plateforme de médias sociaux préférée, en utilisant nos hashtags désignés pour rejoindre l'effort communautaire.",
+            "whyYoullLoveIt": "Les défis sur les réseaux sociaux offrent une sortie créative pour votre apprentissage des langues, vous permettant d'expérimenter avec vos compétences dans un forum public. C'est une occasion de recevoir du soutien et des retours de la part d'autres apprenants et de locuteurs natifs, rendant votre parcours d'apprentissage à la fois social et solidaire.",
+            "getStartedTips": "Choisissez un défi qui résonne avec vous et planifiez votre contribution. Cela pourrait être une courte vidéo, un post ou une histoire. Soyez créatif ! Pratiquez votre contenu avant de publier, et n'oubliez pas d'utiliser le hashtag du défi. Engagez-vous avec les posts d'autres participants pour nouer de nouvelles connexions et apprendre ensemble.",
+            "joinTheCommunity": "Au-delà des défis individuels, nos forums communautaires offrent un espace pour discuter des idées, collaborer sur le contenu et partager des aperçus sur le processus d'apprentissage. Participez à des défis de groupe, trouvez des partenaires pour la collaboration et célébrez les réalisations de chacun.",
+            "successWith": "Laissez-vous inspirer par les histoires de réussite des participants qui ont gagné en confiance, amélioré leurs compétences linguistiques et même sont devenus viraux avec leurs entrées de défi. Leurs parcours soulignent le pouvoir d'apprendre dans un environnement public et solidaire et le plaisir de se connecter avec des apprenants du monde entier.",
+            "whatsNext": "Êtes-vous prêt à relever le défi de cette semaine et à voir vos compétences linguistiques en action ? Consultez le défi actuel, réfléchissez à votre contribution unique et plongez dans le plaisir de l'apprentissage des langues avec un public mondial. Faisons-nous sociaux !"
+          },
+          "flashcards": {
+            "title": "Boostez votre vocabulaire avec des flashcards et des listes !",
+            "description": "Élevez votre expérience d'apprentissage des langues en construisant un vocabulaire robuste avec des Flashcards et des Listes de Vocabulaire. Cette méthode éprouvée combine la puissance de la répétition avec l'efficacité de l'apprentissage ciblé, rendant plus facile que jamais de mémoriser et de rappeler les mots lorsque vous en avez le plus besoin.",
+            "howItWorks": "Créez des flashcards personnalisées avec des mots, des phrases et des phrases de votre parcours d'apprentissage, ou plongez dans nos listes organisées autour de thèmes et de niveaux. Testez-vous avec la répétition espacée, suivez vos progrès et regardez votre vocabulaire croître jour après jour.",
+            "whyYoullLoveIt": "Les flashcards et les listes offrent un moyen flexible et efficace d'apprendre à votre propre rythme. Que vous disposiez de cinq minutes ou d'une heure, vous pouvez faire des progrès tangibles. C'est parfait pour les apprenants visuels et toute personne cherchant à renforcer leur rappel et utilisation de nouveaux mots dans le contexte.",
+            "getStartedTips": "Commencez par identifier les mots avec lesquels vous luttez le plus, et créez votre premier ensemble de flashcards. Intégrez des images, des prononciations audio et des phrases d'exemple pour enrichir votre apprentissage. Programmez des sessions de révision régulières pour renforcer ce que vous avez appris.",
+            "joinTheCommunity": "Partagez vos meilleures listes de vocabulaire et ensembles de flashcards avec la communauté, découvrez de nouveaux mots à travers des défis et concourez dans des quiz de vocabulaire. C'est une manière amusante d'apprendre de nouveaux mots et de se connecter avec d'autres passionnés de langues.",
+            "successWith": "Lisez sur des membres qui ont considérablement élargi leur vocabulaire et amélioré leur compétence linguistique grâce à l'utilisation régulière de flashcards et de listes. De maîtriser les salutations de base à discuter de sujets complexes, leurs réalisations vous inspireront dans votre propre voyage de vocabulaire.",
+            "whatsNext": "Prêt à transformer votre apprentissage du vocabulaire ? Commencez avec notre créateur de flashcards, rejoignez notre prochain défi de vocabulaire ou explorez la vaste collection de listes déjà disponibles dans l'application. Un vocabulaire plus riche vous attend !"
+          },
+          "penPals": {
+            "title": "Élargissez votre monde avec des correspondants !",
+            "description": "Redécouvrez le charme intemporel de l'écriture de lettres avec notre fonctionnalité Pen Pals. Connectez-vous avec des apprenants de langues du monde entier, échangez des lettres ou des emails et plongez profondément dans de nouvelles cultures, langues et amitiés. C’est une manière personnelle et significative d'améliorer vos compétences linguistiques et de créer des connexions durables.",
+            "howItWorks": "Inscrivez-vous au programme Pen Pals et nous vous associerons à d'autres apprenants qui partagent vos intérêts et vos objectifs linguistiques. Que vous préfériez la communication numérique ou les lettres traditionnelles, vous aurez l'occasion de pratiquer l'écriture, d'apprendre l'argot et les idiomes, et d'explorer les nuances culturelles de première main.",
+            "whyYoullLoveIt": "Les correspondants offrent un mélange unique d'apprentissage linguistique et d'échange culturel. Vous n'améliorerez pas seulement vos compétences d'écriture mais gagnerez également des aperçus sur la vie quotidienne dans d'autres pays, partagerez des expériences et formerez des amitiés qui peuvent durer toute une vie. De plus, il n'y a rien de tel que l'excitation de recevoir une lettre de loin !",
+            "getStartedTips": "Commencez par vous présenter et parler de vos intérêts dans votre première lettre ou email. Soyez ouvert et curieux à propos de la culture et de la langue de votre correspondant. Posez des questions, partagez des histoires personnelles et soyez régulier dans votre communication pour construire un lien solide.",
+            "joinTheCommunity": "Partagez vos expériences et conseils de Pen Pal dans nos forums communautaires. Participez à des défis Pen Pal, comme écrire une lettre entièrement dans votre langue cible ou échanger des cartes postales de vos villes natales. C’est une excellente manière de rester motivé et de se connecter avec d'autres apprenants de langues.",
+            "successWith": "Lisez sur des utilisateurs qui ont développé leur fluidité, découvert de nouvelles cultures et même rencontré leurs correspondants en personne ! Ces histoires de réussite montrent l'impact incroyable de se connecter avec d'autres à travers la langue et l'écriture de lettres.",
+            "whatsNext": "Prêt à commencer votre voyage Pen Pal ? Inscrivez-vous aujourd'hui, envoyez votre première lettre et commencez une aventure enrichissante qui va au-delà de l'apprentissage des langues. Votre prochain ami pourrait être à une lettre de distance !"
+          }
     },
     "sessions": {
         "accents": {

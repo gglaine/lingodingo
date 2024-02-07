@@ -9,14 +9,14 @@
         city: 'London',
         languages: ['English'],
         videoId: 'Pi9fFbW8yqQ',
-        imageUrl: '/images/BOB.jpg', // Replace with actual image path
+        imageUrl: '/images/teachers/bob.png', // Replace with actual image path
       },
       {
         name: 'Charlotte',
         countries: [{ flag: '🇲🇫', name: 'France' }],
         city: 'Paris',
         languages: ['French', 'English'],
-        imageUrl: '/images/charlotte.png', // Replace with actual image path
+        imageUrl: '/images/teachers/charlotte.png', // Replace with actual image path
       },
       {
         name: 'Cornel',
@@ -24,21 +24,21 @@
         city: 'New-York',
         languages: ['French', 'English'],
         videoId: 'hLOw_SzkRQ8',
-        imageUrl: '/images/cornel.png', // Thumbnail for the video // Example video URL
+        imageUrl: '/images/teachers/cornel.png', // Thumbnail for the video // Example video URL
       },
       {
         name: 'Esperanza',
         countries: [{ flag: '🇲🇽', name: 'Mexico' }],
         city: 'Mexico',
         languages: ['Spanish', 'English'],
-        imageUrl: '/images/carletta.png', // Replace with actual image path
+        imageUrl: '/images/teachers/carletta.png', // Replace with actual image path
       },
       {
         name: 'Oumi',
         countries: [{ flag: '🇨🇺', name: 'Senegal' }, { flag: '🇫🇷', name: 'France' }],
         city: 'Dakar',
         languages: ['English', 'French', 'Wolof'],
-        imageUrl: '/images/Oumi.png', // Replace with actual image path
+        imageUrl: '/images/teachers/Oumi.png', // Replace with actual image path
       },
       {
         name: 'Pape',
@@ -46,7 +46,7 @@
         city: 'New York',
         languages: ['English', 'French', 'Wolof'],
         videoId: 'b_8GXsRzZoM',
-        imageUrl: '/images/paps.jpeg', // Thumbnail for the video // Example video URL
+        imageUrl: '/images/teachers/paps.png', // Thumbnail for the video // Example video URL
       },
       // Adding more teachers with mixed media
       {
@@ -54,7 +54,7 @@
         countries: [{ flag: '🇺🇸', name: 'USA' }],
         city: 'Hollywood',
         languages: ['English'],
-        imageUrl: '/images/marthastewart.jpg',
+        imageUrl: '/images/teachers/martha.png',
         videoId: "-Ocre0kXgvg" // Replace with actual image path
       },
       {
@@ -62,7 +62,7 @@
         countries: [{ flag: '🇮🇹', name: 'France' }],
         city: 'Gaillac',
         languages: ['French', 'English'],
-        imageUrl: '/images/maite.jpg', // Replace with actual image path
+        imageUrl: '/images/teachers/maite.jpg', // Replace with actual image path
         videoId: 'z94mWhAavkQ', // Example video URL
       },
     ];
