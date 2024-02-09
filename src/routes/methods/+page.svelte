@@ -12,9 +12,9 @@
   </div>
   
   <!-- Modified div for a masonry-like layout using CSS columns -->
-  <div class="p-8 pt-4 mb-4" style="column-count: 3; column-gap: 1rem;">
+  <div class="p-8 pt-4 mb-4 md:columns-3 md:gap-4">
     {#each methodsData as method (method.id)}
-      <div class="mb-4 break-inside-avoid-page">
+      <div class="mb-4 break-inside-avoid">
         <a href={`/methods/${method.id}`} class="no-underline block">
           <article class="border rounded-lg overflow-hidden shadow-md hover:shadow-lg hover:bg-gray-100 flex flex-col mb-4">
             <img src={method.imageSrc} alt={$t(method.titleKey)} class="w-full h-auto object-cover">
