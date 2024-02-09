@@ -6,6 +6,12 @@
         "english": "Anglais",
         "contact": "Contact"
     },
+    "homepage": {
+      "methodsSection": {
+        "title": "Découvrez votre chemin vers la maîtrise de la langue",
+        "description": "Explorez des méthodes innovantes adaptées à votre style d'apprentissage."
+      }
+    },
     "about": {
         "fun_workshops": "Des Ateliers Amusants",
         "fun_workshops_text": "Rejoignez nos ateliers interactifs et amusants qui rendent l'apprentissage d'une nouvelle langue excitant comme une aventure. Nous avons conçu ces sessions pour qu'elles soient amusantes, remplies de rires et axées sur l'amélioration de vos compétences en conversation.",
@@ -172,7 +178,28 @@
             "joinTheCommunity": "Partagez vos expériences et conseils de Pen Pal dans nos forums communautaires. Participez à des défis Pen Pal, comme écrire une lettre entièrement dans votre langue cible ou échanger des cartes postales de vos villes natales. C’est une excellente manière de rester motivé et de se connecter avec d'autres apprenants de langues.",
             "successWith": "Lisez sur des utilisateurs qui ont développé leur fluidité, découvert de nouvelles cultures et même rencontré leurs correspondants en personne ! Ces histoires de réussite montrent l'impact incroyable de se connecter avec d'autres à travers la langue et l'écriture de lettres.",
             "whatsNext": "Prêt à commencer votre voyage Pen Pal ? Inscrivez-vous aujourd'hui, envoyez votre première lettre et commencez une aventure enrichissante qui va au-delà de l'apprentissage des langues. Votre prochain ami pourrait être à une lettre de distance !"
+          },
+          "accentRecognition": {
+            "title": "Maîtrisez les accents avec notre Défi de Reconnaissance des Accents !",
+            "description": "Plongez dans les subtilités des accents du monde entier avec notre captivant Défi de Reconnaissance des Accents ! Parfait pour les linguistes et les apprenants curieux, ce défi est conçu pour affiner votre oreille et élargir vos horizons culturels grâce au pouvoir des accents.",
+            "howItWorks": "Chaque semaine, nous vous proposons un nouveau défi d'accent qui mettra à l'épreuve vos compétences d'écoute et votre capacité à distinguer les variations linguistiques subtiles. Écoutez nos extraits audio, puis publiez vos suppositions sur les réseaux sociaux en utilisant nos hashtags dédiés.",
+            "whyYoullLoveIt": "Le Défi de Reconnaissance des Accents est non seulement éducatif, mais aussi très amusant ! Vous aurez l'occasion d'explorer les sons des langues du monde entier, de vous connecter avec des locuteurs natifs et de développer une oreille fine pour les nuances de la langue qui peuvent améliorer votre maîtrise linguistique globale.",
+            "getStartedTips": "Écoutez attentivement nos échantillons d'accents hebdomadaires, recherchez les caractéristiques linguistiques de différentes régions et enregistrez votre réponse. Lorsque vous êtes prêt, partagez votre vidéo ou audio sur les réseaux sociaux et marquez-la avec notre hashtag de défi. Échangez avec d'autres passionnés de langue et comparez vos notes !",
+            "joinTheCommunity": "Rejoignez nos forums communautaires vibrants pour discuter de vos expériences de reconnaissance des accents, partager des conseils et trouver des ressources. C'est un espace de soutien pour apprendre des autres, relever des défis de groupe et même former des groupes d'étude pour un apprentissage collaboratif.",
+            "successWith": "Laissez-vous inspirer par les participants qui ont affiné leurs compétences de compréhension des accents et qui ont acquis une meilleure compréhension de la linguistique culturelle. Écoutez ceux qui ont utilisé le défi pour aider leurs études linguistiques, leurs expériences de voyage ou même dans leur vie professionnelle en tant qu'interprètes et traducteurs.",
+            "whatsNext": "Êtes-vous prêt à améliorer vos compétences d'écoute ? Inscrivez-vous dès aujourd'hui au Défi de Reconnaissance des Accents, immergez-vous dans les sons des différentes langues et commencez un voyage captivant de découverte linguistique. Votre prochain défi n'est qu'à un bouton de lecture !"
+          },
+          "funnyWords": {
+            "title": "Éclatez-vous avec notre Défi des Mots Amusants !",
+            "description": "Lancez-vous dans l'aventure des mots les plus drôles et insolites avec notre Défi des Mots Amusants ! Idéal pour les amoureux des mots et les esprits joueurs, ce défi est conçu pour éveiller votre curiosité et vous faire explorer la richesse ludique du langage.",
+            "howItWorks": "Chaque semaine, nous vous proposons un nouveau défi basé sur des mots cocasses qui égayeront votre journée. Découvrez nos sélections de mots, puis partagez vos trouvailles les plus hilarantes sur les réseaux sociaux en utilisant nos hashtags spécifiques.",
+            "whyYoullLoveIt": "Le Défi des Mots Amusants est une manière ludique et instructive de se plonger dans la langue ! Vous aurez l'occasion de découvrir des expressions colorées, des jeux de mots espiègles et des termes étonnants qui enrichiront votre vocabulaire tout en vous amusant.",
+            "getStartedTips": "Familiarisez-vous avec notre liste de mots amusants de la semaine, jouez avec leur sonorité et leur signification, et créez votre propre phrase ou blague. Lorsque vous êtes prêt, partagez-la sur les réseaux sociaux avec notre hashtag de défi et voyez qui parmi vos amis aura la réaction la plus vive !",
+            "joinTheCommunity": "Rejoignez notre communauté en ligne pour échanger sur vos découvertes de mots amusants, partager vos jeux de mots préférés et trouver de l'inspiration. C'est l'endroit parfait pour rire ensemble et apprendre des mots nouveaux dans un esprit de camaraderie et d'amusement.",
+            "successWith": "Inspirez-vous des histoires de ceux qui ont trouvé la joie et peut-être même une renommée virale en partageant leur sens de l'humour linguistique. Découvrez comment le défi a éclairé leur quotidien et élargi leur appréciation des subtilités du langage.",
+            "whatsNext": "Prêt à dévoiler votre sens de l'humour et votre créativité linguistique ? Rejoignez le Défi des Mots Amusants, partagez vos mots et expressions préférés et plongez dans la partie divertissante de l'apprentissage des langues. Mettez du rire dans votre pratique linguistique dès maintenant !"
           }
+          
     },
     "sessions": {
         "accents": {

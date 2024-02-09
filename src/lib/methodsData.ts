@@ -31,28 +31,28 @@ function createMethod(id: string, imageSrc: string): MethodType {
 }
 
 const methodsData: MethodType[] = [
-  createMethod('clt', '/images/methods/diverse.png'),
-  createMethod('tpr', '/images/methods/engaging_talk.png'),
+  createMethod('clt', '/images/methods/diverse_class.png'),
+  createMethod('tpr', '/images/methods/total-response.png'),
   createMethod('storytelling', '/images/methods/storytelling.png'),
   createMethod('dailyJournal', '/images/methods/diverse_class.png'),
   createMethod('languagePartner', '/images/methods/group_mob.png'),
   createMethod('recipeTranslation', '/images/methods/recipe.png'),
   createMethod('languageMedia', '/images/methods/podcasts_and_videos.png'),
-  createMethod('virtualQuiz', '/images/methods/virtual_quiz.png'),
-  createMethod('pictureStorytelling', '/images/methods/picture_storytelling.png'),
-  createMethod('mediaClub', '/images/methods/media_club.png'),
-  createMethod('onlineGames', '/images/methods/online_games.png'),
-  createMethod('socialMediaChallenge', '/images/methods/social_media_challenge.png'),
+  createMethod('virtualQuiz', '/images/methods/language_quizz.png'),
+  createMethod('pictureStorytelling', '/images/methods/storytelling.png'),
+  createMethod('mediaClub', '/images/methods/movie_club.png'),
+  createMethod('onlineGames', '/images/methods/online_games.webp'),
+  createMethod('socialMediaChallenge', '/images/methods/social_media_app.png'),
   createMethod('flashcards', '/images/methods/flashcards.png'),
-  createMethod('penPals', '/images/methods/pen_pals.png'),
-  // Assuming placeholders for any methods without specified images
-  createMethod('funnyWords', '/images/methods/placeholder.png'),
+  createMethod('penPals', '/images/methods/penpals.png'),
+  createMethod('funnyWords', '/images/methods/funny_words.webp'),
   createMethod('exonyms', '/images/methods/exonyms.png'),
-  createMethod('languageChallenges', '/images/methods/placeholder.png'),
-  createMethod('accentRecognition', '/images/methods/placeholder.png'),
-  createMethod('madeUpWords', '/images/methods/placeholder.png'),
-  createMethod('museum', '/images/methods/placeholder.png'),
-  createMethod('outdoor', '/images/methods/placeholder.png'),
+  createMethod('languageChallenges', '/images/methods/rotated_tongue_twister.webp'),
+  createMethod('accentRecognition', '/images/methods/accent_recognition.webp'),
+  createMethod('madeUpWords', '/images/methods/language_plays.png'),
+  createMethod('museum', '/images/methods/museum_class.png'),
+  createMethod('outdoor', '/images/methods/outdoor_class.png'),
+  createMethod('languagePartners', '/images/methods/language_partners.webp'),
 ];
 
 
