@@ -50,14 +50,6 @@
       },
       // Adding more teachers with mixed media
       {
-        name: 'Martha',
-        countries: [{ flag: '🇺🇸', name: 'USA' }],
-        city: 'Hollywood',
-        languages: ['English'],
-        imageUrl: '/images/teachers/martha.png',
-        videoId: "-Ocre0kXgvg" // Replace with actual image path
-      },
-      {
         name: 'Maite',
         countries: [{ flag: '🇮🇹', name: 'France' }],
         city: 'Gaillac',
@@ -66,8 +58,6 @@
         videoId: 'z94mWhAavkQ', // Example video URL
       },
     ];
-
-
         // Correctly declare 'playingVideoUrl' to track the currently playing video URL
         let playingVideoId = '';
   

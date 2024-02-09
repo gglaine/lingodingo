@@ -12,6 +12,10 @@
         "description": "Explorez des méthodes innovantes adaptées à votre style d'apprentissage."
       }
     },
+    "scrollIndicator": { 
+      "scrollDown": "Scrollez pour voir",
+      "scrollMore": "Encore plus de bons trucs"
+    },
     "about": {
         "fun_workshops": "Des Ateliers Amusants",
         "fun_workshops_text": "Rejoignez nos ateliers interactifs et amusants qui rendent l'apprentissage d'une nouvelle langue excitant comme une aventure. Nous avons conçu ces sessions pour qu'elles soient amusantes, remplies de rires et axées sur l'amélioration de vos compétences en conversation.",
@@ -32,29 +36,33 @@
     },
     "hero": {
         "title": "French and English Easy Learning",
-        "subtitle": "F.E.E.L. & Learn!",
+        "subtitle": "F.E.E.L. the Learn!",
         "cta": "Rejoins une session"
     },
     "cta": {
-        "joinNow": "Rejoindre maintenant",
-        "joinNextSession": "Rejoindre une session",
-        "learnMore": "En savoir plus",
-        "signUp": "S'inscrire",
-        "getStarted": "Commencer",
-        "subscribe": "S'abonner",
-        "bookNow": "Réserver maintenant",
-        "download": "Télécharger",
-        "explore": "Explorer",
-        "contactUs": "Nous contacter",
-        "share": "Partager",
-        "meetPeople": "Faites vous des amis dans tous les pays"
-      },
+      "joinNow": "Rejoindre maintenant",
+      "joinNextSession": "Rejoindre une session",
+      "learnMore": "En savoir plus",
+      "signUp": "S'inscrire",
+      "getStarted": "Commencer",
+      "subscribe": "S'abonner",
+      "bookNow": "Réserver maintenant",
+      "download": "Télécharger",
+      "explore": "Explorer",
+      "contactUs": "Nous contacter",
+      "share": "Partager",
+      "meetPeople": "On parle Anglais et Francais ici aussi",
+      "tagline": "Apprentissage facile du français et de l'anglais",
+      "slogan": "Le ressentez-vous ?",
+      "methodsDescription": "Des méthodes pour tous, quel que soit votre niveau",
+      "joinSession": "Rejoignez une session sur le thème qui vous plaît"
+    },
     "learnMore": "Apprends +",
     "sections": {
         "methods": "Choissisez la méthode qui vous fait avancer",
         "sessions": "Des ateliers fun pour tous",
         "sponsors": "Partenaires",
-        "teachers": "Apprenez des accents du monde entier"
+        "teachers": "Plongez dans la diversité : Maîtrisez les accents du monde entier avec nos enseignants"
       },
     "methods": {
         "clt": {
@@ -78,7 +86,7 @@
             "whatsNext": "Prêt à ajouter de l'action à votre apprentissage des langues ? Explorez nos défis TPR, rejoignez une session TPR en direct ou commencez simplement avec nos tutoriels TPR interactifs. Votre nouvelle méthode préférée d'apprentissage est à portée de clic !"
           },
           "storytelling": {
-            "title": "Narration",
+            "title": "Apprenez l'art du storytelling",
             "description": "Plongez dans l'art de la narration. Partagez et créez des histoires, améliorant la compréhension et l'expression."
           },
           "dailyJournal": {
@@ -101,6 +109,27 @@
             "successWith": "Laissez-vous inspirer par les histoires d'utilisateurs qui ont réalisé des progrès remarquables grâce aux conversations avec des partenaires linguistiques. De surmonter la peur de parler à maîtriser une nouvelle langue, ces histoires de succès démontrent le pouvoir de l'apprentissage collaboratif.",
             "whatsNext": "Prêt à rencontrer votre partenaire linguistique ? Explorez notre communauté, trouvez votre match parfait et commencez à transformer votre parcours d'apprentissage des langues dès aujourd'hui. Votre prochaine conversation pourrait être la clé pour débloquer la fluidité !"
           },
+          "languageChallenges": {
+            "title": "Défiez-vous avec nos Défis Linguistiques !",
+            "description": "Élevez votre apprentissage des langues à un nouveau niveau avec nos Défis Linguistiques. Conçus pour stimuler votre pratique de la langue dans des contextes variés, ces défis vous encouragent à sortir de votre zone de confort et à explorer de nouvelles façons d'utiliser et d'améliorer vos compétences linguistiques.",
+            "howItWorks": "Chaque mois, nous lançons un nouveau défi linguistique, allant de la participation à des conversations en langue étrangère à la rédaction de textes ou à la réalisation de projets spécifiques. Ces activités sont conçues pour vous pousser à appliquer activement ce que vous avez appris et à interagir avec la communauté d'apprenants.",
+            "whyYoullLoveIt": "Les Défis Linguistiques sont une manière ludique et engageante de pratiquer une langue. Ils vous offrent l'opportunité de voir concrètement vos progrès, de vous mesurer à d'autres apprenants, et de rester motivé dans votre parcours d'apprentissage. C'est aussi une excellente façon de briser la routine et d'injecter de l'excitation dans votre pratique quotidienne.",
+            "getStartedTips": "Consultez la liste des défis de ce mois et choisissez celui qui vous parle le plus. Que ce soit à travers des activités d'écriture, de conversation, ou de création, chaque défi a ses propres instructions et objectifs. Engagez-vous à compléter le défi, partagez vos réalisations avec la communauté et profitez des retours pour continuer à progresser.",
+            "joinTheCommunity": "Faites partie de notre communauté dynamique et partagez vos expériences des Défis Linguistiques. Échangez des astuces, recevez du soutien, et inspirez-vous des réussites des autres. C'est l'endroit idéal pour rester connecté, motivé, et inspiré tout au long de votre aventure linguistique.",
+            "successWith": "Découvrez comment d'autres apprenants ont relevé et surmonté nos Défis Linguistiques, transformant leurs obstacles en opportunités de croissance. Ces témoignages mettent en lumière la variété des approches et des stratégies qui peuvent mener au succès et à une meilleure maîtrise de la langue.",
+            "whatsNext": "Prêt à relever le défi ? Plongez dans nos Défis Linguistiques, mettez à l'épreuve vos compétences, et découvrez jusqu'où vous pouvez aller. Votre prochain défi vous attend et pourrait être le tremplin pour atteindre vos objectifs linguistiques."
+          },
+          "madeUpWords": {
+            "title": "Libérez votre créativité avec notre Défi des Mots Inventés !",
+            "description": "Stimulez votre imagination et enrichissez vos compétences linguistiques avec notre Défi des Mots Inventés. Ce défi unique vous invite à inventer vos propres mots, donnant vie à de nouveaux concepts et idées qui n’existent dans aucune langue.",
+            "howItWorks": "Les participants sont encouragés à créer de nouveaux mots, complets avec des définitions et des exemples de comment ils peuvent être utilisés dans des phrases. Que ce soit une nouvelle émotion, un gadget futuriste ou tout ce qui se trouve entre les deux, le ciel est la limite. Partagez vos créations avec notre communauté et voyez quelles inventions prennent.",
+            "whyYoullLoveIt": "Le Défi des Mots Inventés n’est pas seulement un test de votre créativité linguistique, mais aussi une manière amusante de s’engager avec les mots et les significations d’une toute nouvelle façon. C’est une opportunité de penser hors des sentiers battus et de jouer avec la langue sans aucune limite.",
+            "getStartedTips": "Réfléchissez à des concepts ou des idées pour lesquels vous souhaiteriez qu’il existe des mots. Commencez à créer votre mot, définissez-le, et utilisez-le dans une phrase. Une fois que vous êtes satisfait, partagez votre invention avec la communauté en utilisant notre plateforme dédiée ou hashtag. N'oubliez pas de découvrir ce que les autres ont créé !",
+            "joinTheCommunity": "Devenez partie d'une communauté d'inventeurs de mots et d'enthousiastes de la langue. Discutez de vos mots inventés favoris, trouvez l'inspiration chez les autres, et participez à des défis de création de mots. C’est un excellent moyen de se connecter avec des individus partageant les mêmes idées et d’élargir vos horizons linguistiques.",
+            "successWith": "Laissez-vous inspirer par les histoires des mots inventés les plus populaires de nos défis qui ont suscité de l'intérêt, des rires, et même été adoptés dans l'usage quotidien par notre communauté. Ces histoires de succès montrent le pouvoir de la créativité et les possibilités infinies de la langue.",
+            "whatsNext": "Êtes-vous prêt à contribuer au lexique du futur ? Rejoignez notre Défi des Mots Inventés, laissez votre créativité s'écouler, et voyez où vos mots vous mènent. C’est un voyage d’innovation, de découverte et de plaisir linguistique !"
+          },
+          
           "recipeTranslation": {
             "title": "Aventures culinaires avec la traduction de recettes !",
             "description": "Pimentez votre apprentissage des langues en plongeant dans l'art de la Traduction de Recettes. C’est une délicieuse manière de mélanger votre amour pour la cuisine avec la maîtrise de la langue. Explorez les cuisines du monde entier, traduisez des recettes dans votre langue cible et cuisinez votre chemin vers la fluidité.",
@@ -198,7 +227,40 @@
             "joinTheCommunity": "Rejoignez notre communauté en ligne pour échanger sur vos découvertes de mots amusants, partager vos jeux de mots préférés et trouver de l'inspiration. C'est l'endroit parfait pour rire ensemble et apprendre des mots nouveaux dans un esprit de camaraderie et d'amusement.",
             "successWith": "Inspirez-vous des histoires de ceux qui ont trouvé la joie et peut-être même une renommée virale en partageant leur sens de l'humour linguistique. Découvrez comment le défi a éclairé leur quotidien et élargi leur appréciation des subtilités du langage.",
             "whatsNext": "Prêt à dévoiler votre sens de l'humour et votre créativité linguistique ? Rejoignez le Défi des Mots Amusants, partagez vos mots et expressions préférés et plongez dans la partie divertissante de l'apprentissage des langues. Mettez du rire dans votre pratique linguistique dès maintenant !"
+          },
+          "outdoorClass": {
+            "title": "Explorez et apprenez : La grande classe en plein air",
+            "description": "Sortez de la salle de classe traditionnelle pour vous plonger dans les bras de la nature avec notre expérience de Classe en Plein Air. Parfait pour les amoureux de la nature et les apprenants à vie, ce programme vous invite à absorber le savoir au grand air, où chaque chemin et sentier offre une nouvelle leçon.",
+            "howItWorks": "Chaque session est un voyage à travers des parcs locaux, des forêts ou des réserves naturelles, guidé par des experts qui partageront des aperçus sur le monde naturel. Participez à des leçons interactives qui utilisent l'environnement comme votre salle de classe, rendant l'apprentissage une expérience dynamique et immersive.",
+            "whyYoullLoveIt": "La Classe en Plein Air donne vie à l'apprentissage de manière que la salle de classe traditionnelle ne peut pas. Découvrez les écosystèmes complexes autour de vous, identifiez la flore et la faune locales, et comprenez l'interconnectivité de la nature. C’est une expérience enrichissante qui approfondira votre appréciation pour l'environnement et éveillera une curiosité de toute une vie.",
+            "getStartedTips": "Habillez-vous confortablement pour le temps, apportez votre curiosité, et soyez prêt à explorer. Chaque classe se concentre sur un aspect différent du monde naturel, de la biologie des plantes à la faune locale, offrant des opportunités d'apprentissage pratiques. N'oubliez pas votre cahier pour noter des faits intéressants et des observations !",
+            "joinTheCommunity": "Connectez-vous avec d'autres passionnés de plein air dans notre communauté pour partager des découvertes, discuter de sujets environnementaux, et planifier des sorties de groupe. C’est un excellent moyen de se faire de nouveaux amis, d'apprendre les uns des autres, et de trouver de l'inspiration pour votre prochaine aventure.",
+            "successWith": "Écoutez les participants qui ont transformé leurs promenades en aventures éducatives, gagnant non seulement en connaissance, mais aussi en un sens renouvelé d'émerveillement pour le monde qui les entoure. Découvrez comment intégrer l'apprentissage en plein air dans leurs routines a bénéficié à leur bien-être mental et physique.",
+            "whatsNext": "Êtes-vous prêt à transformer la nature en votre salle de classe ? Rejoignez nos sessions de Classe en Plein Air, embrassez la joie d'apprendre en plein air, et découvrez la classe sans fin au-delà des murs de l'école. Commencez votre voyage d'exploration et d'éducation aujourd'hui !"
+          },
+          "exonyms": {
+            "title": "Explorez les Exonymes : Voyage Linguistique à Travers les Cultures",
+            "description": "Plongez dans le fascinant monde des exonymes avec notre initiative dédiée. Les exonymes, ou les noms donnés par une culture ou langue à un lieu extérieur à leur propre monde, offrent une perspective unique sur la manière dont les différents peuples perçoivent et nomment le monde autour d'eux.",
+            "howItWorks": "Notre défi des exonymes vous invite à découvrir comment les villes, les pays, et les lieux sont appelés dans différentes langues et à explorer les histoires et les étymologies derrière ces noms. C'est une occasion d'élargir votre compréhension linguistique et culturelle en découvrant les couches de l'histoire et de la géographie qui façonnent notre carte mondiale.",
+            "whyYoullLoveIt": "Les exonymes révèlent non seulement comment les langues se croisent et s'influencent mutuellement, mais ils offrent également un aperçu des relations historiques, des migrations et des changements politiques. C’est une exploration captivante qui lie la langue, l'histoire, et la géographie, enrichissant votre appréciation pour la diversité culturelle.",
+            "getStartedTips": "Commencez par explorer les exonymes de lieux familiers et élargissez progressivement votre recherche à des lieux plus éloignés. Notez les différences et similitudes que vous découvrez, et partagez vos trouvailles les plus intéressantes avec la communauté. Utilisez des cartes, des ressources en ligne, et des livres pour guider votre exploration.",
+            "joinTheCommunity": "Rejoignez notre communauté de curieux linguistiques et partagez vos découvertes sur les exonymes. Échangez des connaissances, posez des questions, et engagez-vous dans des discussions enrichissantes sur les origines et les significations des noms de lieux à travers le monde.",
+            "successWith": "Inspirez-vous des récits de membres de la communauté qui ont élargi leur perspective globale grâce à l'exploration des exonymes. Découvrez comment cette quête de connaissances a approfondi leur compréhension des liens entre les langues, les cultures, et l'histoire.",
+            "whatsNext": "Prêt à embarquer pour un voyage linguistique et culturel ? Plongez dans le monde des exonymes, enrichissez votre compréhension des noms de lieux à travers les langues, et découvrez les histoires fascinantes qui se cachent derrière la carte mondiale. Votre aventure à travers les cultures commence ici !"
+          },
+          "museum": {
+            "title": "Découvrez l'Art & l'Histoire : Une Odyssée Culturelle",
+            "description": "Embarquez pour un voyage captivant à travers l'art et l'histoire avec notre section musée dédiée. Explorez une riche tapisserie d'artefacts, de peintures et de reliques historiques qui racontent les histoires de civilisations disparues et de cultures de tous les coins du globe, offrant une fenêtre unique sur l'expérience humaine.",
+            "howItWorks": "Notre section musée vous invite à explorer des collections de diverses cultures et périodes, en plongeant dans les histoires, techniques et significations derrière chaque pièce. C'est une opportunité d'élargir votre connaissance culturelle et historique, comprenant le contexte et la créativité qui façonnent notre monde.",
+            "whyYoullLoveIt": "L'art et l'histoire s'entremêlent pour révéler les connexions entre les cultures, l'évolution des sociétés et la condition humaine partagée. Cette exploration n'est pas seulement éducative ; c'est une expérience visuellement impressionnante qui célèbre la diversité et la créativité à travers les âges.",
+            "getStartedTips": "Commencez par explorer des expositions liées à une période ou culture qui vous fascine. Prenez note de l'artisanat, des histoires derrière les artefacts, et comment ils se rapportent au monde d'aujourd'hui. Partagez vos découvertes préférées avec notre communauté et engagez-vous avec d'autres passionnés d'histoire et d'art.",
+            "joinTheCommunity": "Rejoignez notre communauté d'amateurs de culture et d'histoire pour partager vos découvertes muséales. Échangez des idées, posez des questions et participez à des discussions sur la signification et l'impact des artefacts historiques et de l'art du monde entier.",
+            "successWith": "Laissez-vous inspirer par les récits de membres de la communauté qui ont approfondi leur compréhension de l'histoire et de la culture grâce à la section musée. Découvrez comment ces explorations ont enrichi leur appréciation de l'art, de l'histoire et de l'interconnexion de notre monde.",
+            "whatsNext": "Prêt à embarquer pour votre odyssée culturelle ? Plongez dans notre section musée, rehaussez votre appréciation de l'art et de l'histoire, et découvrez les incroyables histoires qui ont façonné notre monde. Votre voyage à travers les annales de l'histoire et de la créativité commence ici !"
           }
+          
+          
+          
           
     },
     "sessions": {

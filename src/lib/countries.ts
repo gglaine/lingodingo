@@ -62,7 +62,17 @@ export const countries = [
     "fun_fact": "Tunisia is known for its ancient city of Carthage.",
     "languages": ["Arabic", "French"]
   },
-    { emoji: "🇩🇿", name: "Algeria" },
+  {
+    "emoji": "🇩🇿",
+    "name": "Algeria",
+    "greeting": "Salam",
+    "timezone": "Central European Time (CET)",
+    "capital": "Algiers",
+    "population": "44 million",
+    "fun_fact": "Algeria is the largest country in Africa and the 10th largest in the world.",
+    "languages": ["Arabic"],
+    "other_languages": ["Berber", "French"]
+  },
     {
     "emoji": "🇸🇳",
     "name": "Senegal",

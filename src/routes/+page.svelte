@@ -5,7 +5,6 @@
   import Sessions from '../components/Sessions.svelte';
   import Teachers from '../components/Teachers.svelte';
   import Sponsors from '../components/Sponsors.svelte';
-  import BodypartsGame from '../components/BodypartsGame.svelte';
   import { countries } from '$lib/countries'
   
 </script>
@@ -18,8 +17,8 @@
     </div>
     
     <!-- Scroll Down Indicator -->
-    <div class="text-center my-8 animate-bounce">
-      <span>{$t('common.scrollIndicator')}</span>
+    <div class="text-center mt-12 mb-12 my-8 animate-bounce">
+      <span class="text-6xl font-bold">{$t('common.scrollIndicator.scrollDown')}</span>
       <svg class="mx-auto h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
       </svg>
@@ -47,21 +46,23 @@
   <!-- Add space between Methods and Sessions -->
   <div class="mt-8 p-8">
     <Teachers/>
-    <BodypartsGame />
+
   </div>
   <div class="p-4 mt-12">
     <h2 class="text-2xl font-semibold mb-4">{$t('common.cta.meetPeople')}</h2>
-
+  
     <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-2">
       {#each countries as country}
-        <div class="p-2 border border-gray-300 rounded-lg text-center">
-          <span class="text-2xl">{country.emoji}</span>
-      
-          <span class="text-2xl">{country.name}</span>
+        <div class="p-2 border border-gray-300 rounded-lg text-center hover:bg-gray-100">
+          <span class="text-6xl block">{country.emoji}</span>
+          
+          <!-- Initially hidden, shown on hover -->
+          <span class="text-xl text-black font-bold opacity-0 hover:opacity-100">{country.name}</span>
         </div>
       {/each}
     </div>
   </div>
+  
   <div class="mt-8">
     <Sponsors />
   </div>

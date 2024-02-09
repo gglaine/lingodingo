@@ -35,7 +35,7 @@ const methodsData: MethodType[] = [
   createMethod('tpr', '/images/methods/total-response.png'),
   createMethod('storytelling', '/images/methods/storytelling.png'),
   createMethod('dailyJournal', '/images/methods/diverse_class.png'),
-  createMethod('languagePartner', '/images/methods/group_mob.png'),
+  createMethod('languagePartner', '/images/methods/language_partners.webp'),
   createMethod('recipeTranslation', '/images/methods/recipe.png'),
   createMethod('languageMedia', '/images/methods/podcasts_and_videos.png'),
   createMethod('virtualQuiz', '/images/methods/language_quizz.png'),
@@ -51,8 +51,7 @@ const methodsData: MethodType[] = [
   createMethod('accentRecognition', '/images/methods/accent_recognition.webp'),
   createMethod('madeUpWords', '/images/methods/language_plays.png'),
   createMethod('museum', '/images/methods/museum_class.png'),
-  createMethod('outdoor', '/images/methods/outdoor_class.png'),
-  createMethod('languagePartners', '/images/methods/language_partners.webp'),
+  createMethod('outdoorClass', '/images/methods/street_talk.webp'),
 ];
 
 

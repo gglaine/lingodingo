@@ -13,7 +13,10 @@
           "description": "Explore innovative methods tailored to your learning style."
         }
       },
-    
+    "scrollIndicator": { 
+      "scrollDown": "Scroll & Roll",
+      "scrollMore": "More Goodies"
+    },
     "about": {
         "fun_workshops": "Fun Workshops",
         "fun_workshops_text": "Join our interactive and fun workshops that make learning a new language exciting like an adventure. We've designed these sessions to be enjoyable, filled with laughter, and focused on improving your speaking skills.",
@@ -35,29 +38,32 @@
     },
     "hero": {
         "title": "Explore, Learn, and Connect through Languages",
-        "subtitle": "by EFEL CENTER",
+        "subtitle": "Language Fusion: F.E.E.L. the learn!",
         "cta": "Join a session"
     },
     "cta": {
-        "joinNow": "Join Now",
-        "joinNextSession": "Join A Session",
-        "learnMore": "Learn More",
-        "signUp": "Sign Up",
-        "getStarted": "Get Started",
-        "subscribe": "Subscribe",
-        "bookNow": "Book Now",
-        "download": "Download",
-        "explore": "Explore",
-        "contactUs": "Contact Us",
-        "share": "Share",
-        "sponsorUs": "Become An EFEL Sponsor",
-        "meetPeople": "Talk with someone from :"
-      },
+      "joinNow": "Join Now",
+      "joinNextSession": "Join a Session",
+      "learnMore": "Learn More",
+      "signUp": "Sign Up",
+      "getStarted": "Get Started",
+      "subscribe": "Subscribe",
+      "bookNow": "Book Now",
+      "download": "Download",
+      "explore": "Explore",
+      "contactUs": "Contact Us",
+      "share": "Share",
+      "meetPeople": "We Speak English and French Here Too",
+      "tagline": "French and English Easy Learning",
+      "slogan": "Can you F.E.E.L. It?",
+      "methodsDescription": "Methods for everyone, regardless of your level",
+      "joinSession": "Join a session on a theme you like"
+    },
     "sections": {
         "methods": "Methods Section",
         "sessions": "Fun workshops open to all",
         "sponsors": "Our partners",
-        "teachers": "Learn different accents"
+        "teachers": "Dive into Diversity: Master Accents from Around the World with Our Teachers"
       },
     "learnMore": "Learn More",
     "methods": {
@@ -82,7 +88,7 @@
             "whatsNext": "Ready to add some action to your language learning? Explore our TPR challenges, join a live TPR session, or start simple with our interactive TPR tutorials. Your next favorite way to learn is just a tap away!"
           },
         "storytelling": {
-            "title": "Storytelling",
+            "title": "Learn the ancient art of Storytelling",
             "description": "Dive into the art of storytelling. Share and create stories, enhancing comprehension and expression."
         },
         "dailyJournal": {
@@ -106,6 +112,38 @@
             "successWith": "Be inspired by stories from users who've achieved remarkable progress through language partner conversations. From overcoming the fear of speaking to mastering a new language, these success stories showcase the transformative power of collaborative learning.",
             "whatsNext": "Ready to meet your language partner? Explore our community, find your perfect match, and start transforming your language learning journey today. Your next conversation could be the key to unlocking fluency!"
           },
+          "languageChallenges": {
+            "title": "Challenge Yourself with Our Language Challenges!",
+            "description": "Take your language learning to the next level with our Language Challenges. Designed to boost your language practice in varied contexts, these challenges encourage you to step out of your comfort zone and explore new ways to use and improve your language skills.",
+            "howItWorks": "Each month, we launch a new language challenge, ranging from engaging in conversations in a foreign language to writing essays or completing specific projects. These activities are designed to actively apply what you've learned and to interact with the learning community.",
+            "whyYoullLoveIt": "Language Challenges are a fun and engaging way to practice a language. They offer you the opportunity to concretely see your progress, compete with other learners, and stay motivated on your learning journey. It’s also a great way to break up the routine and inject some excitement into your daily practice.",
+            "getStartedTips": "Check out this month's list of challenges and pick one that resonates with you. Whether it’s through writing activities, conversation, or creation, each challenge has its own instructions and goals. Commit to completing the challenge, share your achievements with the community, and enjoy feedback to continue progressing.",
+            "joinTheCommunity": "Join our vibrant community and share your Language Challenge experiences. Exchange tips, receive support, and get inspired by others' successes. It’s the perfect place to stay connected, motivated, and inspired throughout your language adventure.",
+            "successWith": "Learn how other learners have tackled and overcome our Language Challenges, turning obstacles into opportunities for growth. These testimonials highlight the variety of approaches and strategies that can lead to success and enhanced language proficiency.",
+            "whatsNext": "Ready to take on the challenge? Dive into our Language Challenges, test your skills, and discover how far you can go. Your next challenge awaits and could be the stepping stone to achieving your language goals."
+          },
+          "madeUpWords": {
+            "title": "Unleash Your Creativity with Our Made-Up Words Challenge!",
+            "description": "Spark your imagination and enrich your language skills with our Made-Up Words Challenge. This unique challenge invites you to invent your own words, giving life to new concepts and ideas that don’t exist in any language yet.",
+            "howItWorks": "Participants are encouraged to create new words, complete with definitions and examples of how they can be used in sentences. Whether it's a new emotion, a futuristic gadget, or anything in between, the sky's the limit. Share your creations with our community and see which inventions catch on.",
+            "whyYoullLoveIt": "The Made-Up Words Challenge is not only a test of your linguistic creativity but also a fun way to engage with words and meanings in a completely new way. It’s an opportunity to think outside the box and play with language without any boundaries.",
+            "getStartedTips": "Think about concepts or ideas that you wish there were words for. Start crafting your word, define it, and use it in a sentence. Once you’re satisfied, share your invention with the community using our dedicated platform or hashtag. Don't forget to check out what others have created!",
+            "joinTheCommunity": "Become part of a community of word inventors and language enthusiasts. Discuss your favorite made-up words, get inspiration from others, and participate in word creation challenges. It’s a great way to connect with like-minded individuals and expand your linguistic horizons.",
+            "successWith": "Get inspired by stories of the most popular made-up words from our challenges that have sparked interest, laughter, and even been adopted into everyday use by our community. These success stories showcase the power of creativity and the endless possibilities of language.",
+            "whatsNext": "Are you ready to contribute to the lexicon of the future? Join our Made-Up Words Challenge, let your creativity flow, and see where your words take you. It’s a journey of innovation, discovery, and linguistic fun!"
+          },
+          "exonyms": {
+            "title": "Explore Exonyms: A Linguistic Journey Across Cultures",
+            "description": "Dive into the intriguing world of exonyms with our dedicated initiative. Exonyms, or the names given by one culture or language to a place outside their own world, offer a unique perspective on how different peoples perceive and name the world around them.",
+            "howItWorks": "Our exonym challenge invites you to discover how cities, countries, and places are called in different languages and to explore the stories and etymologies behind these names. It's an opportunity to broaden your linguistic and cultural understanding by uncovering the layers of history and geography that shape our global map.",
+            "whyYoullLoveIt": "Exonyms not only reveal how languages intersect and influence each other, but they also provide insight into historical relationships, migrations, and political changes. It’s a captivating exploration that connects language, history, and geography, enriching your appreciation for cultural diversity.",
+            "getStartedTips": "Start by exploring the exonyms of familiar places and gradually expand your search to more distant locales. Note the differences and similarities you discover, and share your most interesting findings with the community. Use maps, online resources, and books to guide your exploration.",
+            "joinTheCommunity": "Join our community of linguistic explorers and share your exonym discoveries. Exchange knowledge, ask questions, and engage in enriching discussions about the origins and meanings of place names from around the world.",
+            "successWith": "Be inspired by stories from community members who have broadened their global perspective through exonym exploration. Learn how this quest for knowledge deepened their understanding of the connections between languages, cultures, and history.",
+            "whatsNext": "Ready to embark on a linguistic and cultural voyage? Delve into the world of exonyms, enrich your understanding of place names across languages, and uncover the fascinating stories hidden behind the global map. Your adventure through cultures starts here!"
+          },
+          
+          
         "recipeTranslation": {
             "title": "Culinary Adventures with Recipe Translation!",
             "description": "Spice up your language learning by diving into the art of Recipe Translation. It’s a delicious way to blend your love for cooking with language mastery. Explore cuisines from around the globe, translate recipes into your target language, and cook your way to fluency.",
@@ -203,7 +241,30 @@
             "joinTheCommunity": "Join our online community to discuss your funny word discoveries, share your favorite wordplays, and find inspiration. It's the perfect place to laugh together and learn new words in a spirit of fun and camaraderie.",
             "successWith": "Be inspired by stories of those who have found joy and perhaps even viral fame by sharing their linguistic humor. Learn how the challenge has brightened their daily lives and expanded their appreciation for the nuances of language.",
             "whatsNext": "Ready to showcase your wit and linguistic creativity? Join the Funny Words Challenge, share your favorite words and phrases, and dive into the fun side of language learning. Inject some laughter into your language practice today!"
+          },
+          "outdoorClass": {
+            "title": "Explore and Learn: The Great Outdoor Classroom",
+            "description": "Step outside the traditional classroom and into the embrace of nature with our Outdoor Classroom experience. Perfect for nature lovers and lifelong learners, this program invites you to absorb knowledge in the fresh air, where every path and trail offers a new lesson.",
+            "howItWorks": "Each session is a journey through local parks, forests, or nature reserves, guided by experts who will share insights into the natural world. Engage in interactive lessons that use the environment as your classroom, making learning a dynamic and immersive experience.",
+            "whyYoullLoveIt": "The Outdoor Classroom brings learning to life in ways a traditional classroom cannot. Discover the intricate ecosystems around you, identify local flora and fauna, and understand the interconnectedness of nature. It’s an enriching experience that will deepen your appreciation for the environment and spark a lifelong curiosity.",
+            "getStartedTips": "Dress comfortably for the weather, bring your curiosity, and be ready to explore. Each class focuses on a different aspect of the natural world, from plant biology to local wildlife, offering hands-on learning opportunities. Don’t forget your notebook to jot down interesting facts and observations!",
+            "joinTheCommunity": "Connect with fellow outdoor enthusiasts in our community to share discoveries, discuss environmental topics, and plan group outings. It’s a great way to make new friends, learn from each other, and find inspiration for your next adventure.",
+            "successWith": "Hear from participants who have transformed their walks into educational adventures, gaining not just knowledge, but a renewed sense of wonder for the world around them. Learn how integrating outdoor learning into their routines has benefited their mental and physical well-being.",
+            "whatsNext": "Are you ready to turn nature into your classroom? Join our Outdoor Classroom sessions, embrace the joy of learning in the great outdoors, and discover the endless classroom beyond the school walls. Start your journey of exploration and education today!"
+          },
+          "museum": {
+            "title": "Discover Art & History: A Cultural Odyssey",
+            "description": "Embark on a captivating journey through art and history with our dedicated museum section. Explore a rich tapestry of artifacts, paintings, and historical relics that tell the stories of civilizations long past and cultures from every corner of the globe, offering a unique window into the human experience.",
+            "howItWorks": "Our museum section invites you to explore collections from various cultures and time periods, delving into the stories, techniques, and meanings behind each piece. It's an opportunity to expand your cultural and historical knowledge, understanding the context and creativity that shape our world.",
+            "whyYoullLoveIt": "Art and history intertwine to reveal the connections between cultures, the evolution of societies, and the shared human condition. This exploration is not just educational; it's a visually stunning experience that celebrates diversity and creativity across ages.",
+            "getStartedTips": "Start by exploring exhibits related to a time period or culture that fascinates you. Take note of the craftsmanship, the stories behind the artifacts, and how they relate to today's world. Share your favorite discoveries with our community and engage with fellow history and art enthusiasts.",
+            "joinTheCommunity": "Join our community of culture and history buffs to share your museum discoveries. Exchange insights, ask questions, and participate in discussions about the significance and impact of historical artifacts and art from around the world.",
+            "successWith": "Be inspired by stories from community members who have deepened their understanding of history and culture through the museum section. Learn how these explorations have enriched their appreciation for art, history, and the interconnectedness of our world.",
+            "whatsNext": "Ready to embark on your cultural odyssey? Dive into our museum section, enhance your appreciation for art and history, and discover the incredible stories that have shaped our world. Your journey through the annals of history and creativity starts here!"
           }
+          
+          
+  
     },
     "sessions": {
         "accents": {
