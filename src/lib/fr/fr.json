@@ -4,7 +4,15 @@
         "about": "La petite story",
         "french": "Français",
         "english": "Anglais",
-        "contact": "Contact"
+        "contact": "Contact",
+        "fr": "",
+        "en": ""
+    },
+    "modal": {
+      "title": "Les cookies et nous",
+      "message": "On utilise des cookies just pour savoir le nombre de visiteurs",
+      "accept": "J'accepte",
+      "reject": "En savoir plus"
     },
     "homepage": {
       "methodsSection": {
@@ -13,7 +21,7 @@
       }
     },
     "scrollIndicator": { 
-      "scrollDown": "Scrollez pour voir",
+      "scrollDown": "Des méthodes pour débloquer les débutants et les accompagner dans leur apprentissage",
       "scrollMore": "Encore plus de bons trucs"
     },
     "about": {
@@ -35,9 +43,9 @@
         "contact": "Contact"
     },
     "hero": {
-        "title": "French and English Easy Learning",
-        "subtitle": "F.E.E.L. the Learn!",
-        "cta": "Rejoins une session"
+        "title": "Apprenez, explorez, connectez en Francais et en Anglais",
+        "subtitle": "Méthode F.E.E.L. & Learn!",
+        "cta": "Rejoins une session en ligne quand tu veux"
     },
     "cta": {
       "joinNow": "Rejoindre maintenant",
@@ -55,7 +63,11 @@
       "tagline": "Apprentissage facile du français et de l'anglais",
       "slogan": "Le ressentez-vous ?",
       "methodsDescription": "Des méthodes pour tous, quel que soit votre niveau",
-      "joinSession": "Rejoignez une session sur le thème qui vous plaît"
+      "joinSession": "Rejoignez une session sur le thème qui vous plaît",
+      "whyYoullLoveIt": "Pourquoi vous allez l'adorer",
+      "getStartedTips": "Conseils pour bien démarrer",
+      "joinTheCommunity": "Rejoignez la communauté",
+      "successWith": "Réussir avec"
     },
     "learnMore": "Apprends +",
     "sections": {

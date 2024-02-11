@@ -4,9 +4,16 @@
         "about": "About",
         "french": "French",
         "english": "English",
-        "contact": "Contact Us"
+        "contact": "Contact Us",
+        "fr": "",
+        "en": ""
     },
-    
+    "modal": {
+      "title": "Cookie Notice",
+      "message": "We use cookies to enhance your experience on our website. By continuing to use our site, you agree to our use of cookies.",
+      "accept": "Accept",
+      "reject": "Learn More"
+    },
       "homepage": {
         "methodsSection": {
           "title": "Discover Your Path to Language Mastery",
@@ -37,9 +44,9 @@
         "contact": "Contact Us"
     },
     "hero": {
-        "title": "Explore, Learn, and Connect through Languages",
-        "subtitle": "Language Fusion: F.E.E.L. the learn!",
-        "cta": "Join a session"
+        "title": "Learn, Explore and Connect In French and English",
+        "subtitle": "F.E.E.L. the learn!",
+        "cta": "Join a session online "
     },
     "cta": {
       "joinNow": "Join Now",
@@ -57,7 +64,11 @@
       "tagline": "French and English Easy Learning",
       "slogan": "Can you F.E.E.L. It?",
       "methodsDescription": "Methods for everyone, regardless of your level",
-      "joinSession": "Join a session on a theme you like"
+      "joinSession": "Join a session on a theme you like",
+      "whyYoullLoveIt": "Why You'll Love It",
+      "getStartedTips": "Get Started Tips",
+      "joinTheCommunity": "Join The Community",
+      "successWith": "Success With"
     },
     "sections": {
         "methods": "Methods Section",
