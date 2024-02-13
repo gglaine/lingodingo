@@ -21,7 +21,7 @@
       }
     },
     "scrollIndicator": { 
-      "scrollDown": "Des méthodes pour débloquer les débutants et les accompagner dans leur apprentissage",
+      "scrollDown": "Des méthodes pour débloquer les débutants et les accompagner dans leur progression basée sur les centres d'intérêt, les envies et le niveau de chacun",
       "scrollMore": "Encore plus de bons trucs"
     },
     "about": {
@@ -49,7 +49,7 @@
     },
     "cta": {
       "joinNow": "Rejoindre maintenant",
-      "joinNextSession": "Rejoindre une session",
+      "joinNextSession": "Rejoindre une session en ligne",
       "learnMore": "En savoir plus",
       "signUp": "S'inscrire",
       "getStarted": "Commencer",
@@ -61,20 +61,21 @@
       "share": "Partager",
       "meetPeople": "On parle Anglais et Francais ici aussi",
       "tagline": "Apprentissage facile du français et de l'anglais",
-      "slogan": "Le ressentez-vous ?",
+      "slogan": "Le ressentez-vous ? ",
       "methodsDescription": "Des méthodes pour tous, quel que soit votre niveau",
       "joinSession": "Rejoignez une session sur le thème qui vous plaît",
       "whyYoullLoveIt": "Pourquoi vous allez l'adorer",
       "getStartedTips": "Conseils pour bien démarrer",
       "joinTheCommunity": "Rejoignez la communauté",
-      "successWith": "Réussir avec"
+      "successWith": "Réussir avec",
+      "sponsorUs": "Devenez partenaires EFEL Center"
     },
     "learnMore": "Apprends +",
     "sections": {
         "methods": "Choissisez la méthode qui vous fait avancer",
-        "sessions": "Des ateliers fun pour tous",
+        "sessions": "Des ateliers pour tous",
         "sponsors": "Partenaires",
-        "teachers": "Plongez dans la diversité : Maîtrisez les accents du monde entier avec nos enseignants"
+        "teachers": "Connectez-vous avec les accents du monde entier"
       },
     "methods": {
         "clt": {

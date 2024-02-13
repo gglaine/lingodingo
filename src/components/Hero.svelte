@@ -23,7 +23,7 @@
 /* Apply the blur effect to the pseudo-element */
 .hero::before {
   content: "";
-  background-image: url("/images/eyecity.png");
+  background-image: url("/images/thepath.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

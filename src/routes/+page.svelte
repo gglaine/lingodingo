@@ -1,4 +1,4 @@
-<script>
+<script lang='ts'>
   import { t, locale } from '$lib';
   import Hero from '../components/Hero.svelte';
   import Sessions from '../components/Sessions.svelte';
@@ -7,6 +7,8 @@
   import { countries } from '$lib/countries'
   import { onMount } from 'svelte';
   import { writable } from 'svelte/store';
+
+
 
   function closeModal() {
     const modal = document.querySelector('.fixed.inset-0');
@@ -78,18 +80,18 @@
     </div>
     {/if}
 
-    <!-- Scroll Down Indicator -->
-    <div class="text-center mt-12 mb-12 my-8">
-      <span class="text-2xl font-bold">{$t('common.scrollIndicator.scrollDown')}</span>
-      <svg class="mx-auto h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-      </svg>
-    </div>
+
+    
+
+     <!-- Add space between Methods and Sessions -->
+  <div class="mt-8 p-8">
+    <Teachers/>
+  </div>
 
     <!-- Featured Methods Section -->
     <div class="mx-auto transition duration-500 ease-in-out transform hover:scale-105">
       <a href="/methods" class="block relative rounded-lg shadow-lg overflow-hidden group">
-        <img src="/images/methods/methods_inhand.webp" alt="Explore Our Methods" class="w-full h-[30rem] object-cover">
+        <img src="/images/PALABRES.png" alt="Explore Our Methods" class="w-full h-[30rem] object-cover">
         <div class="absolute inset-0  bg-opacity-70 flex justify-center items-center">
           <div class="text-center rounded-lg bg-blue-600 opacity-90 text-white p-6">
             <h2 class="text-5xl font-bold mb-4 tracking-tight leading-none animate-fadeInUp">{$t('common.homepage.methodsSection.title')}</h2>
@@ -99,16 +101,14 @@
       </a>
     </div>
 
+
+ 
+
     <!-- Sessions Section -->
     <div class="mt-16 p-8">
       <h2 class="text-4xl font-semibold mb-6 text-center animate-slideInRight">{$t('common.sections.sessions')}</h2>
       <Sessions />
     </div>
-  </div>
-
-  <!-- Add space between Methods and Sessions -->
-  <div class="mt-8 p-8">
-    <Teachers/>
   </div>
 
   <div class="p-4 mt-12">
@@ -131,3 +131,36 @@
   </div>
 </div>
 
+<style>
+     @keyframes breathe {
+      0%, 100% {
+        transform: scale(0.95);
+        opacity: 0.7;
+      }
+      50% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+
+  @keyframes scrollHint {
+    0%, 100% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .transition-opacity {
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  </style>

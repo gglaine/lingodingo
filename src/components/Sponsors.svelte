@@ -13,14 +13,14 @@
       <div class="bg-white shadow-md rounded-lg overflow-hidden">
         <img src="/images/sponsors/hautsdeseine.png" alt="Sponsor 1" class="w-full h-32 object-contain" />
         <div class="p-4">
-          <h3 class="text-xl font-semibold mb-2">Hauts de Seine</h3>
-          <p class="text-gray-600">Programme Quartiers connectés</p>
+          <h3 class="text-xl font-semibold mb-2">Département des Hauts de Seine</h3>
+          <p class="text-gray-600">Quartiers connectés</p>
         </div>
       </div>
       <div class="bg-white shadow-md rounded-lg overflow-hidden">
         <img src="/images/sponsors/bridge.png" alt="Sponsor 1" class="w-full h-32 object-contain" />
         <div class="p-4">
-          <h3 class="text-xl font-semibold mb-2">TheBridge - Ecole Entreprises</h3>
+          <h3 class="text-xl font-semibold mb-2">The Bridge École-Entreprises</h3>
           <p class="text-gray-600">Business English 2024</p>
         </div>
       </div>
@@ -32,12 +32,13 @@
         </div>
       </div>
       <div class="bg-white shadow-md rounded-lg overflow-hidden text-center">
-        <img src="/images/sponsors/cites.png" alt="Sponsor 1" class="w-full h-32 object-contain" />
+        <img src="/images/logo-new-tp.png" alt="Sponsor 1" class="w-full h-32 object-contain" />
         <div class="p-4">
           <a href="your-link-url-here">
-            <h3 class="text-xl font-semibold mb-2">Become A Sponsor </h3>
+            <h3 class="text-xl font-semibold mb-2">{$t('common.cta.sponsorUs')}</h3>
+
           </a>
-          <p class="text-gray-600">Programmes 2024</p>
+          <p class="text-gray-600">Construisons ensemble</p>
         </div>
       </div>
       
