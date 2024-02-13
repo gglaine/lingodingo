@@ -9,12 +9,15 @@
     <div class="bg-white shadow-lg rounded-lg p-8 max-w-md mx-auto">
       <div class="mb-6">
         <h2 class="text-2xl font-semibold text-gray-800 mb-4">{$t('common.utils.phone')}</h2>
-        <p class="text-gray-600">+1 (555) 123-4567</p>
+        <p class="text-gray-600">01 47 21 86 04</p>
       </div>
       
       <div class="mb-6">
         <h2 class="text-2xl font-semibold text-gray-800 mb-4">Email</h2>
-        <p class="text-gray-600">contact@example.com</p>
+        <p class="text-gray-600">efelcenter@gmail.com</p>
+      </div>
+      <div class="mb-6">
+        <p class="text-gray-600">54 Avenue de la Liberté 9 2000 NANTERRE</p>
       </div>
 
       <div class="mt-8">
@@ -22,5 +25,7 @@
       </div>
     </div>
 </div>
+
+
 
   

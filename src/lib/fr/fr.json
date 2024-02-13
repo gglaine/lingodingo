@@ -6,7 +6,8 @@
         "english": "Anglais",
         "contact": "Contact",
         "fr": "",
-        "en": ""
+        "en": "",
+        "signInUp": "Connexion"
     },
     "modal": {
       "title": "Les cookies et nous",

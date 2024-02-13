@@ -91,7 +91,7 @@
     <!-- Featured Methods Section -->
     <div class="mx-auto transition duration-500 ease-in-out transform hover:scale-105">
       <a href="/methods" class="block relative rounded-lg shadow-lg overflow-hidden group">
-        <img src="/images/PALABRES.png" alt="Explore Our Methods" class="w-full h-[30rem] object-cover">
+        <img src="/images/PALABRES.png" alt="Explore Our Methods" class="w-full h-[48rem] object-cover">
         <div class="absolute inset-0  bg-opacity-70 flex justify-center items-center">
           <div class="text-center rounded-lg bg-blue-600 opacity-90 text-white p-6">
             <h2 class="text-5xl font-bold mb-4 tracking-tight leading-none animate-fadeInUp">{$t('common.homepage.methodsSection.title')}</h2>

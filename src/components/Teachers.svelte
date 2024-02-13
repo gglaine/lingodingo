@@ -57,6 +57,22 @@
         imageUrl: '/images/teachers/maite.jpg', // Replace with actual image path
         videoId: 'z94mWhAavkQ', // Example video URL
       },
+      {
+        name: 'Guillaume',
+        countries: [{ flag: '🇮🇹', name: 'France' }],
+        city: 'Paris',
+        languages: ['French', 'English'],
+        imageUrl: '/images/teachers/gui2.png', // Replace with actual image path
+        videoId: 'z94mWhAavkQ', // Example video URL
+      },
+      {
+        name: 'Sofiane',
+        countries: [{ flag: '🇮🇹', name: 'France' }],
+        city: 'Naterre',
+        languages: ['French', 'English'],
+        imageUrl: '/images/teachers/sofiane.png', // Replace with actual image path
+        videoId: 'z94mWhAavkQ', // Example video URL
+      },
     ];
         // Correctly declare 'playingVideoUrl' to track the currently playing video URL
         let playingVideoId = '';
