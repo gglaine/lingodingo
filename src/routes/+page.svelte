@@ -88,27 +88,32 @@
     <Teachers/>
   </div>
 
-    <!-- Featured Methods Section -->
-    <div class="mx-auto transition duration-500 ease-in-out transform hover:scale-105">
-      <a href="/methods" class="block relative rounded-lg shadow-lg overflow-hidden group">
-        <img src="/images/PALABRES.png" alt="Explore Our Methods" class="w-full h-[48rem] object-cover">
-        <div class="absolute inset-0  bg-opacity-70 flex justify-center items-center">
-          <div class="text-center rounded-lg bg-blue-600 opacity-90 text-white p-6">
-            <h2 class="text-5xl font-bold mb-4 tracking-tight leading-none animate-fadeInUp">{$t('common.homepage.methodsSection.title')}</h2>
-            <p class="text-xl max-w-md mx-auto leading-relaxed animate-fadeInUp">{$t('common.homepage.methodsSection.description')}</p>
-          </div>
-        </div>
-      </a>
+    <!-- Sessions Section -->
+    <div class="mt-12">
+      <h2 class="text-4xl p-4 font-semibold mb-12 text-center animate-slideInRight">{$t('common.sections.sessions')}</h2>
+      <Sessions />
     </div>
+
+  <div class="mt-8">
+    <!-- Featured Methods Section -->
+      <div class="mx-auto transition duration-500 ease-in-out transform hover:scale-105">
+        <a href="/methods" class="block relative rounded-lg shadow-lg overflow-hidden group">
+          <img src="/images/PALABRES.png" alt="Explore Our Methods" class="w-full h-[48rem] object-cover pb-12">
+          <div class="absolute inset-0 bottom-2  bg-opacity-90 flex justify-center items-end">
+            <div class="text-center rounded-lg bg-blue-600 opacity-90 text-white p-6">
+              <h2 class="text-5xl font-bold mb-4 tracking-tight leading-none animate-fadeInUp">{$t('common.homepage.methodsSection.title')}</h2>
+              <p class="text-xl max-w-md mx-auto leading-relaxed animate-fadeInUp">{$t('common.homepage.methodsSection.description')}</p>
+            </div>
+          </div>
+        </a>
+      </div>
+  </div>
 
 
  
 
-    <!-- Sessions Section -->
-    <div class="mt-16 p-8">
-      <h2 class="text-4xl font-semibold mb-6 text-center animate-slideInRight">{$t('common.sections.sessions')}</h2>
-      <Sessions />
-    </div>
+  
+
   </div>
 
   <div class="p-4 mt-12">
