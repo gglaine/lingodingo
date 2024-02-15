@@ -9,6 +9,22 @@
         "en": "",
         "signInUp": "Connexion"
     },
+    "gamePhoneticPairing": {
+      "title": "Jeu d'appariement phonétique",
+      "instructions": "Associez les mots ayant des sons phonétiques similaires.",
+      "correctPair": "Paire correcte !",
+      "tryAgain": "Réessayez.",
+      "nextLevel": "Niveau suivant",
+      "complete": "Félicitations ! Vous avez terminé tous les niveaux."
+    },
+    "gameWordMatch": {
+      "title": "Jeu de correspondance de mots",
+      "instructions": "Trouvez les mots correspondants en fonction des indices fournis.",
+      "correctAnswer": "Bien joué !",
+      "incorrectAnswer": "Pas tout à fait, essayez de nouveau.",
+      "levelUp": "Vous passez au niveau suivant !",
+      "gameOver": "Excellent travail ! Vous avez terminé le jeu."
+    },
     "modal": {
       "title": "Les cookies et nous",
       "message": "On utilise des cookies just pour savoir le nombre de visiteurs",

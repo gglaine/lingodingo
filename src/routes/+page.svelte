@@ -4,11 +4,11 @@
   import Sessions from '../components/Sessions.svelte';
   import Teachers from '../components/Teachers.svelte';
   import Sponsors from '../components/Sponsors.svelte';
+  import LanguageCuriosityCard from '../components/LanguageCuriosityCard.svelte';
   import { countries } from '$lib/countries'
   import { onMount } from 'svelte';
   import { writable } from 'svelte/store';
-
-
+  import PhoneticsPairingGame from '../components/PhoneticsPairingGame.svelte'
 
   function closeModal() {
     const modal = document.querySelector('.fixed.inset-0');
@@ -47,42 +47,6 @@
     <div class="mt-0">
       <Hero />
     </div>
-
-    {#if !$cookiesAccepted && $showCookiesNotice}
-    <!-- Cookies notice modal -->
-    <div class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
-      <div class="relative bg-white rounded-lg p-8 max-w-md">
-        <!-- Modal content -->
-        <div class="text-center">
-          <!-- Modal title -->
-          <h2 class="text-2xl font-semibold text-gray-800 mb-4">Cookie Notice</h2>
-          
-          <!-- Modal message -->
-          <p class="text-lg text-gray-600 mb-6">We use cookies to enhance your experience on our website. By continuing to use our site, you agree to our use of cookies.</p>
-          
-          <!-- Action buttons -->
-          <div class="flex justify-center space-x-4">
-            <!-- Accept cookies button -->
-            <button on:click={acceptCookies} class="px-6 py-3 bg-blue-500 text-white font-semibold rounded-full hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition duration-300 ease-in-out">Accept</button>
-            
-            <!-- Learn more button (optional) -->
-            <button class="px-6 py-3 bg-gray-200 text-gray-800 font-semibold rounded-full hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 transition duration-300 ease-in-out">Learn More</button>
-          </div>
-          
-          <!-- Close button -->
-          <button on:click={rejectCookies} class="absolute top-0 right-0 mt-2 mr-2 text-gray-600 hover:text-gray-800 focus:outline-none">
-            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </button>
-        </div>
-      </div>
-    </div>
-    {/if}
-
-
-    
-
      <!-- Add space between Methods and Sessions -->
   <div class="mt-8 p-8">
     <Teachers/>
@@ -92,6 +56,14 @@
     <div class="mt-12">
       <h2 class="text-4xl p-4 font-semibold mb-12 text-center animate-slideInRight">{$t('common.sections.sessions')}</h2>
       <Sessions />
+    </div>
+
+    <div class="mt-8 p-8">
+      <LanguageCuriosityCard />
+    </div>
+
+    <div class="mt-24 p-8 border-3 border-red-500">
+      <PhoneticsPairingGame />
     </div>
 
   <div class="mt-8">
@@ -108,11 +80,6 @@
         </a>
       </div>
   </div>
-
-
- 
-
-  
 
   </div>
 
@@ -135,6 +102,39 @@
     <Sponsors />
   </div>
 </div>
+
+{#if !$cookiesAccepted && $showCookiesNotice}
+<!-- Cookies notice modal -->
+<div class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
+  <div class="relative bg-white rounded-lg p-8 max-w-md">
+    <!-- Modal content -->
+    <div class="text-center">
+      <!-- Modal title -->
+      <h2 class="text-2xl font-semibold text-gray-800 mb-4">Cookie Notice</h2>
+      
+      <!-- Modal message -->
+      <p class="text-lg text-gray-600 mb-6">We use cookies to enhance your experience on our website. By continuing to use our site, you agree to our use of cookies.</p>
+      
+      <!-- Action buttons -->
+      <div class="flex justify-center space-x-4">
+        <!-- Accept cookies button -->
+        <button on:click={acceptCookies} class="px-6 py-3 bg-blue-500 text-white font-semibold rounded-full hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition duration-300 ease-in-out">Accept</button>
+        
+        <!-- Learn more button (optional) -->
+        <button class="px-6 py-3 bg-gray-200 text-gray-800 font-semibold rounded-full hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 transition duration-300 ease-in-out">Learn More</button>
+      </div>
+      
+      <!-- Close button -->
+      <button on:click={rejectCookies} class="absolute top-0 right-0 mt-2 mr-2 text-gray-600 hover:text-gray-800 focus:outline-none">
+        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+{/if}
+
 
 <style>
      @keyframes breathe {

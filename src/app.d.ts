@@ -8,6 +8,17 @@ declare global {
 	  interface Params {
 		methodId: string;
 	  }
+
+	  export interface Level {
+		id: number;
+		phonetic_feature: string;
+		correct_pairs: string[][];
+		distractors: string[];
+	  }
+  
+	  interface LevelsModule {
+		levels: Level[];
+	  }
   
 	  interface RouteParams {
 		id: string;

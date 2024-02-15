@@ -9,6 +9,22 @@
         "en": "",
         "signInUp": "Sign in"
     },
+    "gamePhoneticPairing": {
+      "title": "Phonetic Pairing Game",
+      "instructions": "Match words with similar phonetic sounds.",
+      "correctPair": "Correct pair!",
+      "tryAgain": "Try again.",
+      "nextLevel": "Next Level",
+      "complete": "Congratulations! You've completed all levels."
+    },
+    "gameWordMatch": {
+      "title": "Word Match Game",
+      "instructions": "Find the matching words based on the clues provided.",
+      "correctAnswer": "Well done!",
+      "incorrectAnswer": "Not quite, try again.",
+      "levelUp": "You've advanced to the next level!",
+      "gameOver": "Great job! You've finished the game."
+    },
     "modal": {
       "title": "Cookie Notice",
       "message": "We use cookies to enhance your experience on our website. By continuing to use our site, you agree to our use of cookies.",
