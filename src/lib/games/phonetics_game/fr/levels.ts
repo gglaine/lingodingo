@@ -1,5 +1,5 @@
-export const levels = {
-    "levels": [
+export const levels: { levels: App.Level[] } = {
+  levels: [
       {
         "id": 1,
         "phonetic_feature": "Le son 'é'",
@@ -37,5 +37,5 @@ export const levels = {
         "distractors": ["lez amis", "dez arbres", "vou zavez", "nou zavons"]
       }
     ]
-  }
+}
   

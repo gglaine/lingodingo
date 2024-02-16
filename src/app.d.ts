@@ -9,7 +9,7 @@ declare global {
 		methodId: string;
 	  }
 
-	  export interface Level {
+	  interface Level {
 		id: number;
 		phonetic_feature: string;
 		correct_pairs: string[][];

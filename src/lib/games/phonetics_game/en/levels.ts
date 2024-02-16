@@ -1,4 +1,5 @@
-export const levels: Level[] = [
+export const levels: { levels: App.Level[] } = {
+  levels: [
 
       {
         "id": 1,
@@ -36,5 +37,6 @@ export const levels: Level[] = [
         ],
         "distractors": ["strain", "stare", "seal", "seam"]
       }
-    ];
+    ]
+  }
   

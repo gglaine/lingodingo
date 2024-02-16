@@ -53,18 +53,16 @@
   </div>
 
     <!-- Sessions Section -->
-    <div class="mt-12">
+    <!-- <div class="mt-12">
       <h2 class="text-4xl p-4 font-semibold mb-12 text-center animate-slideInRight">{$t('common.sections.sessions')}</h2>
       <Sessions />
-    </div>
+    </div> -->
 
     <div class="mt-8 p-8">
       <LanguageCuriosityCard />
     </div>
 
-    <div class="mt-24 p-8 border-3 border-red-500">
-      <PhoneticsPairingGame />
-    </div>
+
 
   <div class="mt-8">
     <!-- Featured Methods Section -->
@@ -79,6 +77,10 @@
           </div>
         </a>
       </div>
+  </div>
+
+  <div class="mt-24 p-8 border-3 border-red-500">
+    <PhoneticsPairingGame />
   </div>
 
   </div>

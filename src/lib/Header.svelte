@@ -63,7 +63,7 @@
     <!-- Sign In / Up Link Visible on All Views -->
     {#if !$isUserLoggedIn}
       <a href="/signin" class="px-4 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">
-        Sign In / Up
+        Sign In
       </a>
     {/if}
 
