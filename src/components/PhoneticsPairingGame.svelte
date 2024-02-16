@@ -107,19 +107,19 @@
     }
   </style>
   
-  <div class="max-w-4xl mx-auto p-5">
-    <h2 class="text-2xl font-bold mb-4">Phonetic Pairing Game</h2>
+  <div class="w-full bg-blue-500 rounded-md drop-shadow-2xl mx-auto p-5">
+    <h2 class="text-2xl text-white font-bold mb-4">Phonetic Pairing Game</h2>
     <span class="inline-block bg-gray-200 text-gray-800 text-sm font-semibold px-3 py-1 mr-2 rounded">
         Level {#if $currentLevelIndex}{$currentLevelIndex + 1}{/if}
       </span>
     <p class="mb-4">Match words with the same phonetic feature!</p>
-    <p class="mb-4 text-2xl font-bold italic">{#if $currentLevel}{$currentLevel.phonetic_feature}{/if}</p>
-    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+    <p class="mb-4 text-4xl font-bold italic">{#if $currentLevel}{$currentLevel.phonetic_feature}{/if}</p>
+    <div class="grid w-full grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
       {#each $shuffledWords as word, index}
         <button 
           class:correct-pair={$selectedStatus[index]?.isCorrect}
           class:incorrect-pair={!$selectedStatus[index]?.isCorrect && $selectedStatus[index]?.hasBeenSelected}
-          class="word"
+          class="word bg-yellow-500 text-slate-100 font-bold"
           on:click={() => selectWord(word, index)}>
           {word}
         </button>

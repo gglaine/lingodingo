@@ -79,7 +79,7 @@
       </div>
   </div>
 
-  <div class="mt-24 p-8 border-3 border-red-500">
+  <div class="mt-24 p-2">
     <PhoneticsPairingGame />
   </div>
 
