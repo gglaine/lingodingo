@@ -17,15 +17,25 @@
     });
   </script>
   
-  <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
-    <div class="md:flex">
-      <div class="p-8">
-        <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Language Curiosity</div>
-        <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">{randomCuriosity.country}</a>
-        <p class="mt-2 text-gray-500">Did you know? The word "<span class="font-bold">{randomCuriosity.word.word}</span>" means "<span class="italic">{randomCuriosity.word.meaning}</span>" in {randomCuriosity.country}.</p>
-      </div>
+  <div class="w-full min-h-[500px] p-8 mx-auto bg-white rounded-xl shadow-md overflow-hidden ">
+    <div class="text-center my-8">
+      <div class="text-9xl mx-auto">🌎</div>
+      <h2 class="text-4xl font-bold mt-4">A World of Learning</h2>
     </div>
-  </div>
+    <div class="flex flex-col mx-auto items-center text-center">
+     
+        <div class="uppercase tracking-wide text-md text-indigo-500 italic serif font-semibold">{randomCuriosity.country}</div>
+     
+        <p class="mt-2 text-slate-800 font-serif font-bold text-6xl">
+        "{randomCuriosity.word.word}"
+        </p>
+        <p class="italic font-light text-2xl">
+          {randomCuriosity.word.meaning}
+        </p>
+</div>
+
+    </div>
+ 
   
   <style>
     /* Add any additional CSS here, if needed */

@@ -1,4 +1,4 @@
-export const spellingQuest = {
+export const spellingQuestEn = {
     "easy": [
         {
             "word": "beautiful",

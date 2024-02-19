@@ -3,17 +3,14 @@
 </script>
 
 <div class="hero relative flex flex-col mt-8 mb-12 items-center justify-end md:bg-cover md:bg-center" style="height: 70vh;">
-  <div class="bg-blue-600 bg-opacity-90 w-full md:w-[40%] p-8 rounded-lg shadow-xl">
+  <div class="bg-green-600 bg-opacity-90 w-full md:w-[40%] p-8 rounded-lg shadow-xl">
     <h1 class="text-2xl font-bold text-center text-white mb-4">{$t('common.hero.title')}</h1>
-    <button type="button" class="relative ml-auto flex flex-col justify-center items-center w-full px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-yellow-400 to-yellow-600 border border-transparent rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-offset-2">
+    <button type="button" class="relative ml-auto flex flex-col justify-center items-center w-full px-8 py-4 text-lg font-semibold text-white bg-green-500 border border-transparent rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-offset-2">
       <span class="mr-2 mb-4 text-center">
-        {$t('common.hero.cta')}
-      </span>
-      <span class="animate-pulse text-4xl">
-        🖐🏻
+        {$t('common.hero.cta')} 🗓️
       </span>
     </button>
-    <p class="text-2xl mt-4 text-center text-white mb-6">{$t('common.hero.subtitle')}</p>
+    <p class="text-2xl mt-4 text-center text-white mb-6"></p>
   </div>
 </div>
 

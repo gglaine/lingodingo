@@ -113,40 +113,39 @@ function handleKeydown(event: KeyboardEvent, videoUrl: string) {
     }
   </style>
   
-  <div class="container mx-auto py-6 pt-12">
-    <h2 class="text-3xl font-bold mb-24 mt-1">{$t('common.sections.teachers')}</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+  <div class="container mx-auto py-12">
+    <h2 class="text-4xl font-bold text-blue-600 mb-12 text-center">Our Teachers</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       {#each teachers as teacher}
-        <div class="bg-white shadow-md rounded-lg overflow-hidden relative w-full h-64">
+        <div class="relative bg-white rounded-lg shadow-lg overflow-hidden">
+          <!-- Conditional Rendering for Video/Image -->
           {#if playingVideoId === teacher.videoId && teacher.videoId}
-            <!-- Use the Youtube component for embedding YouTube videos -->
-            <Youtube videoId={teacher.videoId} />
+            <!-- Embed YouTube Video -->
+            <Youtube videoId={teacher.videoId}  />
           {:else}
-            <img src={teacher.imageUrl} alt={teacher.name} class="w-full h-64 object-cover">
+            <img src={teacher.imageUrl} alt={teacher.name} class="w-full h-64 object-cover transition-transform duration-300 hover:scale-105">
             {#if teacher.videoId}
-            <button class="video-button w-24 h-24 rounded-full z-10 bg-white hover:bg-red-500 hover:scale-105" on:click={() => playVideo(teacher.videoId)}>
-              <!-- Play icon overlay -->
-              <svg class="w-24 h-16 text-blue-500 hover:text-slate-100" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M10,16.5L16,12L10,7.5V16.5Z" />
-              </svg>
-            </button>
-            
+              <!-- Play Video Button -->
+              <button class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center shadow-lg hover:bg-red-600 transition duration-300" on:click={() => playVideo(teacher.videoId)}>
+                <!-- SVG Play Icon -->
+                <svg viewBox="0 0 24 24" class="w-8 h-8 text-white" fill="currentColor">
+                  <path d="M8,5.14V19.14L19,12.14L8,5.14Z" />
+                </svg>
+              </button>
             {/if}
           {/if}
-          <!-- Display teacher's name and other details -->
-          <div class="px-4 py-2 absolute bottom-0 left-0 bg-white text-gray-800">
-            <h3 class="text-lg font-semibold mb-1">{teacher.name}</h3>
+          <!-- Teacher Details Overlay -->
+          <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-4 text-white">
+            <h3 class="text-xl font-semibold">{teacher.name}</h3>
             <p class="text-sm"> {teacher.city},
               {#each teacher.countries as country}
-                <span class="mr-2">{country.flag} {country.name}</span>
+                <span>{country.flag} {country.name}</span>
               {/each}
-             
             </p>
-     
           </div>
         </div>
       {/each}
     </div>
-  </div>
-  
+</div>
+
   

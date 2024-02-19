@@ -9,6 +9,7 @@
   import { onMount } from 'svelte';
   import { writable } from 'svelte/store';
   import PhoneticsPairingGame from '../components/PhoneticsPairingGame.svelte'
+  import SpellingGame from '$components/SpellingGame.svelte';
 
   function closeModal() {
     const modal = document.querySelector('.fixed.inset-0');
@@ -47,21 +48,6 @@
     <div class="mt-0">
       <Hero />
     </div>
-     <!-- Add space between Methods and Sessions -->
-  <div class="mt-8 p-8">
-    <Teachers/>
-  </div>
-
-    <!-- Sessions Section -->
-    <!-- <div class="mt-12">
-      <h2 class="text-4xl p-4 font-semibold mb-12 text-center animate-slideInRight">{$t('common.sections.sessions')}</h2>
-      <Sessions />
-    </div> -->
-
-    <div class="mt-8 p-8">
-      <LanguageCuriosityCard />
-    </div>
-
 
 
   <div class="mt-8">
@@ -79,11 +65,22 @@
       </div>
   </div>
 
-  <div class="mt-24 p-2">
-    <PhoneticsPairingGame />
+
+    
+    </div>
+  
+    <div class="mt-8 p-8">
+      <Teachers/>
+    </div>
+  
+
+
+
+  <div class="mt-8 p-8">
+    <LanguageCuriosityCard />
   </div>
 
-  </div>
+
 
   <div class="p-4 mt-12">
     <h2 class="text-2xl font-semibold mb-4">{$t('common.cta.meetPeople')}</h2>
@@ -98,6 +95,39 @@
       </div>
       {/each}
     </div>
+  </div>
+
+  <div class="mt-8 w-full p-8 border-4 border-gold-500 rounded-lg shadow-2xl bg-blue-50 mx-auto text-gray-800">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+      <!-- Spelling Game Card as Link -->
+      <a href="/games/spellingquest" class="bg-white rounded-lg shadow-xl overflow-hidden transform transition duration-300 hover:scale-105">
+          <div class="md:flex">
+              <!-- Image Section -->
+              <div class="md:flex-shrink-0">
+                  <img src="/images/games/spellingquest.webp" alt="Spelling Game" class="h-full w-full object-cover md:w-48">
+              </div>
+              <!-- Text Section -->
+              <div class="p-6">
+                  <h3 class="text-xl font-semibold text-blue-700 mb-4">Spelling Game</h3>
+                  <p>Calling out all the spelling bees</p>
+              </div>
+          </div>
+      </a>
+      <!-- Phonetic Pairs Game Card as Link -->
+      <a href="/games/phoneticspairing" class="bg-white rounded-lg shadow-xl overflow-hidden transform transition duration-300 hover:scale-105">
+          <div class="md:flex">
+              <!-- Image Section -->
+              <div class="md:flex-shrink-0">
+                  <img src="/images/games/phoneticpairs.webp" alt="Phonetic Pairs Game" class="h-full w-full object-cover md:w-48">
+              </div>
+              <!-- Text Section -->
+              <div class="p-6">
+                  <h3 class="text-xl font-semibold text-blue-700 mb-4">Phonetic Pairs Game</h3>
+                  <p>Match sounds and improve your phonetics</p>
+              </div>
+          </div>
+      </a>
+  </div>
   </div>
 
   <div class="mt-8">

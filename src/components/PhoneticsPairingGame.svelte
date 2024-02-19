@@ -21,10 +21,10 @@
       globalLocale.subscribe(($locale) => {
         switch ($locale) {
           case 'en':
-            levels.set(enLevels.levels);
+            levels.set(frLevels.levels);
             break;
           case 'fr':
-            levels.set(frLevels.levels);
+            levels.set(enLevels.levels);
             break;
           default:
             console.error(`Locale not supported: ${$locale}`);
@@ -96,30 +96,29 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 1.25rem; /* Responsive font size */
       text-align: center; /* Ensure text is centered */
     }
     .word:hover, .correct-pair {
-      background-color: #9AE6B4; /* Softer green for correct or hovered cards */
+      background-color: #0bd451; /* Softer green for correct or hovered cards */
     }
     .incorrect-pair {
-      background-color: #FEB2B2; /* Softer red for incorrect selections */
+      background-color: #e01313; /* Softer red for incorrect selections */
     }
   </style>
   
-  <div class="w-full bg-blue-500 rounded-md drop-shadow-2xl mx-auto p-5">
-    <h2 class="text-2xl text-white font-bold mb-4">Phonetic Pairing Game</h2>
+  <div class="w-full bg-slate-200 rounded-md drop-shadow-2xl mx-auto p-5">
+    <h2 class="text-4xl text-slate-800 font-bold mb-4">Let's play !</h2>
     <span class="inline-block bg-gray-200 text-gray-800 text-sm font-semibold px-3 py-1 mr-2 rounded">
         Level {#if $currentLevelIndex}{$currentLevelIndex + 1}{/if}
       </span>
-    <p class="mb-4">Match words with the same phonetic feature!</p>
+    <p class="mb-4 text-2xl">Match words with the same phonetic feature!</p>
     <p class="mb-4 text-4xl font-bold italic">{#if $currentLevel}{$currentLevel.phonetic_feature}{/if}</p>
     <div class="grid w-full grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
       {#each $shuffledWords as word, index}
         <button 
           class:correct-pair={$selectedStatus[index]?.isCorrect}
           class:incorrect-pair={!$selectedStatus[index]?.isCorrect && $selectedStatus[index]?.hasBeenSelected}
-          class="word bg-yellow-500 text-slate-100 font-bold"
+          class="word bg-yellow-500 text-slate-800  text-4xl font-bold"
           on:click={() => selectWord(word, index)}>
           {word}
         </button>
@@ -129,7 +128,7 @@
       <div class="feedback mt-5 p-3 bg-gray-100 text-gray-800 rounded">{ $feedbackMessage }</div>
     {/if}
     {#if $isLevelCompleted}
-      <button class="mt-5 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600" on:click={nextLevel}>Next Level</button>
+      <button class="mt-5 px-4 py-2 bg-green-700 text-white rounded hover:bg-green-700" on:click={nextLevel}>Next Level</button>
     {/if}
   </div>
   

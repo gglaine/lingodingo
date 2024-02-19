@@ -34,9 +34,23 @@
 
 <nav class="bg-gray-100 p-4 shadow-md sticky top-0 z-50 flex items-center justify-between">
   <a href="/" class="flex items-center space-x-3">
-    <img src="/images/logo-new-tp.png" alt="Logo" class="h-12 md:h-24">
+    <img src="/images/logo-new-tp.png" alt="Logo" class="h-24 md:h-32">
     <span class="hidden md:block text-lg md:text-2xl font-bold ml-3">EFEL CENTER</span>
   </a>
+
+    <!-- Desktop Links Visible on Desktop -->
+    <div class="hidden md:flex space-x-4">
+      <a href="/" class="px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">
+        {$t('common.navbar.home')}
+      </a>
+      <a href="/about" class="px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">
+        {$t('common.navbar.about')}
+      </a>
+      <a href="/contact" class="px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">
+        {$t('common.navbar.contact')}
+      </a>
+    </div>
+  
 
   <div class="flex items-center">
     <!-- Language Selection -->
@@ -75,18 +89,6 @@
     </button>
   </div>
 
-  <!-- Desktop Links Visible on Desktop -->
-  <div class="hidden md:flex space-x-4">
-    <a href="/" class="px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">
-      {$t('common.navbar.home')}
-    </a>
-    <a href="/about" class="px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">
-      {$t('common.navbar.about')}
-    </a>
-    <a href="/contact" class="px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">
-      {$t('common.navbar.contact')}
-    </a>
-  </div>
 
   <!-- Mobile Menu Content -->
   {#if $showMenu}
