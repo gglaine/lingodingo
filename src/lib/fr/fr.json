@@ -1,7 +1,7 @@
 {
     "navbar": {
         "home": "Accueil",
-        "about": "La petite story",
+        "about": "Club de Langues",
         "french": "Français",
         "english": "Anglais",
         "contact": "Contact",
@@ -27,13 +27,13 @@
     },
     "modal": {
       "title": "Les cookies et nous",
-      "message": "On utilise des cookies just pour savoir le nombre de visiteurs",
-      "accept": "J'accepte",
+      "message": "On utilise des cookies juste pour savoir le nombre de visiteurs",
+      "accept": "OK",
       "reject": "En savoir plus"
     },
     "homepage": {
       "methodsSection": {
-        "title": "Découvrez votre chemin vers la maîtrise de la langue",
+        "title": "Des méthodes pour tous",
         "description": "Explorez des méthodes innovantes adaptées à votre style d'apprentissage."
       }
     },
@@ -60,9 +60,9 @@
         "contact": "Contact"
     },
     "hero": {
-        "title": "Apprenez, explorez, connectez en Francais et en Anglais",
-        "subtitle": "Méthode E.F.E.L., F.E.E.L. & Learn!",
-        "cta": "Rejoins une session en ligne quand tu veux"
+        "title": "Club d'anglais pour tous ",
+        "subtitle": "Methode E.F.E.L: FEEL and Learn!",
+        "cta": "Let's go ! "
     },
     "cta": {
       "joinNow": "Rejoindre maintenant",

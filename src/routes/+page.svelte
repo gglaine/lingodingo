@@ -42,22 +42,25 @@
   });
 </script>
   
-<div class="container mx-auto p-4">
+<div class="container mx-auto p-0 w-ful">
   <div class="w-full">
     <!-- Hero Section -->
-    <div class="mt-0">
+  
       <Hero />
-    </div>
+
+ 
+        <LanguageCuriosityCard />
 
 
   <div class="mt-8">
     <!-- Featured Methods Section -->
-      <div class="mx-auto transition duration-500 ease-in-out transform hover:scale-105">
+      <div class="mx-auto mt-24 p-12 transition duration-500 ease-in-out transform hover:scale-105">
+        <h2 class="text-5xl font-bold mb-24 tracking-tight leading-none animate-fadeInUp">{$t('common.homepage.methodsSection.title')}</h2>
         <a href="/methods" class="block relative rounded-lg shadow-lg overflow-hidden group">
-          <img src="/images/PALABRES.png" alt="Explore Our Methods" class="w-full h-[48rem] object-cover pb-12">
+          <img src="/images/grid169.png" alt="Explore Our Methods" class="w-full object-contain pb-12">
           <div class="absolute inset-0 bottom-2  bg-opacity-90 flex justify-center items-end">
             <div class="text-center rounded-lg bg-blue-600 opacity-90 text-white p-6">
-              <h2 class="text-5xl font-bold mb-4 tracking-tight leading-none animate-fadeInUp">{$t('common.homepage.methodsSection.title')}</h2>
+
               <p class="text-xl max-w-md mx-auto leading-relaxed animate-fadeInUp">{$t('common.homepage.methodsSection.description')}</p>
             </div>
           </div>
@@ -76,29 +79,46 @@
 
 
 
-  <div class="mt-8 p-8">
-    <LanguageCuriosityCard />
-  </div>
 
 
-
-  <div class="p-4 mt-12">
-    <h2 class="text-2xl font-semibold mb-4">{$t('common.cta.meetPeople')}</h2>
+  <!-- <div class="p-4 mt-12">
+    <div class="w-full flex justify-around items-center p-16">
+      <h2 class="text-2xl font-semibold mb-4">{$t('common.cta.meetPeople')}</h2>
+    </div>
+ 
 
     <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-2">
       {#each countries as country}
       <div class="p-2 border border-gray-300 rounded-lg text-center hover:bg-gray-100">
         <span class="text-6xl block">{country.emoji}</span>
 
-        <!-- Initially hidden, shown on hover -->
-        <span class="text-xl text-black font-bold opacity-0 hover:opacity-100">{country.name}</span>
+     
+        <span class="text-xl text-black font-bold">{country.name}</span>
       </div>
       {/each}
     </div>
-  </div>
+  </div> -->
+
+
+
+
 
   <div class="mt-8 w-full p-8 border-4 border-gold-500 rounded-lg shadow-2xl bg-blue-50 mx-auto text-gray-800">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+
+    <a href="/games/spellingquest" class="bg-white rounded-lg shadow-xl overflow-hidden transform transition duration-300 hover:scale-105">
+      <div class="md:flex">
+          <!-- Image Section -->
+          <div class="md:flex-shrink-0">
+            <h1 class="text-2xl font-bold">Let's Play!</h1>          </div>
+          <!-- Text Section -->
+          <div class="p-6">
+            <p class="text-md mt-2">Fun games to play and learn</p>
+            <p class="mt-2">Create an account to track your progress and share your progress with your friends</p>
+    
+          </div>
+      </div>
+  </a>
       <!-- Spelling Game Card as Link -->
       <a href="/games/spellingquest" class="bg-white rounded-lg shadow-xl overflow-hidden transform transition duration-300 hover:scale-105">
           <div class="md:flex">

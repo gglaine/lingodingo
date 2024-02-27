@@ -6,13 +6,10 @@
   </script>
   
   <main>
-    <header class="text-center mb-8">
-        <h1 class="text-2xl font-bold">Let's Play!</h1>
-        <p class="text-md mt-2">Fun games to play and learn</p>
-        <p class="mt-2">Create an account to track your progress and share your progress with your friends</p>
-    </header>
+
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        
         <!-- Spelling Game Card -->
         <div class="max-w-md mx-auto bg-white rounded-lg shadow-lg overflow-hidden md:flex">
             <!-- Image Section -->

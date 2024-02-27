@@ -4,7 +4,7 @@
 </script>
 
 <main>
-  <div class="w-full bg-slate-200 text-slate-900 text-center p-8">
+  <div class="w-full h-[70vh] flex flex-col items-center justify-center bg-red-700 text-slate-100 text-center p-8">
     <h3 class="font-bold text-2xl md:text-3xl">{$t('common.cta.tagline')}</h3>
     <h3 class="font-bold text-xl md:text-2xl mt-2">{$t('common.cta.slogan')}</h3>
     <p class="mt-4 text-base md:text-lg">{$t('common.cta.methodsDescription')}</p>

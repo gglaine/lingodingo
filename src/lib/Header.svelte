@@ -32,21 +32,25 @@
   });
 </script>
 
-<nav class="bg-gray-100 p-4 shadow-md sticky top-0 z-50 flex items-center justify-between">
+<nav class="p-2 shadow-md sticky top-0 z-50 flex items-center justify-between bg-blue-800 opacity-95 text-white">
   <a href="/" class="flex items-center space-x-3">
-    <img src="/images/logo-new-tp.png" alt="Logo" class="h-24 md:h-32">
-    <span class="hidden md:block text-lg md:text-2xl font-bold ml-3">EFEL CENTER</span>
+    <img src="/images/efel2024.webp" alt="Logo" class="h-12 md:h-12 rounded-full">
+    <span class="hidden md:block text-md md:text-lg font-thin ml-3">EFELCENTER</span>
   </a>
 
     <!-- Desktop Links Visible on Desktop -->
-    <div class="hidden md:flex space-x-4">
-      <a href="/" class="px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">
-        {$t('common.navbar.home')}
+    <div class="hidden md:flex space-x-4 text-slate-100"> 
+  
+      <a href="/" class="px-3 py-2 rounded-sm text-sm font-light  hover:border-b-3 hover:border-red-500">
+        Qui sommes-nous ?
       </a>
-      <a href="/about" class="px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">
+      <a href="/" class="px-3 py-2 rounded-md text-sm font-light hover:border-b-3  hover:bg-red-500">
+        Business English
+      </a>
+      <a href="/about" class="px-3 py-2 rounded-md text-sm font-light hover:border-b-3  hover:bg-red-500">
         {$t('common.navbar.about')}
       </a>
-      <a href="/contact" class="px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">
+      <a href="/contact" class="px-3 py-2 rounded-md text-sm font-light hover:border-b-3  hover:bg-red-500">
         {$t('common.navbar.contact')}
       </a>
     </div>
@@ -59,16 +63,16 @@
         {#if $selectedLocale === 'en'}
           🇬🇧 🇺🇸 English
         {:else}
-          🥐 🇫🇷 Français
+          🥐 🇫🇷 FR
         {/if}
       </button>
       {#if $showOptions}
-        <div class="absolute mt-2 py-1 w-48 bg-white rounded-md shadow-lg z-10">
+        <div class="absolute mt-2 py-1 w-24 bg-white rounded-md shadow-lg z-10">
           <button on:click={() => selectLocale('en')} class="block px-4 py-2 text-left text-sm text-gray-700 hover:bg-blue-50">
-            🇬🇧 🇺🇸 English
+            🇬🇧 🇺🇸 EN
           </button>
           <button on:click={() => selectLocale('fr')} class="block px-4 py-2 text-left text-sm text-gray-700 hover:bg-blue-50">
-            🥐 🇫🇷 Français
+            🥐 🇫🇷 FR
           </button>
         </div>
       {/if}
@@ -76,10 +80,17 @@
 
     <!-- Sign In / Up Link Visible on All Views -->
     {#if !$isUserLoggedIn}
-      <a href="/signin" class="px-4 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">
+      <a href="/signin" class="px-4 py-2 rounded-md text-base font-medium text-gray-100 hover:bg-blue-600">
         Sign In
       </a>
     {/if}
+    {#if $isUserLoggedIn}
+
+    <div class="relative w-10 h-10 overflow-hidden bg-gray-100 rounded-full dark:bg-gray-600">
+      <svg class="absolute w-12 h-12 text-gray-400 -left-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path></svg>
+  </div>
+  
+  {/if}
 
     <!-- Hamburger Menu Icon for Mobile -->
     <button on:click={toggleMenu} class="ml-3 md:hidden p-2 text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">

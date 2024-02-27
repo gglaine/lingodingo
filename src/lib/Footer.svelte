@@ -2,7 +2,7 @@
   import { t, locale } from '$lib'; // Import necessary functions or stores
 </script>
 
-<footer class="bg-gray-100 text-gray-800 py-8">
+<footer class="bg-blue-600 text-gray-200 py-8">
   <div class="container mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex flex-wrap justify-between items-center">
       <!-- Logo and Quick Links -->

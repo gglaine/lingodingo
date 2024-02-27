@@ -17,7 +17,7 @@
     });
   </script>
   
-  <div class="w-full min-h-[500px] p-8 mx-auto bg-white rounded-xl shadow-md overflow-hidden ">
+  <div class="w-full mt-48 min-h-[500px] p-8 mx-auto bg-white rounded-xl shadow-md overflow-hidden ">
     <div class="text-center my-8">
       <div class="text-9xl mx-auto">🌎</div>
       <h2 class="text-4xl font-bold mt-4">A World of Learning</h2>
