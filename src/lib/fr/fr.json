@@ -7,7 +7,21 @@
         "contact": "Contact",
         "fr": "",
         "en": "",
-        "signInUp": "Connexion"
+        "signInUp": "Connexion",
+        "businessLanguage": "Anglais pro",
+        "whoWeAre": "Qui sommes-nous ?"
+    },
+    "cookies": {
+      "title": "Cookies",
+      "notice": "En poursuivant votre navigation sur le site, vous acceptez l'utilisation de cookies, qui permettent de personnaliser votre expérience et de mesurer la fréquentation des services. Cliquez pour fermer.",
+      "accept": "Accepter",
+      "more": "En savoir plus"
+    },
+    "games": {
+      "letsPlay": "On joue ?",
+      "playAndLearn": "Jouons et apprenons",
+      "tagline": "Des jeux fun pour progresser en anglais",
+      "spellingGame": "Saurez vous épeller correctement et atteindre relever le challenge"
     },
     "gamePhoneticPairing": {
       "title": "Jeu d'appariement phonétique",
@@ -57,7 +71,9 @@
     },
     "footer": {
         "follow": "Suivez-nous",
-        "contact": "Contact"
+        "contact": "Contact",
+        "rightsReserved": "Tous droits réservés",
+        "essCompany": "EFELCenter est une entreprise agrée ESS (Économie Sociale et Solidaire)"
     },
     "hero": {
         "title": "Club d'anglais pour tous ",
@@ -65,6 +81,7 @@
         "cta": "Let's go ! "
     },
     "cta": {
+      "followUs": "Suivez-nous",
       "joinNow": "Rejoindre maintenant",
       "joinNextSession": "Rejoindre une session en ligne",
       "learnMore": "En savoir plus",

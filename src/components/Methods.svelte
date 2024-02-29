@@ -3,7 +3,7 @@
   import methodsData from '$lib/methodsData';
 </script>
 
-<div class="grid p-8 mt-24 grid-cols-1 md:grid-cols-2 gap-4">
+<div class="grid p-8 grid-cols-1 md:grid-cols-2 gap-4">
   {#each methodsData as method}
     <a href={`/methods/${method.id}`} class="no-underline">
       <div class="flex flex-col md:flex-row bg-white shadow-md rounded-lg overflow-hidden hover:bg-gray-100">

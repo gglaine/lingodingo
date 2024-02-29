@@ -7,7 +7,21 @@
         "contact": "Contact Us",
         "fr": "",
         "en": "",
-        "signInUp": "Sign in"
+        "signInUp": "Sign in",
+        "businessLanguage": "Business English",
+        "whoWeAre": "Who are we ?"
+    },
+    "cookies": {
+      "title": "Cookies",
+      "notice": "By continuing to browse the site, you accept the use of cookies, which allow us to personalize your experience and measure the attendance of services. Click to close.",
+      "accept": "Accept",
+      "more": "Learn more"
+    },
+    "games": {
+      "letsPlay": "Let's Play",
+      "playAndLearn": "Play and Learn to win twice",
+      "tagline": "Fun games to get better at French",
+      "spellingGame": "Calling out all the spelling bees"
     },
     "gamePhoneticPairing": {
       "title": "Phonetic Pairing Game",
@@ -58,14 +72,17 @@
     },
     "footer": {
         "follow": "Follow Us",
-        "contact": "Contact Us"
+        "contact": "Contact Us",
+        "rightsReserved": "All rights reserved",
+        "essCompany": "EFELCenter is an approved socially responsible company"
     },
     "hero": {
-        "title": "Learn, Explore and Connect In French and English",
-        "subtitle": "F.E.E.L. the learn!",
+        "title": "Learn, Explore, Connect In French and English",
+        "subtitle": "F.E.E.L. the Learn!",
         "cta": "Join a session online "
     },
     "cta": {
+      "followUs": "Follow us",
       "joinNow": "Join Now",
       "joinNextSession": "Join a Session",
       "learnMore": "Learn More",

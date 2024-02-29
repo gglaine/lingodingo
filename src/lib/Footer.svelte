@@ -19,7 +19,7 @@
 
       <!-- Social Media Links -->
       <div class="w-full lg:w-1/4">
-        <h5 class="uppercase mb-4 font-bold text-sm">Suivez nous</h5>
+        <h5 class="uppercase mb-4 font-bold text-sm">{$t('common.cta.followUs')}</h5>
         <ul class="flex items-center justify-center lg:justify-start space-x-4">
           <li>
             <a href="https://www.facebook.com/YourPage" class="text-gray-800 hover:bg-gray-200 rounded-lg p-2 transition-colors duration-300">
@@ -42,9 +42,10 @@
 
     <!-- Copyright and Legal Text -->
     <div class="text-center mt-8 text-sm">
-      <p>Agrée ESS - Entreprise Sociale et Solidaire</p>
-      <p>© {new Date().getFullYear()} Tous droits réservés EFEL CENTER</p>
-      <p>Design by G.</p>
+      <p>{$t('common.footer.essCompany')} </p>
+      <p>© {new Date().getFullYear()} {$t('common.footer.home')} EFEL CENTER</p>
+      <p class="text-sm text-gray-600">Site by <a href="https://guillaumelaine.com" class="text-blue-500 hover:text-blue-600" target="_blank" rel="noopener noreferrer">GUI.OM</a></p>
+
     </div>
   </div>
 </footer>

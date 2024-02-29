@@ -42,10 +42,10 @@
     <div class="hidden md:flex space-x-4 text-slate-100"> 
   
       <a href="/" class="px-3 py-2 rounded-sm text-sm font-light  hover:border-b-3 hover:border-red-500">
-        Qui sommes-nous ?
+        {$t('common.navbar.whoWeAre')}
       </a>
       <a href="/" class="px-3 py-2 rounded-md text-sm font-light hover:border-b-3  hover:bg-red-500">
-        Business English
+        {$t('common.navbar.businessLanguage')}
       </a>
       <a href="/about" class="px-3 py-2 rounded-md text-sm font-light hover:border-b-3  hover:bg-red-500">
         {$t('common.navbar.about')}
