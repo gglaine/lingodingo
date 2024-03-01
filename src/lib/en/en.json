@@ -11,6 +11,11 @@
         "businessLanguage": "Business English",
         "whoWeAre": "Who are we ?"
     },
+    "joinConversation": {
+      "header": "Hey I'm Pape and my mission is to make you speak french ",
+      "content": "Access online-courses, gaming sessions, go at your pace, exchange with people from all over the world who speak french ",
+      "button": "Let's chat on whatsapp ! "
+    },
     "cookies": {
       "title": "Cookies",
       "notice": "By continuing to browse the site, you accept the use of cookies, which allow us to personalize your experience and measure the attendance of services. Click to close.",

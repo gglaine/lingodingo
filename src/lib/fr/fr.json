@@ -11,6 +11,11 @@
         "businessLanguage": "Anglais pro",
         "whoWeAre": "Qui sommes-nous ?"
     },
+    "joinConversation": {
+      "header": "Hey c'est Pape, j'ai crée EFELcenter à Nanterre en 2010 pour aider les jeunes et moins jeunes à parler anglais",
+      "content": "Aujourd'hui la méthode Efel est accessible pour tous. Choisissez les méthodes qui vous feront progresser, inscrivez vous aux ateliers thématiques, rencontrez des gens du monde entier   ",
+      "button": "Rejoins la conversation sur whatsapp "
+    },
     "cookies": {
       "title": "Cookies",
       "notice": "En poursuivant votre navigation sur le site, vous acceptez l'utilisation de cookies, qui permettent de personnaliser votre expérience et de mesurer la fréquentation des services. Cliquez pour fermer.",
@@ -47,8 +52,8 @@
     },
     "homepage": {
       "methodsSection": {
-        "title": "Des méthodes pour tous",
-        "description": "Explorez des méthodes innovantes adaptées à votre style d'apprentissage."
+        "title": "Découvrez les méthodes qui vous font progresser",
+        "description": "Jouez avec les mots, les sons, les accents, découvrez des exonymes, apprenez en vous amusant en choisissant les méthodes qui vous font progresser"
       }
     },
     "scrollIndicator": { 

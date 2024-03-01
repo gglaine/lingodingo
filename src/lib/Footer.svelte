@@ -2,7 +2,7 @@
   import { t, locale } from '$lib'; // Import necessary functions or stores
 </script>
 
-<footer class="bg-blue-600 text-gray-200 py-8">
+<footer class="bg-blue-600 text-gray-200 py-8" style="background-image: url('/images/flags_pattern.png'); background-size: cover; background-position: top; opacity: 0.9; background-repeat: no-repeat;">
   <div class="container mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex flex-wrap justify-between items-center">
       <!-- Logo and Quick Links -->

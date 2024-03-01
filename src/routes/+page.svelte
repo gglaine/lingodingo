@@ -42,18 +42,38 @@
   });
 </script>
   
-<div class="container mx-auto p-0 w-ful">
-  <div class="w-full">
+<div class="container p-0 w-full">
+  <div class="w-full p-0 scroll-py-4 m-0">
     <Hero />
-    <LanguageCuriosityCard />
-    <div class="mt-8">
+
+  
+  </div>
+
+  <div class="mt-8 p-6 w-full">
+    <div class="flex bg-white rounded-lg border border-gray-200 shadow-md overflow-hidden">
+        <div class="flex flex-col md:flex-row items-center p-4 opacity-85">
+            <img class="w-24 h-24 opacity-1 rounded-full mr-3 mb-4 md:mb-0" src="/images/teachers/pape.jpg" alt="Avatar">
+            <div class="flex-1">
+                <h5 class="text-lg font-medium">{$t('common.joinConversation.header')}</h5>
+                <p class="text-sm text-gray-500">{$t('common.joinConversation.content')}</p>
+            </div>
+            <div class="flex flex-col md:flex-row justify-between items-center md:items-center p-4">
+                <button class="px-4 py-2 text-slate-800 text-sm font-medium rounded hover:bg-blue-600 mb-4 md:mb-0 md:mr-4">{$t('common.joinConversation.button')}</button>
+                <img class="w-12 h-12 rounded-full" src="/images/whatsapp.png" alt="WhatsApp Icon">
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="mt-8 p-4">
       <!-- Featured Methods Section -->
-        <div class="mx-auto mt-24 p-12 transition duration-500 ease-in-out transform hover:scale-105">
-          <h2 class="text-5xl font-bold mb-24 tracking-tight leading-none animate-fadeInUp">{$t('common.homepage.methodsSection.title')}</h2>
+        <div class="mx-auto overflow-visible mt-24 p-4 transition duration-500 ease-in-out transform hover:scale-105">
+          <h2 class="text-5xl font-bold max-w-[1/2] mb-12 tracking-tight leading-none animate-fadeInUp">🚀 {$t('common.homepage.methodsSection.title')}</h2>
           <a href="/methods" class="block relative rounded-lg shadow-lg overflow-hidden group">
-            <img src="/images/grid169.png" alt="Explore Our Methods" class="w-full object-contain pb-12">
-            <div class="absolute inset-0 bottom-2  bg-opacity-90 flex justify-center items-end">
-              <div class="text-center rounded-lg bg-blue-600 opacity-90 text-white p-6">
+            <img src="/images/grid_methods_980.png" alt="Explore Our Methods" class="w-full object-contain pb-12">
+            <div class="absolute inset-12 top-[150%]  bg-opacity-90 flex justify-center items-end">
+              <div class="text-center font-light rounded-lg bg-red-600 opacity-90 text-white p-6">
                 <p class="text-xl max-w-md mx-auto leading-relaxed animate-fadeInUp">{$t('common.homepage.methodsSection.description')}</p>
               </div>
             </div>
@@ -81,21 +101,9 @@
   </div> -->
 
   <div class="mt-8 w-full p-8 border-4 border-gold-500 rounded-lg shadow-2xl bg-blue-50 mx-auto text-gray-800">
+    <h2 class="text-5xl text-left font-bold text-slate-800 mb-12">{$t('common.games.playAndLearn')}</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
-      <a href="/games/spellingquest" class="bg-white rounded-lg shadow-xl overflow-hidden transform transition duration-300 hover:scale-105">
-        <div class="flex">
-            <!-- Image Section -->
-            <div class="md:flex-shrink-0 flex flex-col justify-around items-center">
-              <h1 class="text-2xl mt-4 font-bold">{$t('common.games.letsPlay')}</h1>          
-      
-            <!-- Text Section -->
-            <div class="p-6">
-              <p class="text-md mt-2">{$t('common.games.playAndLearn')}</p>
-              <p class="mt-2">{$t('common.games.tagline')}</p>
-            </div>
-          </div>
-        </div>
-      </a>
+
       <!-- Spelling Game Card as Link -->
       <a href="/games/spellingquest" class="bg-white rounded-lg shadow-xl overflow-hidden transform transition duration-300 hover:scale-105">
         <div class="md:flex">
@@ -125,7 +133,11 @@
       </a>
     </div>
   </div>
-  <div class="mt-8">
+
+  <div class="mt-8 p-12">
+   <LanguageCuriosityCard />
+  </div>
+  <div class="mt-8 p-12">
     <Sponsors />
   </div>
 </div>
@@ -186,8 +198,6 @@
       transform: translateY(0);
     }
   }
-  .transition-opacity {
-    transition: opacity 0.5s ease-in-out;
-  }
+
 
   </style>

@@ -1,11 +1,11 @@
 <script lang="ts">
-    import { onMount, onDestroy } from 'svelte';
+    import { onMount, onDestroy, tick } from 'svelte';
+    import type { FirebaseApp } from 'firebase/app'; // Ensure proper TypeScript imports
     import { getAuth, EmailAuthProvider } from 'firebase/auth';
     import app from '../../firebaseConfig'; // Adjust the path as needed
 
-    // FirebaseUI import
-    import * as firebaseui from 'firebaseui'
-    import 'firebaseui/dist/firebaseui.css'
+    // FirebaseUI import dynamically to avoid SSR issues
+    let firebaseui: any;
 
     let ui: firebaseui.auth.AuthUI | null = null;
     let showSignUp = false; // Toggle this based on your application logic
@@ -21,10 +21,11 @@
 
     onMount(async () => {
         if (typeof window !== 'undefined') {
-            const firebaseui = await import('firebaseui');
-         
+            // Import firebaseui only if window is defined (client-side)
+            firebaseui = await import('firebaseui');
 
-            const auth = getAuth(app); // Initialize Firebase Auth
+            const auth = getAuth(app as FirebaseApp); // Correctly typecast your Firebase app instance
+
             ui = new firebaseui.auth.AuthUI(auth);
 
             const uiConfig: firebaseui.auth.Config = {
@@ -39,8 +40,12 @@
                     },
                 },
             };
-
+            await tick(); // Ensures the DOM is updated
+        if (ui && document.querySelector('#firebaseui-auth-container')) {
             ui.start('#firebaseui-auth-container', uiConfig);
+        } else {
+            console.error('FirebaseUI container not found');
+        }
         }
     });
 
@@ -48,27 +53,22 @@
         ui?.delete();
     });
 
-    // Function to toggle the sign-in and sign-up view
     function toggleView() {
         showSignUp = !showSignUp;
     }
 </script>
 
-
-<!-- Conditional rendering based on showSignUp -->
-{#if showSignUp}
-    <div class="w-full p-12">
-        <!-- Custom Sign Up Form -->
-        <h2>Sign Up</h2>
-        <!-- Add your sign-up form here -->
-        <button on:click={toggleView}>Already have an account? Sign In</button>
-    </div>
-{:else}
-    <div>
-        <!-- FirebaseUI Sign In Container -->
-        <h2>Sign In</h2>
-        <div id="firebaseui-auth-container"></div>
-        <button on:click={toggleView}>Need an account? Sign Up</button>
-    </div>
-{/if}
-
+<div>
+    {#if showSignUp}
+        <div class="w-full p-12" style="height: 70vh; background-image: url('/images/walkny.webp'); background-size: cover; background-position: top; opacity: 0.9; background-repeat: no-repeat;">
+            <h2>Sign Up</h2>
+            <!-- Your custom sign-up form goes here -->
+            <button on:click={toggleView}>Already have an account? Sign In</button>
+        </div>
+    {:else}
+        <div class="w-full flex flex-col justify-around" style="height: 70vh; background-image: url('/images/walkny.webp'); background-size: cover; background-position: top; opacity: 0.9; background-repeat: no-repeat;">
+            <div id="firebaseui-auth-container"></div>
+            <button on:click={toggleView}>Need an account? Sign Up</button>
+        </div>
+    {/if}
+</div>

@@ -1,3 +1,4 @@
+@import 'firebaseui/dist/firebaseui.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

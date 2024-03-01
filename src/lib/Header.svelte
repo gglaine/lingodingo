@@ -32,42 +32,49 @@
   });
 </script>
 
-<nav class="p-2 shadow-md sticky top-0 z-50 flex items-center justify-between bg-blue-800 opacity-95 text-white">
-  <a href="/" class="flex items-center space-x-3">
-    <img src="/images/efel2024.webp" alt="Logo" class="h-12 md:h-12 rounded-full">
-    <span class="hidden md:block text-md md:text-lg font-thin ml-3">EFELCENTER</span>
-  </a>
+<nav class="px-4 mt-4 py-2 bg-slate-50 mb-0 h-16 shadow-md overflow-visible sticky top-0 z-50 flex items-center justify-between text-white" style=" background-size: cover; opacity: 0.9; background-position: center;  background-repeat: no-repeat;">
+  <a href="/" class="flex h-8  rounded-md items-center space-x-3  text-slate-800 font-thin pr-2">
+    <div class=" h-16 w-16 bg-white  rounded-lg overflow-hidden flex items-center justify-center">
+        <img src="/images/club.png" alt="Logo" class="object-cover h-full">
+    </div>
+    <span class="hidden md:block  text-md md:text-md font-medium ml-3">EFELCENTER</span>
+</a>
+
 
     <!-- Desktop Links Visible on Desktop -->
-    <div class="hidden md:flex space-x-4 text-slate-100"> 
+    <div class="hidden md:flex space-x-4 text-slate-800 opacity-100"> 
   
-      <a href="/" class="px-3 py-2 rounded-sm text-sm font-light  hover:border-b-3 hover:border-red-500">
-        {$t('common.navbar.whoWeAre')}
-      </a>
-      <a href="/" class="px-3 py-2 rounded-md text-sm font-light hover:border-b-3  hover:bg-red-500">
-        {$t('common.navbar.businessLanguage')}
-      </a>
-      <a href="/about" class="px-3 py-2 rounded-md text-sm font-light hover:border-b-3  hover:bg-red-500">
-        {$t('common.navbar.about')}
-      </a>
-      <a href="/contact" class="px-3 py-2 rounded-md text-sm font-light hover:border-b-3  hover:bg-red-500">
-        {$t('common.navbar.contact')}
-      </a>
+      <a href="/" class="px-3 py-2 mr-1 text-sm font-bold hover:border-b-2 hover:border-red-500">
+        ( {$t('common.navbar.whoWeAre')} )
+    </a>
+  
+  <a href="/" class="px-3 py-2 mr-1 text-sm font-bold hover:border-b-2 hover:border-red-500">
+    {$t('common.navbar.businessLanguage')}
+</a>
+<a href="/" class="px-3 py-2 mr-1 text-sm font-bold hover:border-b-2 hover:border-red-500">
+  Soutien scolaire
+</a>
+<a href="/about" class="px-3 py-2 mr-1 text-sm font-bold hover:border-b-2 hover:border-red-500">
+    {$t('common.navbar.about')} international
+</a>
+<a href="/contact" class="px-3 py-2 mr-1 text-sm font-bold hover:border-b-2 hover:border-red-500">
+    {$t('common.navbar.contact')}
+</a>
     </div>
   
 
   <div class="flex items-center">
     <!-- Language Selection -->
     <div class="relative mr-3">
-      <button on:click={toggleOptions} class="px-4 py-2 bg-white rounded-md shadow text-sm font-medium text-gray-700 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 transition ease-in-out duration-300">
+      <button on:click={toggleOptions} class="px-4 py-2 bg-blue-500 rounded-md shadow text-sm font-thin text-gray-700 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 transition ease-in-out duration-300">
         {#if $selectedLocale === 'en'}
-          🇬🇧 🇺🇸 English
+          🇬🇧 🇺🇸 EN
         {:else}
           🥐 🇫🇷 FR
         {/if}
       </button>
       {#if $showOptions}
-        <div class="absolute mt-2 py-1 w-24 bg-white rounded-md shadow-lg z-10">
+        <div class="absolute mt-2 py-1 w-24 bg-white opacity-85 rounded-md shadow-lg z-10">
           <button on:click={() => selectLocale('en')} class="block px-4 py-2 text-left text-sm text-gray-700 hover:bg-blue-50">
             🇬🇧 🇺🇸 EN
           </button>
@@ -80,7 +87,7 @@
 
     <!-- Sign In / Up Link Visible on All Views -->
     {#if !$isUserLoggedIn}
-      <a href="/signin" class="px-4 py-2 rounded-md text-base font-medium text-gray-100 hover:bg-blue-600">
+      <a href="/signin" class="px-4 py-2 rounded-md text-base font-thin text-gray-100 bg-red-500 p-4 hover:bg-blue-600">
         Sign In
       </a>
     {/if}
