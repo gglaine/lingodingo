@@ -114,7 +114,8 @@ function handleKeydown(event: KeyboardEvent, videoUrl: string) {
   </style>
   
   <div class="container mx-auto py-12">
-    <h2 class="text-5xl text-left font-bold text-slate-800 mb-12">{$t('common.sections.teachers')}</h2>
+    <h2 class="text-5xl text-left font-bold text-slate-800 mb-4">{$t('common.sections.teachers')}</h2>
+    <h3 class="mb-8 text-2xl">Des profs de tous les pays avec tous les accents et pour tous les niveaux</h3>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       {#each teachers as teacher}
         <div class="relative bg-white rounded-lg shadow-lg overflow-hidden">

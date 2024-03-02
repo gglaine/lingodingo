@@ -2,14 +2,14 @@
   import { t } from '$lib';
 </script>
 <!-- Use viewport width for full screen width -->
-<div class="hero overflow-hidden relative flex -mt-24 flex-col mb-8 items-center justify-around" style="height: 100vh; width: 100vw; background-image: url('/images/flashy-rm.png'); background-size: cover; background-position: top; opacity: 0.9; background-repeat: no-repeat;">
+<div class="hero bg-emerald-950 overflow-hidden relative flex -mt-24 flex-col mb-8 items-center justify-around" style="height: 100vh; width: 100vw; background-image: url('/images/flashy-rm.png'); background-size: cover; background-position: top; opacity: 0.9; background-repeat: no-repeat;">
 
   <div class="bg-red-600 w-52 overflow-visible bg-opacity-90 items-center justify-around flex flex-col p-8 rounded-md shadow-xl">
     <h1 class="text-2xl font-bold text-center text-slate-100 mb-4">{$t('common.hero.title')}</h1>
     <button type="button" class=" bg-yellow-500 rounded-full w-42 relative ml-auto mx-auto flex flex-col justify-center items-center  p-4 border border-transparent shadow-lg transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-offset-2">
-      <span class="p-2 text-center font-bold">
+      <!-- <span class="p-2 text-center font-bold">
         {$t('common.hero.cta')}
-      </span>
+      </span> -->
       <span class="mr-2 mb-2 absolute top-12 text-center font-light text-4xl">
         🤗
       </span>

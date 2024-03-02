@@ -20,15 +20,17 @@
   <div class="w-full mt-48 min-h-[500px] p-8 mx-auto bg-white rounded-xl shadow-md overflow-hidden ">
     <div class="text-center my-8">
       <div class="text-9xl mx-auto">🌎</div>
-      <h2 class="text-4xl font-bold mt-4">A World of Learning</h2>
+      <h2 class="text-4xl font-bold mt-4 mb-2">Learn A Word of English A Day</h2>
+
     </div>
     <div class="flex flex-col mx-auto items-center text-center">
      
-        <div class="uppercase tracking-wide text-md text-indigo-500 italic serif font-semibold">{randomCuriosity.country}</div>
+
      
         <p class="mt-2 text-slate-800 font-serif font-bold text-6xl">
         "{randomCuriosity.word.word}"
         </p>
+        <div class="uppercase tracking-wide text-2xl text-indigo-500 italic serif font-semibold">Let's learn {randomCuriosity.country} today</div>
         <p class="italic font-light text-2xl">
           {randomCuriosity.word.meaning}
         </p>

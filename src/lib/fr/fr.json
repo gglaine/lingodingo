@@ -7,14 +7,14 @@
         "contact": "Contact",
         "fr": "",
         "en": "",
-        "signInUp": "Connexion",
+        "signIn": "Connexion",
         "businessLanguage": "Anglais pro",
         "whoWeAre": "Qui sommes-nous ?"
     },
     "joinConversation": {
-      "header": "Hey c'est Pape, j'ai crée EFELcenter à Nanterre en 2010 pour aider les jeunes et moins jeunes à parler anglais",
-      "content": "Aujourd'hui la méthode Efel est accessible pour tous. Choisissez les méthodes qui vous feront progresser, inscrivez vous aux ateliers thématiques, rencontrez des gens du monde entier   ",
-      "button": "Rejoins la conversation sur whatsapp "
+      "header": "Hey c'est Pape, j'ai crée EFELCenter à Nanterre en 2010 pour aider les jeunes et moins jeunes à parler anglais",
+      "content": "Aujourd'hui la méthode développér par l'association EfelCenter est accessible pour tous. Jouez a des jeux, inscrivez vous aux ateliers thématiques, rencontrez des gens du monde entier tout en vous amusant.   ",
+      "button": "Rejoins #efelcenter sur Whatsapp pour poser tes questions et avoir les dernières news "
     },
     "cookies": {
       "title": "Cookies",
@@ -24,7 +24,7 @@
     },
     "games": {
       "letsPlay": "On joue ?",
-      "playAndLearn": "Jouons et apprenons",
+      "playAndLearn": "Des jeux pour progresser en s'amusant",
       "tagline": "Des jeux fun pour progresser en anglais",
       "spellingGame": "Saurez vous épeller correctement et atteindre relever le challenge"
     },
@@ -52,7 +52,7 @@
     },
     "homepage": {
       "methodsSection": {
-        "title": "Découvrez les méthodes qui vous font progresser",
+        "title": "Chacun sa méthode pour décoller plus vite",
         "description": "Jouez avec les mots, les sons, les accents, découvrez des exonymes, apprenez en vous amusant en choisissant les méthodes qui vous font progresser"
       }
     },
@@ -114,7 +114,7 @@
         "methods": "Choissisez la méthode qui vous fait avancer",
         "sessions": "Des ateliers pour tous",
         "sponsors": "Partenaires",
-        "teachers": "Connectez-vous avec les accents du monde entier"
+        "teachers": "Des profs avec des accents du monde entier"
       },
     "methods": {
         "clt": {

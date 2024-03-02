@@ -2,9 +2,9 @@
   import { t, locale } from '$lib'; // Import necessary functions or stores
 </script>
 
-<footer class="bg-blue-600 text-gray-200 py-8" style="background-image: url('/images/flags_pattern.png'); background-size: cover; background-position: top; opacity: 0.9; background-repeat: no-repeat;">
-  <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex flex-wrap justify-between items-center">
+<footer class="relative text-gray-200 py-8 overflow-hidden bg-blue-600" style="background-image: url('/images/flags_pattern.png'); background-size: cover; background-position: top; background-repeat: no-repeat;">
+  <div class="absolute inset-0 bg-gradient-to-r from-blue-800 to-blue-600 opacity-75"></div>
+  <div class="relative z-10 max-w-6xl mx-auto px-4">
       <!-- Logo and Quick Links -->
       <div class="w-full lg:w-1/4 mb-6 lg:mb-0">
         <a href="/" class="flex items-center justify-center lg:justify-start mb-4">
@@ -47,5 +47,5 @@
       <p class="text-sm text-gray-600">Site by <a href="https://guillaumelaine.com" class="text-blue-500 hover:text-blue-600" target="_blank" rel="noopener noreferrer">GUI.OM</a></p>
 
     </div>
-  </div>
+  
 </footer>

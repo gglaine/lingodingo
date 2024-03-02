@@ -44,7 +44,7 @@
     <!-- Desktop Links Visible on Desktop -->
     <div class="hidden md:flex space-x-4 text-slate-800 opacity-100"> 
   
-      <a href="/" class="px-3 py-2 mr-1 text-sm font-bold hover:border-b-2 hover:border-red-500">
+      <a href="/about" class="px-3 py-2 mr-1 text-sm font-bold hover:border-b-2 hover:border-red-500">
         ( {$t('common.navbar.whoWeAre')} )
     </a>
   
@@ -54,8 +54,8 @@
 <a href="/" class="px-3 py-2 mr-1 text-sm font-bold hover:border-b-2 hover:border-red-500">
   Soutien scolaire
 </a>
-<a href="/about" class="px-3 py-2 mr-1 text-sm font-bold hover:border-b-2 hover:border-red-500">
-    {$t('common.navbar.about')} international
+<a href="/calendar" class="px-3 py-2 mr-1 text-sm font-bold hover:border-b-2 hover:border-red-500">
+    Calendrier
 </a>
 <a href="/contact" class="px-3 py-2 mr-1 text-sm font-bold hover:border-b-2 hover:border-red-500">
     {$t('common.navbar.contact')}
@@ -88,7 +88,7 @@
     <!-- Sign In / Up Link Visible on All Views -->
     {#if !$isUserLoggedIn}
       <a href="/signin" class="px-4 py-2 rounded-md text-base font-thin text-gray-100 bg-red-500 p-4 hover:bg-blue-600">
-        Sign In
+        {$t('common.navbar.signIn')}
       </a>
     {/if}
     {#if $isUserLoggedIn}
