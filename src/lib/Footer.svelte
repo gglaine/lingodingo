@@ -1,51 +1,41 @@
-<script lang='ts'>
-  import { t, locale } from '$lib'; // Import necessary functions or stores
-</script>
+<footer class="bg-slate-800 text-white py-12">
+  <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+    <!-- Logo and company name -->
+    <div class="mb-6 md:mb-0">
+      <a href="/" class="flex justify-center md:justify-start items-center space-x-3 py-5">
+        <div class="h-12 w-12 bg-white rounded-full overflow-hidden flex items-center justify-center">
+          <img src="/images/efel2024-rm.png" alt="Logo" class="object-cover h-full">
+        </div>
+        <span class="text-md md:text-lg font-medium text-white">EFELCENTER</span>
+      </a>
+    </div>
 
-<footer class="relative text-gray-200 py-8 overflow-hidden bg-blue-600" style="background-image: url('/images/flags_pattern.png'); background-size: cover; background-position: top; background-repeat: no-repeat;">
-  <div class="absolute inset-0 bg-gradient-to-r from-blue-800 to-blue-600 opacity-75"></div>
-  <div class="relative z-10 max-w-6xl mx-auto px-4">
-      <!-- Logo and Quick Links -->
-      <div class="w-full lg:w-1/4 mb-6 lg:mb-0">
-        <a href="/" class="flex items-center justify-center lg:justify-start mb-4">
-          <img src="/images/logo-new-tp.png" alt="Logo" class="h-12 w-auto">
-        </a>
-        <ul class="text-sm space-y-2">
-          <li><a href="/home" class="hover:text-blue-500 transition-colors duration-300">{$t('common.navbar.home')}</a></li>
-          <li><a href="/about" class="hover:text-blue-500 transition-colors duration-300">{$t('common.navbar.about')}</a></li>
-          <li><a href="/contact" class="hover:text-blue-500 transition-colors duration-300">Contact</a></li>
-        </ul>
+    <!-- Navigation Links -->
+    <div class="flex flex-col justify-between items-center md:items-start">
+      <div class="mb-6">
+        <a href="/about" class="block px-3 py-2 text-sm font-bold hover:text-yellow-400">CGU</a>
+        <a href="/contact" class="block px-3 py-2 text-sm font-bold hover:text-yellow-400">Contact</a>
       </div>
+    </div>
 
-      <!-- Social Media Links -->
-      <div class="w-full lg:w-1/4">
-        <h5 class="uppercase mb-4 font-bold text-sm">{$t('common.cta.followUs')}</h5>
-        <ul class="flex items-center justify-center lg:justify-start space-x-4">
-          <li>
-            <a href="https://www.facebook.com/YourPage" class="text-gray-800 hover:bg-gray-200 rounded-lg p-2 transition-colors duration-300">
-              <i class="fab fa-facebook-f"></i> <!-- Ensure you have FontAwesome or similar -->
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/YourUsername" class="text-gray-800 hover:bg-gray-200 rounded-lg p-2 transition-colors duration-300">
-              <i class="fab fa-instagram"></i> <!-- FontAwesome icon -->
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/YourChannel" class="text-gray-800 hover:bg-gray-200 rounded-lg p-2 transition-colors duration-300">
-              <i class="fab fa-youtube"></i> <!-- FontAwesome icon -->
-            </a>
-          </li>
-        </ul>
-      </div>
+    <!-- Social Media Links -->
+    <div class="flex justify-center space-x-4">
+      <a href="https://www.youtube.com/YourChannel" class="inline-block text-3xl text-yellow-400 hover:text-white">
+        <i class="fab fa-youtube"></i>
+      </a>
+      <a href="https://wa.me/YourNumber" class="inline-block text-3xl text-green-400 hover:text-white">
+        <i class="fab fa-whatsapp"></i>
+      </a>
     </div>
 
     <!-- Copyright and Legal Text -->
-    <div class="text-center mt-8 text-sm">
-      <p>{$t('common.footer.essCompany')} </p>
-      <p>© {new Date().getFullYear()} {$t('common.footer.home')} EFEL CENTER</p>
-      <p class="text-sm text-gray-600">Site by <a href="https://guillaumelaine.com" class="text-blue-500 hover:text-blue-600" target="_blank" rel="noopener noreferrer">GUI.OM</a></p>
-
+    <div class="mt-8 md:mt-0 text-center md:text-left">
+      <p class="text-sm">&copy; {new Date().getFullYear()} EFELCENTER. All Rights Reserved.</p>
+      <p class="text-xs text-gray-300">Site by <a href="https://guillaumelaine.com" class="hover:text-white" target="_blank" rel="noopener noreferrer">GUI.OM</a></p>
     </div>
-  
+  </div>
 </footer>
+
+
+
+

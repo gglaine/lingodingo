@@ -60,13 +60,13 @@
 
 <div>
     {#if showSignUp}
-        <div class="w-full p-12" style="height: 70vh; background-image: url('/images/walkny.webp'); background-size: cover; background-position: top; opacity: 0.9; background-repeat: no-repeat;">
+        <div class="w-full p-12" style="height: 70vh; background-size: cover; background-position: top; opacity: 0.9; background-repeat: no-repeat;">
             <h2>Sign Up</h2>
             <!-- Your custom sign-up form goes here -->
             <button on:click={toggleView}>Already have an account? Sign In</button>
         </div>
     {:else}
-        <div class="w-full flex flex-col justify-around" style="height: 70vh; background-image: url('/images/walkny.webp'); background-size: cover; background-position: top; opacity: 0.9; background-repeat: no-repeat;">
+        <div class="w-full flex flex-col justify-around" style="height: 70vh; background-size: cover; background-position: top; opacity: 0.9; background-repeat: no-repeat;">
             <div id="firebaseui-auth-container"></div>
             <button on:click={toggleView}>Need an account? Sign Up</button>
         </div>

@@ -32,54 +32,47 @@
   });
 </script>
 
-<nav class="px-4 mt-4 py-2 bg-slate-50 mb-0 h-16 shadow-md overflow-visible sticky top-0 z-50 flex items-center justify-between text-white" style=" background-size: cover; opacity: 0.9; background-position: center;  background-repeat: no-repeat;">
-  <a href="/" class="flex h-8  rounded-md items-center space-x-3  text-slate-800 font-thin pr-2">
-    <div class=" h-16 w-16 bg-white  rounded-lg overflow-hidden flex items-center justify-center">
+<nav class="p-2 pt-4 pb-4 pr-2 mh-12 py-2 bg-blue-600 shadow-lg sticky top-0 z-50 flex items-center justify-between text-white">
+  <a href="/" class="flex items-center space-x-3 text-white">
+    <div class="h-12 w-12 bg-white rounded-full overflow-hidden flex items-center justify-center">
         <img src="/images/club.png" alt="Logo" class="object-cover h-full">
     </div>
-    <span class="hidden md:block  text-md md:text-md font-medium ml-3">EFELCENTER</span>
-</a>
+    <span class="hidden md:block text-xl font-bold ml-3">EFELCENTER</span>
+  </a>
 
-
-    <!-- Desktop Links Visible on Desktop -->
-    <div class="hidden md:flex space-x-4 text-slate-800 opacity-100"> 
-  
-      <a href="/about" class="px-3 py-2 mr-1 text-sm font-bold hover:border-b-2 hover:border-red-500">
-        ( {$t('common.navbar.whoWeAre')} )
+  <!-- Desktop Links Visible on Desktop -->
+  <div class="hidden md:flex space-x-6 text-white font-medium">
+    <a href="/about" class="hover:text-yellow-400 transition duration-200">
+      {$t('common.navbar.whoWeAre')}
     </a>
-  
-  <a href="/" class="px-3 py-2 mr-1 text-sm font-bold hover:border-b-2 hover:border-red-500">
-    {$t('common.navbar.businessLanguage')}
-</a>
-<a href="/" class="px-3 py-2 mr-1 text-sm font-bold hover:border-b-2 hover:border-red-500">
-  Soutien scolaire
-</a>
-<a href="/calendar" class="px-3 py-2 mr-1 text-sm font-bold hover:border-b-2 hover:border-red-500">
-    Calendrier
-</a>
-<a href="/contact" class="px-3 py-2 mr-1 text-sm font-bold hover:border-b-2 hover:border-red-500">
-    {$t('common.navbar.contact')}
-</a>
-    </div>
-  
+    <a href="/" class="hover:text-yellow-400 transition duration-200">
+      {$t('common.navbar.businessLanguage')}
+    </a>
+    <a href="/tutoring" class="hover:text-yellow-400 transition duration-200">
+      {$t('common.tutoring.category')}
+    </a>
+    <a href="/contact" class="hover:text-yellow-400 transition duration-200">
+      {$t('common.navbar.contact')}
+    </a>
+  </div>
 
   <div class="flex items-center">
     <!-- Language Selection -->
     <div class="relative mr-3">
-      <button on:click={toggleOptions} class="px-4 py-2 bg-blue-500 rounded-md shadow text-sm font-thin text-gray-700 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 transition ease-in-out duration-300">
+      <button on:click={toggleOptions} class="px-4 py-2 text-sm font-bold text-yellow-800 bg-white rounded-full shadow hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 transition ease-in-out duration-300">
         {#if $selectedLocale === 'en'}
-          🇬🇧 🇺🇸 EN
+          🇬🇧  English
         {:else}
-          🥐 🇫🇷 FR
+          🥐  Français
         {/if}
       </button>
       {#if $showOptions}
-        <div class="absolute mt-2 py-1 w-24 bg-white opacity-85 rounded-md shadow-lg z-10">
+        <div class="absolute mt-2 py-1 w-32 bg-white rounded-md shadow-lg z-10">
           <button on:click={() => selectLocale('en')} class="block px-4 py-2 text-left text-sm text-gray-700 hover:bg-blue-50">
-            🇬🇧 🇺🇸 EN
+            🇬🇧 English
           </button>
           <button on:click={() => selectLocale('fr')} class="block px-4 py-2 text-left text-sm text-gray-700 hover:bg-blue-50">
-            🥐 🇫🇷 FR
+            🇫🇷 Français
           </button>
         </div>
       {/if}
@@ -87,26 +80,23 @@
 
     <!-- Sign In / Up Link Visible on All Views -->
     {#if !$isUserLoggedIn}
-      <a href="/signin" class="px-4 py-2 rounded-md text-base font-thin text-gray-100 bg-red-500 p-4 hover:bg-blue-600">
+      <a href="/signin" class="px-4 py-2 rounded-md text-base font-thin text-white bg-red-500 hover:bg-blue-600 transition duration-200">
         {$t('common.navbar.signIn')}
       </a>
     {/if}
     {#if $isUserLoggedIn}
-
-    <div class="relative w-10 h-10 overflow-hidden bg-gray-100 rounded-full dark:bg-gray-600">
-      <svg class="absolute w-12 h-12 text-gray-400 -left-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path></svg>
-  </div>
-  
-  {/if}
+      <div class="relative w-10 h-10 overflow-hidden bg-gray-100 rounded-full dark:bg-gray-600">
+        <svg class="absolute w-12 h-12 text-gray-400 -left-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path></svg>
+      </div>
+    {/if}
 
     <!-- Hamburger Menu Icon for Mobile -->
-    <button on:click={toggleMenu} class="ml-3 md:hidden p-2 text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+    <button on:click={toggleMenu} class="ml-3 md:hidden p-2 text-gray-100 hover:text-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
       <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
         <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
       </svg>
     </button>
   </div>
-
 
   <!-- Mobile Menu Content -->
   {#if $showMenu}
@@ -123,4 +113,3 @@
     </div>
   {/if}
 </nav>
-

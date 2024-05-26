@@ -11,10 +11,65 @@
         "businessLanguage": "Anglais pro",
         "whoWeAre": "Qui sommes-nous ?"
     },
-    "joinConversation": {
-      "header": "Hey c'est Pape, j'ai crée EFELCenter à Nanterre en 2010 pour aider les jeunes et moins jeunes à parler anglais",
-      "content": "Aujourd'hui la méthode développér par l'association EfelCenter est accessible pour tous. Jouez a des jeux, inscrivez vous aux ateliers thématiques, rencontrez des gens du monde entier tout en vous amusant.   ",
-      "button": "Rejoins #efelcenter sur Whatsapp pour poser tes questions et avoir les dernières news "
+    "whatsapp": {
+      "joinChannels": "Rejoignez Nos Canaux WhatsApp !",
+      "description": "Connectez-vous avec d'autres étudiants, participez aux discussions et obtenez les dernières mises à jour et le soutien. Nos canaux WhatsApp sont actifs, engageants et un excellent moyen d'améliorer votre expérience d'apprentissage."
+    },
+    "support": {
+      "missionTitle": "Soutenez Notre Mission",
+      "missionDescription": "Participez à nos activités ou faites un don pour nous aider à continuer d'offrir des expériences d'apprentissage de qualité.",
+      "donationTitle": "Faire un Don",
+      "donationDescription": "Soutenez notre mission non lucrative avec un don de n'importe quel montant. Votre contribution nous aide à garder la plupart de notre contenu de plateforme gratuit et accessible à tous.",
+      "donateButton": "Donner",
+      "oneOnOneTitle": "Cours Individuels",
+      "oneOnOneDescription": "Améliorez votre anglais avec des cours personnalisés. Convient à tous les niveaux.",
+      "oneOnOnePrice30": "10€ pour 30 minutes",
+      "oneOnOnePrice60": "15€ pour une heure",
+      "bookNowButton": "Réservez Maintenant",
+      "activitiesTitle": "Participez aux Activités",
+      "activitiesDescription": "Rejoignez nos activités de groupe pour une petite participation financière couvrant les frais. Les activités incluent des jeux, des cours en groupe et des ateliers.",
+      "activitiesPrice": "5€ par activité",
+      "viewActivitiesButton": "Voir les Activités"
+    },
+      "joinConversation": {
+        "whatsapp": "Rejoignez la conversation sur WhatsApp",
+        "whatsappdesc": "Connectez-vous avec d'autres étudiants, participez aux discussions et obtenez les dernières mises à jour et le soutien. Nos canaux WhatsApp sont actifs, engageants et un excellent moyen d'améliorer votre expérience d'apprentissage.",
+        "happyLearning": "Joyeux apprentissage !",
+        "header": "Hey, c'est Pape ! Je suis Franco-Américain et j'ai créé l'association EFELCenter à Nanterre en 2010 pour aider les jeunes et moins jeunes à parler anglais.",
+        "content": "La méthode EFELCenter est accessible à tous ages. Jouez à des jeux, inscrivez-vous aux ateliers thématiques, rencontrez des gens du monde entier tout en vous amusant.",
+        "button": "Rejoins #efelcenter sur WhatsApp pour poser tes questions et avoir les dernières nouvelles"
+      },
+      "newsletter": {
+        "title": "Restez Connecté",
+        "description": "Abonnez-vous à notre newsletter pour les derniers conseils d'apprentissage des langues et les mises à jour.",
+        "placeholder": "Entrez votre email...",
+        "subscribeButton": "S'abonner"
+      },
+      "careers": {
+        "joinTeam": "Rejoignez Notre Équipe!",
+        "description": "Nous recherchons des personnes passionnées pour nous aider à enseigner l'anglais à la communauté française. Explorez nos postes ouverts et faites partie de notre mission.",
+        "viewPositions": "Voir les Postes Ouverts"
+      },
+    "tutoring": {
+      "category": "Soutien scolaire",
+      "header": "Contactez-nous",
+      "phoneTitle": "Téléphone",
+      "phoneDescription": "Nous offrons des cours de soutien téléphonique personnalisés pour répondre à vos besoins spécifiques. Appelez-nous pour discuter de la façon dont nous pouvons vous aider à améliorer vos compétences linguistiques.",
+      "emailTitle": "Email",
+      "emailDescription": "Pour toute question ou information supplémentaire, envoyez un mail à efelcenter@gmail.com. Nous nous efforçons de répondre à tous les courriels dans les 24 heures.",
+      "addressTitle": "Adresse",
+      "addressDescription": "123 Rue Exemple, 75000 Paris, France. Venez nous rendre visite pour découvrir nos installations et rencontrer notre équipe.",
+      "hoursTitle": "Heures d'ouverture",
+      "hoursDescription": "Nous sommes ouverts du lundi au vendredi, de 9h00 à 18h00. N'hésitez pas à nous rendre visite pendant nos heures d'ouverture.",
+      "mapTitle": "Carte",
+      "mapDescription": "Trouvez-nous sur la carte ci-dessous. Nous sommes situés en plein cœur de Paris, facilement accessibles par les transports en commun.",
+      "tutoringTitle": "Sessions de Tutorats",
+      "tutoringDescription": "Nos sessions de tutorat sont conçues pour offrir une aide personnalisée et efficace. Que vous soyez débutant ou avancé, nous avons un programme adapté à votre niveau.",
+      "workshopsTitle": "Ateliers",
+      "workshopsDescription": "Participez à nos ateliers thématiques pour améliorer vos compétences linguistiques dans un contexte interactif et engageant. Nos ateliers couvrent une variété de sujets et sont ouverts à tous.",
+      "communityTitle": "Communauté",
+      "communityDescription": "Rejoignez notre communauté mondiale de passionnés de langues. Participez à des événements, rencontrez de nouveaux amis et pratiquez vos compétences linguistiques dans un environnement convivial.",
+      "returnHomeButton": "Retour à l'accueil"
     },
     "cookies": {
       "title": "Cookies",
@@ -51,6 +106,7 @@
       "reject": "En savoir plus"
     },
     "homepage": {
+      "welcome": "Bienvenue",
       "methodsSection": {
         "title": "Chacun sa méthode pour décoller plus vite",
         "description": "Jouez avec les mots, les sons, les accents, découvrez des exonymes, apprenez en vous amusant en choisissant les méthodes qui vous font progresser"
@@ -81,7 +137,7 @@
         "essCompany": "EFELCenter est une entreprise agrée ESS (Économie Sociale et Solidaire)"
     },
     "hero": {
-        "title": "Club d'anglais pour tous ",
+        "title": "La méthode gratuite, fun et efficace pour apprendre une langue ! ",
         "subtitle": "Methode E.F.E.L: FEEL and Learn!",
         "cta": "Let's go ! "
     },

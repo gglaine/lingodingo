@@ -12,35 +12,6 @@
         imageUrl: '/images/teachers/bob.png', // Replace with actual image path
       },
       {
-        name: 'Charlotte',
-        countries: [{ flag: '🇲🇫', name: 'France' }],
-        city: 'Paris',
-        languages: ['French', 'English'],
-        imageUrl: '/images/teachers/charlotte.png', // Replace with actual image path
-      },
-      {
-        name: 'Cornel',
-        countries: [{ flag: '🇫🇷', name: 'USA' }],
-        city: 'New-York',
-        languages: ['French', 'English'],
-        videoId: 'hLOw_SzkRQ8',
-        imageUrl: '/images/teachers/cornel.png', // Thumbnail for the video // Example video URL
-      },
-      {
-        name: 'Esperanza',
-        countries: [{ flag: '🇲🇽', name: 'Mexico' }],
-        city: 'Mexico',
-        languages: ['Spanish', 'English'],
-        imageUrl: '/images/teachers/carletta.png', // Replace with actual image path
-      },
-      {
-        name: 'Oumi',
-        countries: [{ flag: '🇨🇺', name: 'Senegal' }, { flag: '🇫🇷', name: 'France' }],
-        city: 'Dakar',
-        languages: ['English', 'French', 'Wolof'],
-        imageUrl: '/images/teachers/Oumi.png', // Replace with actual image path
-      },
-      {
         name: 'Pape',
         countries: [{ flag: '🇺🇸', name: 'USA' }, { flag: '🇫🇷', name: 'France' }],
         city: 'New York',
@@ -49,22 +20,22 @@
         imageUrl: '/images/teachers/paps.png', // Thumbnail for the video // Example video URL
       },
       // Adding more teachers with mixed media
-      {
-        name: 'Maite',
-        countries: [{ flag: '🇮🇹', name: 'France' }],
-        city: 'Gaillac',
-        languages: ['French', 'English'],
-        imageUrl: '/images/teachers/maite.jpg', // Replace with actual image path
-        videoId: 'z94mWhAavkQ', // Example video URL
-      },
-      {
-        name: 'Guillaume',
-        countries: [{ flag: '🇮🇹', name: 'France' }],
-        city: 'Paris',
-        languages: ['French', 'English'],
-        imageUrl: '/images/teachers/gui2.png', // Replace with actual image path
-        videoId: 'z94mWhAavkQ', // Example video URL
-      },
+      // {
+      //   name: 'Maite',
+      //   countries: [{ flag: '🇮🇹', name: 'France' }],
+      //   city: 'Gaillac',
+      //   languages: ['French', 'English'],
+      //   imageUrl: '/images/teachers/maite.jpg', // Replace with actual image path
+      //   videoId: 'z94mWhAavkQ', // Example video URL
+      // },
+      // {
+      //   name: 'Guillaume',
+      //   countries: [{ flag: '🇮🇹', name: 'France' }],
+      //   city: 'Paris',
+      //   languages: ['French', 'English'],
+      //   imageUrl: '/images/teachers/gui2.png', // Replace with actual image path
+      //   videoId: 'z94mWhAavkQ', // Example video URL
+      // },
       {
         name: 'Sofiane',
         countries: [{ flag: '🇮🇹', name: 'France' }],

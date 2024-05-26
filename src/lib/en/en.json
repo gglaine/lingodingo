@@ -11,11 +11,67 @@
         "businessLanguage": "Business English",
         "whoWeAre": "Who are we ?"
     },
-    "joinConversation": {
-      "header": "Hey I'm Pape and my mission is to make you speak french ",
-      "content": "Access online-courses, gaming sessions, go at your pace, exchange with people from all over the world who speak french ",
-      "button": "Let's chat on whatsapp ! "
+    "whatsapp": {
+      "joinChannels": "Join Our WhatsApp Channels!",
+      "description": "Connect with fellow students, participate in discussions, and get the latest updates and support. Our WhatsApp channels are active, engaging, and a great way to enhance your learning experience."
     },
+    "support": {
+      "missionTitle": "Support Our Mission",
+      "missionDescription": "Join our activities or make a donation to help us continue offering quality language learning experiences.",
+      "donationTitle": "Make a Donation",
+      "donationDescription": "Support our non-profit mission with a donation of any amount. Your contribution helps us keep most of our platform content free and accessible to everyone.",
+      "donateButton": "Donate",
+      "oneOnOneTitle": "One-on-One Lessons",
+      "oneOnOneDescription": "Improve your English with personalized lessons. Suitable for all levels.",
+      "oneOnOnePrice30": "10€ for 30 minutes",
+      "oneOnOnePrice60": "15€ for an hour",
+      "bookNowButton": "Book Now",
+      "activitiesTitle": "Participate in Activities",
+      "activitiesDescription": "Join our group activities for a nominal fee to cover costs. Activities include games, group lessons, and workshops.",
+      "activitiesPrice": "5€ per activity",
+      "viewActivitiesButton": "View Activities"
+    },
+  
+      "joinConversation": {
+        "whatsapp": "Join our WhatsApp group to practice English and French with other learners.",
+        "whatsappdesc": "Connect with fellow students, participate in discussions, and get the latest updates and support. Our WhatsApp groups are active, engaging, and a great way to enhance your learning experience.",
+        "happyLearning": "Happy Learning",
+        "header": "Hey, it's Pape! I'm Franco-American and I created the EFELCenter association in Nanterre in 2010 to help young and old speak English.",
+        "content": "Today, the method developed by the EFELCenter association is accessible to everyone. Play games, sign up for thematic workshops, meet people from all over the world while having fun.",
+        "button": "Join #efelcenter on WhatsApp to ask your questions and get the latest news"
+      },
+      "newsletter": {
+        "title": "Stay Connected",
+        "description": "Subscribe to our newsletter for the latest language learning tips and updates.",
+        "placeholder": "Enter your email...",
+        "subscribeButton": "Subscribe"
+      },
+      "careers": {
+        "joinTeam": "Join Our Team!",
+        "description": "We're looking for passionate individuals to help us teach English to the French community. Explore our open positions and be part of our mission.",
+        "viewPositions": "View Open Positions"
+      },
+      "tutoring": {
+        "category": "Tutoring",
+        "header": "Contact Us",
+        "phoneTitle": "Phone",
+        "phoneDescription": "We offer personalized phone support sessions tailored to your specific needs. Call us to discuss how we can help you improve your language skills.",
+        "emailTitle": "Email",
+        "emailDescription": "For any questions or additional information, send an email to efelcenter@gmail.com. We strive to respond to all emails within 24 hours.",
+        "addressTitle": "Address",
+        "addressDescription": "123 Example Street, 75000 Paris, France. Visit us to discover our facilities and meet our team.",
+        "hoursTitle": "Opening Hours",
+        "hoursDescription": "We are open from Monday to Friday, from 9:00 AM to 6:00 PM. Feel free to visit us during our opening hours.",
+        "mapTitle": "Map",
+        "mapDescription": "Find us on the map below. We are located in the heart of Paris, easily accessible by public transportation.",
+        "tutoringTitle": "Tutoring Sessions",
+        "tutoringDescription": "Our tutoring sessions are designed to offer personalized and effective assistance. Whether you are a beginner or advanced, we have a program tailored to your level.",
+        "workshopsTitle": "Workshops",
+        "workshopsDescription": "Join our thematic workshops to enhance your language skills in an interactive and engaging setting. Our workshops cover a variety of topics and are open to everyone.",
+        "communityTitle": "Community",
+        "communityDescription": "Join our global community of language enthusiasts. Participate in events, make new friends, and practice your language skills in a friendly environment.",
+        "returnHomeButton": "Return Home"
+      },
     "cookies": {
       "title": "Cookies",
       "notice": "By continuing to browse the site, you accept the use of cookies, which allow us to personalize your experience and measure the attendance of services. Click to close.",
@@ -51,6 +107,7 @@
       "reject": "Learn More"
     },
       "homepage": {
+        "welcome": "Welcome to EFELCenter",
         "methodsSection": {
           "title": "Discover Your Path to Language Mastery",
           "description": "Explore innovative methods tailored to your learning style."
