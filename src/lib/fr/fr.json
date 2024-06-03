@@ -52,24 +52,16 @@
       },
     "tutoring": {
       "category": "Soutien scolaire",
-      "header": "Contactez-nous",
-      "phoneTitle": "Téléphone",
-      "phoneDescription": "Nous offrons des cours de soutien téléphonique personnalisés pour répondre à vos besoins spécifiques. Appelez-nous pour discuter de la façon dont nous pouvons vous aider à améliorer vos compétences linguistiques.",
-      "emailTitle": "Email",
-      "emailDescription": "Pour toute question ou information supplémentaire, envoyez un mail à efelcenter@gmail.com. Nous nous efforçons de répondre à tous les courriels dans les 24 heures.",
-      "addressTitle": "Adresse",
-      "addressDescription": "123 Rue Exemple, 75000 Paris, France. Venez nous rendre visite pour découvrir nos installations et rencontrer notre équipe.",
-      "hoursTitle": "Heures d'ouverture",
-      "hoursDescription": "Nous sommes ouverts du lundi au vendredi, de 9h00 à 18h00. N'hésitez pas à nous rendre visite pendant nos heures d'ouverture.",
-      "mapTitle": "Carte",
-      "mapDescription": "Trouvez-nous sur la carte ci-dessous. Nous sommes situés en plein cœur de Paris, facilement accessibles par les transports en commun.",
-      "tutoringTitle": "Sessions de Tutorats",
-      "tutoringDescription": "Nos sessions de tutorat sont conçues pour offrir une aide personnalisée et efficace. Que vous soyez débutant ou avancé, nous avons un programme adapté à votre niveau.",
-      "workshopsTitle": "Ateliers",
-      "workshopsDescription": "Participez à nos ateliers thématiques pour améliorer vos compétences linguistiques dans un contexte interactif et engageant. Nos ateliers couvrent une variété de sujets et sont ouverts à tous.",
-      "communityTitle": "Communauté",
-      "communityDescription": "Rejoignez notre communauté mondiale de passionnés de langues. Participez à des événements, rencontrez de nouveaux amis et pratiquez vos compétences linguistiques dans un environnement convivial.",
-      "returnHomeButton": "Retour à l'accueil"
+      "header": "Discover Our Tutoring Services",
+      "onlineWorkshopsTitle": "Online Workshops",
+      "onlineWorkshopsDescription": "Join our online workshops to improve your language skills from the comfort of your home. Our workshops cover a variety of topics, from grammar to practical conversations, and are open to everyone. Learn in a friendly and interactive environment.",
+      "meetupsTitle": "Meetups and Events",
+      "meetupsDescription": "Join our global community of language enthusiasts at our meetups and events. Engage in discussions, make new friends, and practice your language skills in a welcoming and friendly environment.",
+      "onSiteWorkshopsTitle": "On-Site Workshops",
+      "onSiteWorkshopsDescription": "Our on-site workshops provide an immersive learning experience. Participate in interactive sessions at our premises, meet our instructors, and receive personalized help to improve your language skills.",
+      "communityTitle": "Community",
+      "communityDescription": "Join our global community of language enthusiasts. Participate in events, meet new friends, and practice your language skills in a welcoming and friendly environment.",
+      "returnHomeButton": "Return Home"
     },
     "cookies": {
       "title": "Cookies",
@@ -108,7 +100,7 @@
     "homepage": {
       "welcome": "Bienvenue",
       "methodsSection": {
-        "title": "Chacun sa méthode pour décoller plus vite",
+        "title": "Une méthode efficace pour apprendre une langue en la parlant",
         "description": "Jouez avec les mots, les sons, les accents, découvrez des exonymes, apprenez en vous amusant en choisissant les méthodes qui vous font progresser"
       }
     },
@@ -137,9 +129,18 @@
         "essCompany": "EFELCenter est une entreprise agrée ESS (Économie Sociale et Solidaire)"
     },
     "hero": {
-        "title": "La méthode gratuite, fun et efficace pour apprendre une langue ! ",
-        "subtitle": "Methode E.F.E.L: FEEL and Learn!",
-        "cta": "Let's go ! "
+        "title": "Parlez, apprenez, progressez. ",
+        "subtitle": "Rejoignez Une communauté passionnée",
+        "tagline": "Rejoignez la communauté EFEL Center pour des ateliers en ligne et des rencontres en personne.",
+        "cta": "Let's go ! ",
+        "paragraphs": {
+          "intro": "Bonjour, je suis Paps.",
+          "method": "Le Centre EFEL (Easy French and English Learning) propose une méthode d'apprentissage unique basée sur le concept de l'« arbre à palabres », enrichie depuis 1989.",
+          "history": "Quand mes enfants sont arrivés à Paris depuis New York, il était essentiel de maintenir leur anglais tout en leur offrant un accès facile au français. Nous avons commencé dans notre salon, puis ouvert nos portes aux voisins et amis.",
+          "today": "Aujourd'hui, notre club offre des activités thématiques liées aux centres d'intérêt des membres, des cours particuliers pour les lycéens et des sessions d'anglais des affaires.",
+          "unique": "Chaque étudiant est unique. Nos programmes personnalisés sont basés sur les centres d'intérêt ou les jeux favoris. La meilleure façon d'apprendre une langue est de parler sans traduction ! Pas besoin de compétences en lecture ou en écriture. Le succès est garanti.",
+          "join": "Rejoignez-nous pour des ateliers thématiques, un soutien scolaire personnalisé et des ressources incontournables comme les flashcards. Avec EFEL, parler une nouvelle langue devient facile et amusant."
+      }
     },
     "cta": {
       "followUs": "Suivez-nous",

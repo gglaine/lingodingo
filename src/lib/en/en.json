@@ -36,7 +36,7 @@
         "whatsapp": "Join our WhatsApp group to practice English and French with other learners.",
         "whatsappdesc": "Connect with fellow students, participate in discussions, and get the latest updates and support. Our WhatsApp groups are active, engaging, and a great way to enhance your learning experience.",
         "happyLearning": "Happy Learning",
-        "header": "Hey, it's Pape! I'm Franco-American and I created the EFELCenter association in Nanterre in 2010 to help young and old speak English.",
+        "header": "Hi this is Paps ! Efel center ( English and French Easy Learning ) is a  language learning method based on the «  palaver tree » concept enriched since 1989. When my kids came to Paris from New York  I had to keep their English and give them easy access to French. We started in the living room and later opened it to neighbors and friends . Every student is unique. So we provide personalized programs based either on center of interest or favorite games: The best way to learn  a language is to try to speak without any translation ! No  reading  nor writing skills needed.  Success is guaranteed .",
         "content": "Today, the method developed by the EFELCenter association is accessible to everyone. Play games, sign up for thematic workshops, meet people from all over the world while having fun.",
         "button": "Join #efelcenter on WhatsApp to ask your questions and get the latest news"
       },
@@ -140,6 +140,8 @@
     },
     "hero": {
         "title": "Learn, Explore, Connect In French and English",
+        "tagline": "Join the EFELCenter Community for Fun Workshops, Interactive Games, and Engaging Conversations",
+
         "subtitle": "F.E.E.L. the Learn!",
         "cta": "Join a session online "
     },

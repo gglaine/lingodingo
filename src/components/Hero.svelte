@@ -1,24 +1,39 @@
 <script>
   import { t } from '$lib';
-</script>
-<!-- Use viewport width for full screen width -->
-<div class="hero overflow-hidden relative flex -mt-24 flex-col mb-8 items-center justify-around" style="height: 100vh; width: 100vw; background-image: url('/images/clubplane.webp'); background-size: cover; background-position: top; opacity: 0.95; background-repeat: no-repeat;">
+  import { onMount } from 'svelte';
 
-  <div class="bg-blue-600 w-128 overflow-visible bg-opacity-90 items-center justify-around flex flex-col p-8 rounded-md shadow-xl">
-    <h1 class="text-2xl font-bold text-center text-slate-100 mb-4">{$t('common.hero.title')}</h1>
-    <button type="button" class=" bg-yellow-500 rounded-full w-42 relative ml-auto mx-auto flex flex-col justify-center items-center  p-4 border border-transparent shadow-lg transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-offset-2">
-      <span class="p-2 text-center font-bold">
-        {$t('common.hero.cta')}
-      </span>
-    </button>
+  onMount(() => {
+    const parallaxLayers = document.querySelectorAll('.parallax-layer');
+    window.addEventListener('scroll', () => {
+      const scrollPosition = window.scrollY;
+      parallaxLayers.forEach((layer, index) => {
+        const depth = index + 1;
+        const movement = (scrollPosition * depth) / 2;
+        layer.style.transform = `translateY(${movement}px)`;
+      });
+    });
+  });
+</script>
+
+<!-- Hero Section with Parallax Effect -->
+<div class="hero overflow-hidden relative flex flex-col mb-8 items-center justify-around" style="height: 100vh; width: 100vw; background-repeat: no-repeat;">
+  <!-- Background Layers for Parallax Effect -->
+  <div class="absolute inset-0 z-0">
+    <img src="/images/refred2.png" class="absolute h-full object-cover parallax-layer" style="z-index: 2; left: 200; top: 0; opacity: 1;">
+
+    <img src="/images/baobab2.png" class="absolute w-full h-full object-contain parallax-layer" style="z-index: 1; left: 0%; top: 0%; opacity: 1;">
+    <img src="/images/methods/busriders.svg" class="absolute w-full h-full object-cover parallax-layer" style="z-index: 1; left: -5%; top: 0%; opacity: 1;">
+  </div>
+
+  <div class="relative z-10 w-[1/2] bg-violet-800 w-128 overflow-visible bg-opacity-90 items-center justify-around flex flex-col p-8 rounded-md shadow-xl">
+    <h1 class="text-6xl font-bold text-center text-slate-100 mb-4">{$t('common.hero.title')}</h1>
+    <h1 class="text-4xl font-bold text-center text-slate-100 mb-4">{$t('common.hero.subtitle')}</h1>
   </div>
 </div>
 
 <style>
-/* Apply the blur effect to the pseudo-element */
 .hero::before {
   content: "";
-  /* background-image: url("../static/images/walkny.webp"); */
   background-size: cover;
   opacity: 95%;
   background-repeat: no-repeat;
@@ -38,7 +53,6 @@
 }
 
 button {
-  /* Style your button here */
   padding: 0.5rem 1rem;
   background-color: #007bff;
   color: white;

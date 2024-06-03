@@ -11,6 +11,25 @@
   import PhoneticsPairingGame from '../components/PhoneticsPairingGame.svelte'
   import SpellingGame from '$components/SpellingGame.svelte';
 
+  export let methods = [
+    {
+      image: '/images/methods/funny_words.webp',
+      title: 'Funny words',
+      description: 'Description of method 1.'
+    },
+    {
+      image: '/images/methods/rotated_tongue_twister.webp',
+      title: 'Method 2',
+      description: 'Description of method 2.'
+    },
+    {
+      image: '/images/methods/spellingquest.jpg',
+      title: 'Method 3',
+      description: 'Description of method 3.'
+    },
+    // Add more methods as needed
+  ];
+
   function closeModal() {
     const modal = document.querySelector('.fixed.inset-0');
     if (modal instanceof HTMLElement) {
@@ -33,6 +52,22 @@
   let cookiesAccepted = writable(false);
 
   onMount(() => {
+    const parallaxCards = document.querySelectorAll('.parallax-card');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.transform = 'translateY(0)';
+          entry.target.style.opacity = 1;
+        } else {
+          entry.target.style.transform = 'translateY(150px)';
+          entry.target.style.opacity = 0;
+        }
+      });
+    }, { threshold: 0.5 });
+
+    parallaxCards.forEach(card => {
+      observer.observe(card);
+    });
     const cookiesAcceptedValue = localStorage.getItem('cookiesAccepted');
     if (cookiesAcceptedValue === 'true' || cookiesAcceptedValue === 'false') {
       cookiesAccepted.set(true);
@@ -42,63 +77,166 @@
   });
 </script>
   
-<div class="container p-0 w-full">
-  <div class="w-full m-0 pt-12 mt-12 ">
+<div class="container p-2 w-full">
+  <div class="w-full m-0 pt-12 mt-12 mb-12 ">
     <Hero />
   </div>
 
-  <div class="mt-8 p-4 w-full">
-   
-      <h3 class="text-5xl text-left font-bold text-slate-800 mb-12">{$t('common.homepage.welcome')}</h3>
-      <div class="flex  p-4 flex-col md:flex-row rounded-lg shadow-md overflow-hidden transition duration-500 ease-in-out transform hover:scale-105 hover:shadow-lg">
-        
-        <div class="w-full flex flex-col md:flex-row items-cent">
-          <img class="w-36 h-36 rounded-full mb-4 md:mb-0 md:mr-3" src="/images/teachers/pape.jpg" alt="Avatar">
-          <div class="flex-2 p-8 text-center md:text-left">
-            <h5 class="text-lg mb-3 font-medium text-gray-800">{$t('common.joinConversation.header')}</h5>
-            <p class="text-lg text-gray-600">{$t('common.joinConversation.content')}</p>
-            <p class="mt-2 text-xl font-medium text-gray-700">{$t('common.joinConversation.happyLearning')}</p>
-          </div>
+  <!-- <div class="w-full h-52 block p-4">
+    <img src="/images/baobab.png" class="absolute w-full h-full object-contain parallax-layer z-0" >
+  </div> -->
 
-     
-        </div>
-  
+  <div class="mt-8 w-full">
     
- 
-      </div>
-    
-    <div class="mt-8 p-4">
-      <!-- Featured Methods Section -->
-      <div class="mx-auto overflow-visible mt-24 p-4 transition duration-500 ease-in-out transform hover:scale-105 hover:shadow-lg">
-        <h2 class="text-5xl font-bold mb-12 tracking-tight leading-none animate-fadeInUp">{$t('common.homepage.methodsSection.title')}</h2>
-        <a href="/methods" class="block relative rounded-lg shadow-lg overflow-hidden group">
-          <img src="/images/grid_methods_980.png" alt="Explore Our Methods" class="w-full object-contain pb-12">
-          <div class="absolute inset-0 flex justify-center items-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-            <div class="text-center font-light bg-red-600 bg-opacity-90 text-white p-6 rounded-lg">
-              <p class="text-xl max-w-md mx-auto leading-relaxed animate-fadeInUp">{$t('common.homepage.methodsSection.description')}</p>
+    <div class="w-full max-w-full ml-12 mb-24 flex p-4 flex-col md:flex-row overflow-hidden transition duration-500 ease-in-out transform hover:scale-105 hover:shadow-lg">
+        <div class="w-full flex flex-col md:flex-row items-center">
+            <img class="w-42 h-42 rounded-full mb-4 md:mb-0 md:mr-3" src="/images/teachers/pape.jpg" alt="Avatar">
+            <div class="flex-1 p-8 text-center md:text-left">
+              <h1 class="text-4xl font-bold text-center text-slate-100 mb-4">{$t('common.hero.title')}</h1>
+              <h2 class="text-xl text-center text-slate-100 mb-4">{$t('common.hero.subtitle')}</h2>
+              <p class="paragraph" data-key="intro">{$t('common.hero.paragraphs.intro')}{$t('common.hero.paragraphs.method')}</p>
+              <p class="paragraph" data-key="method"></p>
+              <!-- <p class="paragraph" data-key="history">{$t('common.hero.paragraphs.history')}</p> -->
+              <p class="paragraph" data-key="today">{$t('common.hero.paragraphs.today')}</p>
+              <!-- <p class="paragraph" data-key="unique">{$t('common.hero.paragraphs.unique')}</p> -->
+              <p class="paragraph" data-key="join">{$t('common.hero.paragraphs.join')}</p>
             </div>
-          </div>
-        </a>
-      </div>
+        </div>
     </div>
 
-    <div class="flex flex-col md:flex-row justify-between items-center p-4 bg-gradient-to-r from-green-500 to-green-700 text-white rounded-lg shadow-lg">
-      <div class="flex flex-col justify-center items-start md:items-center p-4 text-center md:text-left">
-        <h4 class="text-2xl font-bold mb-2">  {$t('common.joinConversation.whatsapp')}</h4>
-        <p class="text-sm mb-4">{$t('common.joinConversation.whatsappdesc')}</p>
-        <button class="px-4 py-2 text-white bg-gradient-to-r from-blue-500 to-blue-700 text-sm font-medium rounded shadow-md hover:from-blue-600 hover:to-blue-800 transition duration-300 ease-in-out mb-4 md:mb-0 md:mr-4">
-          {$t('common.joinConversation.button')}
-        </button>
-      </div>
-      <div class="flex justify-center items-center p-4">
-        <img class="w-12 h-12 rounded-full" src="/images/whatsapp.png" alt="WhatsApp Icon">
-      </div>
-    </div>
-
-  <div class="mt-8 p-8">
-    <Teachers/>
   </div>
-  
+  <div class="mt-8 w-full z-50 ">
+
+
+    <div class="mt-6 p-4">
+      <!-- Featured Methods Section -->
+      <div class="mx-auto overflow-visible mt-12 mb-24 p-4">
+        <h2 class="text-5xl font-bold mb-12 tracking-tight leading-none" id="methods-section-title">{$t('common.homepage.methodsSection.title')}</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          {#each methods as method, i}
+            <div class="relative rounded-lg shadow-lg overflow-hidden group transition duration-500 ease-in-out transform hover:scale-105 hover:shadow-lg parallax-card" style="transform: translateY({i * 50}px)">
+              <img src={method.image} alt={method.title} class="w-full h-48 object-cover">
+              <div class="absolute inset-0 flex justify-center items-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+                <div class="text-center font-light bg-red-600 bg-opacity-90 text-white p-6 rounded-lg">
+                  <p class="text-xl max-w-md mx-auto leading-relaxed">{method.description}</p>
+                </div>
+              </div>
+            </div>
+          {/each}
+        </div>
+      </div>
+    </div>
+
+
+    <div class="flex flex-wrap p-1 justify-center mb-42 w-full">
+
+      <!-- Bernadette's Card -->
+      <div class="flex flex-col p-4 w-full md:w-1/3">
+        <h2 class="text-5xl font-bold mb-12 tracking-tight leading-none" id="methods-section-title">{$t('common.homepage.methodsSection.title')}</h2>
+
+          <div class="rounded-lg shadow-md overflow-hidden transition duration-500 ease-in-out transform hover:scale-105 hover:shadow-lg">
+              <img class="w-full h-48 object-cover" src="/images/meetups/bernadette1.png" alt="Bernadette">
+              <div class="p-4">
+                  <h5 class="text-lg mb-3 font-medium text-gray-800">Bernadette</h5>
+                  <p class="text-lg text-gray-600">Senior English Instructor</p>
+                  <p class="mt-2 text-gray-600">"I love bringing literature to life with my dramatic readings."</p>
+                  <div class="mt-4">
+                      <h6 class="text-md font-medium text-gray-800">Workshops</h6>
+                      <ul class="list-inside text-gray-600">
+                          <li>Shakespearean Drama</li>
+                          <li>Advanced Grammar</li>
+                          <li>Public Speaking</li>
+                      </ul>
+                  </div>
+                  <div class="mt-4">
+                      <a href="/chatroom/bernadette" class="inline-block bg-indigo-600 hover:bg-indigo-800 text-white text-sm font-medium py-2 px-4 rounded">Let's chat</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <!-- Annie's Card -->
+      <div class="flex flex-col p-4 w-full md:w-1/3">
+          <div class="rounded-lg shadow-md overflow-hidden transition duration-500 ease-in-out transform hover:scale-105 hover:shadow-lg">
+              <img class="w-full h-48 object-cover" src="/images/meetups/annie1.png" alt="Annie">
+              <div class="p-4">
+                  <h5 class="text-lg mb-3 font-medium text-gray-800">Annie</h5>
+                  <p class="text-lg text-gray-600">Conversation Club Coordinator</p>
+                  <p class="mt-2 text-gray-600">"I believe every discussion can be engaging and inclusive."</p>
+                  <div class="mt-4">
+                      <h6 class="text-md font-medium text-gray-800">Workshops</h6>
+                      <ul class="list-disc list-inside text-gray-600">
+                          <li>Debate Skills</li>
+                          <li>Interactive Storytelling</li>
+                          <li>Cultural Exchange Sessions</li>
+                      </ul>
+                  </div>
+                  <div class="mt-4">
+                      <a href="/chatroom/annie" class="inline-block bg-indigo-600 hover:bg-indigo-800 text-white text-sm font-medium py-2 px-4 rounded">Join me at the club</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <!-- Guy's Card -->
+      <div class="flex flex-col p-4 w-full md:w-1/3">
+          <div class="rounded-lg shadow-md overflow-hidden transition duration-500 ease-in-out transform hover:scale-105 hover:shadow-lg">
+              <img class="w-full h-48 object-cover" src="/images/meetups/guy1.png" alt="Guy">
+              <div class="p-4">
+                  <h5 class="text-lg mb-3 font-medium text-gray-800">Guy</h5>
+                  <p class="text-lg text-gray-600">Creative Writing Mentor</p>
+                  <p class="mt-2 text-gray-600">"Writing is an adventure, and I'm here to guide you."</p>
+                  <div class="mt-4">
+                      <h6 class="text-md font-medium text-gray-800">Workshops</h6>
+                      <ul class="list-disc list-inside text-gray-600">
+                          <li>Creative Writing</li>
+                          <li>Poetry and Prose</li>
+                          <li>Fiction Writing</li>
+                      </ul>
+                  </div>
+                  <div class="mt-4">
+                      <a href="/chatroom/guy" class="inline-block bg-indigo-600 hover:bg-indigo-800 text-white text-sm font-medium py-2 px-4 rounded">Join me at the club</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+    
+
+      <div class="flex w-full p-12 mt-12 flex-col md:flex-row justify-between items-center  bg-gradient-to-r from-violet-500 to-violet-800 text-white rounded-lg shadow-lg">
+        <div class="flex flex-col justify-center items-start md:items-center p-4 text-center md:text-left">
+          <h4 class="text-2xl font-bold mb-4">  {$t('common.joinConversation.whatsapp')}</h4>
+          <p class="text-xl mb-4">{$t('common.joinConversation.whatsappdesc')}</p>
+
+        </div>
+        <div class="flex flex-col" style="height: 200px; width: 100vw; background-image: url(''); background-size: contain; background-position: top; opacity: 0.95; background-repeat: no-repeat;">
+          <h3 class="text-xl mt-12 text-left font-bold text-slate-800 mb-4 flex items-center">
+            Rejoins Bernadette, Guy et 230 autres <br>Have fun, play, laugh and learn</h3>
+            <div class="flex -space-x-1 overflow-hidden ml-2">
+                <img class="inline-block h-10 w-10 rounded-full ring-2 ring-white" src="/images/whatsapp.gif" alt="User 1">
+                <img class="inline-block h-10 w-10 rounded-full ring-2 ring-white" src="/images/meetups/bernadette1.png" alt="User 2">
+                <img class="inline-block h-10 w-10 rounded-full ring-2 ring-white" src="/images/avatars/guy1.jpg" alt="User 3">
+                <span class="inline-block h-10 w-10 rounded-full bg-gray-200 text-gray-700 items-center justify-center ring-2 ring-white">+230</span>
+            </div>
+            <button class=" flex items-center px-4 py-2 text-white bg-gradient-to-r from-blue-500 to-blue-700 text-sm font-medium rounded shadow-md hover:from-blue-600 hover:to-blue-800 transition duration-300 ease-in-out mb-4 md:mb-0 md:mr-4">
+              <img class="w-8 h-8 mr-4 rounded-full" src="/images/whatsapp.png" alt="WhatsApp Icon"> <div>
+                {$t('common.joinConversation.button')}
+              </div>
+            </button>
+            {$t('common.hero.paragraphs.method')}
+        </div>
+      </div>
+  </div>
+    
+    
+
+
+
+    <!-- <div class="mt-8 p-8">
+      <Teachers/>
+    </div>
+   -->
   <!-- <div class="mt-8 p-4">
     <h3 class="text-5xl text-left font-bold text-slate-800 mb-12">{$t('common.games.playAndLearn')}</h3>
     <div class="mt-8 w-full p-8 border-4 border-gold-500 rounded-lg shadow-2xl bg-blue-50 mx-auto text-gray-800">
@@ -128,7 +266,7 @@
     </div>
   </div> -->
 
-  <div class="mt-8 p-12">
+  <div class="mt-2é p-12">
    <LanguageCuriosityCard />
   </div>
 
@@ -273,6 +411,13 @@
       opacity: 1;
       transform: translateY(0);
     }
+  }
+  #methods-section-title {
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  }
+  .parallax-card {
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+    opacity: 0;
   }
 
 
