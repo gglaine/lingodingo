@@ -19,7 +19,7 @@
 <div class="hero overflow-hidden relative flex flex-col mb-8 items-center justify-around" style="height: 100vh; width: 100vw; background-repeat: no-repeat;">
   <!-- Background Layers for Parallax Effect -->
   <div class="absolute inset-0 z-0">
-    <img src="/images/refred2.png" class="absolute h-full object-cover parallax-layer" style="z-index: 2; left: 200; top: 0; opacity: 1;">
+    <img src="/images/blackboybus.webp" class="absolute h-full object-cover parallax-layer" style="z-index: 2; left: 200; top: 0; opacity: 1;">
 
     <img src="/images/baobab2.png" class="absolute w-full h-full object-contain parallax-layer" style="z-index: 1; left: 0%; top: 0%; opacity: 1;">
     <img src="/images/methods/busriders.svg" class="absolute w-full h-full object-cover parallax-layer" style="z-index: 1; left: -5%; top: 0%; opacity: 1;">

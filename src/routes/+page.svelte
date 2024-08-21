@@ -15,17 +15,17 @@
     {
       image: '/images/methods/funny_words.webp',
       title: 'Funny words',
-      description: 'Description of method 1.'
+      description: 'Funny Words Challenge.'
     },
     {
       image: '/images/methods/rotated_tongue_twister.webp',
       title: 'Method 2',
-      description: 'Description of method 2.'
+      description: 'Tongue Twister Challenge.'
     },
     {
       image: '/images/methods/spellingquest.jpg',
       title: 'Method 3',
-      description: 'Description of method 3.'
+      description: 'Spelling Quest Challenge.'
     },
     // Add more methods as needed
   ];
@@ -56,7 +56,7 @@
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          entry.target.style.transform = 'translateY(0)';
+          (entry.target as HTMLElement).style.transform = 'translateY(0)';
           entry.target.style.opacity = 1;
         } else {
           entry.target.style.transform = 'translateY(150px)';
@@ -88,18 +88,18 @@
 
   <div class="mt-8 w-full">
     
-    <div class="w-full max-w-full ml-12 mb-24 flex p-4 flex-col md:flex-row overflow-hidden transition duration-500 ease-in-out transform hover:scale-105 hover:shadow-lg">
+    <div class="w-full max-w-full md:ml-12 mb-24 flex md:p-4 ml-1 pl-1 flex-col md:flex-row overflow-hidden transition duration-500 ease-in-out transform hover:scale-105 hover:shadow-lg">
         <div class="w-full flex flex-col md:flex-row items-center">
             <img class="w-42 h-42 rounded-full mb-4 md:mb-0 md:mr-3" src="/images/teachers/pape.jpg" alt="Avatar">
             <div class="flex-1 p-8 text-center md:text-left">
-              <h1 class="text-4xl font-bold text-center text-slate-100 mb-4">{$t('common.hero.title')}</h1>
-              <h2 class="text-xl text-center text-slate-100 mb-4">{$t('common.hero.subtitle')}</h2>
-              <p class="paragraph" data-key="intro">{$t('common.hero.paragraphs.intro')}{$t('common.hero.paragraphs.method')}</p>
+              <h1 class="text-4xl font-bold text-center text-violet-800 mb-4">{$t('common.hero.title')}</h1>
+              <h2 class="text-xl text-center text-blue-500 mb-4">{$t('common.hero.subtitle')}</h2>
+              <p class="paragraph text-xl mb-2 " data-key="intro">{$t('common.hero.paragraphs.intro')} {$t('common.hero.paragraphs.method')}</p>
               <p class="paragraph" data-key="method"></p>
               <!-- <p class="paragraph" data-key="history">{$t('common.hero.paragraphs.history')}</p> -->
-              <p class="paragraph" data-key="today">{$t('common.hero.paragraphs.today')}</p>
+              <p class="paragraph mb-2 text-xl" data-key="today">{$t('common.hero.paragraphs.today')}</p>
               <!-- <p class="paragraph" data-key="unique">{$t('common.hero.paragraphs.unique')}</p> -->
-              <p class="paragraph" data-key="join">{$t('common.hero.paragraphs.join')}</p>
+              <p class="paragraph text-xl" data-key="join">{$t('common.hero.paragraphs.join')}</p>
             </div>
         </div>
     </div>
@@ -111,7 +111,7 @@
     <div class="mt-6 p-4">
       <!-- Featured Methods Section -->
       <div class="mx-auto overflow-visible mt-12 mb-24 p-4">
-        <h2 class="text-5xl font-bold mb-12 tracking-tight leading-none" id="methods-section-title">{$t('common.homepage.methodsSection.title')}</h2>
+        <h2 class="text-4xl ml-8 font-bold mb-12 text-violet-800 tracking-tight leading-none" id="methods-section-title">{$t('common.homepage.methodsSection.title')}</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {#each methods as method, i}
             <div class="relative rounded-lg shadow-lg overflow-hidden group transition duration-500 ease-in-out transform hover:scale-105 hover:shadow-lg parallax-card" style="transform: translateY({i * 50}px)">
@@ -127,12 +127,11 @@
       </div>
     </div>
 
-
-    <div class="flex flex-wrap p-1 justify-center mb-42 w-full">
-
+    <div class="mx-auto flex flex-wrap p-1 justify-center mb-42 w-full">
+      <h2 class="text-4xl text-center text-violet-800 font-bold mb-12 tracking-tight leading-none" id="methods-section-title">{$t('common.homepage.methodsSection.alttitle')}</h2>
       <!-- Bernadette's Card -->
-      <div class="flex flex-col p-4 w-full md:w-1/3">
-        <h2 class="text-5xl font-bold mb-12 tracking-tight leading-none" id="methods-section-title">{$t('common.homepage.methodsSection.title')}</h2>
+      <!-- <div class="flex flex-col p-4 w-full md:w-1/3">
+        <h2 class="text-5xl font-bold mb-12 tracking-tight leading-none" id="methods-section-title">{$t('common.sections.teachers')}</h2>
 
           <div class="rounded-lg shadow-md overflow-hidden transition duration-500 ease-in-out transform hover:scale-105 hover:shadow-lg">
               <img class="w-full h-48 object-cover" src="/images/meetups/bernadette1.png" alt="Bernadette">
@@ -153,10 +152,10 @@
                   </div>
               </div>
           </div>
-      </div>
+      </div> -->
 
       <!-- Annie's Card -->
-      <div class="flex flex-col p-4 w-full md:w-1/3">
+      <!-- <div class="flex flex-col p-4 w-full md:w-1/3">
           <div class="rounded-lg shadow-md overflow-hidden transition duration-500 ease-in-out transform hover:scale-105 hover:shadow-lg">
               <img class="w-full h-48 object-cover" src="/images/meetups/annie1.png" alt="Annie">
               <div class="p-4">
@@ -176,10 +175,10 @@
                   </div>
               </div>
           </div>
-      </div>
+      </div> -->
 
       <!-- Guy's Card -->
-      <div class="flex flex-col p-4 w-full md:w-1/3">
+      <!-- <div class="flex flex-col p-4 w-full md:w-1/3">
           <div class="rounded-lg shadow-md overflow-hidden transition duration-500 ease-in-out transform hover:scale-105 hover:shadow-lg">
               <img class="w-full h-48 object-cover" src="/images/meetups/guy1.png" alt="Guy">
               <div class="p-4">
@@ -199,44 +198,54 @@
                   </div>
               </div>
           </div>
-      </div>
+      </div> -->
 
 
     
 
-      <div class="flex w-full p-12 mt-12 flex-col md:flex-row justify-between items-center  bg-gradient-to-r from-violet-500 to-violet-800 text-white rounded-lg shadow-lg">
+      <div class="flex w-full p-4 md:p-12 mt-12 flex-col justify-between items-center  bg-gradient-to-r from-violet-500 to-violet-800 text-white rounded-lg shadow-lg">
         <div class="flex flex-col justify-center items-start md:items-center p-4 text-center md:text-left">
           <h4 class="text-2xl font-bold mb-4">  {$t('common.joinConversation.whatsapp')}</h4>
-          <p class="text-xl mb-4">{$t('common.joinConversation.whatsappdesc')}</p>
+          <p class="text-xl mb-4 text-left">{$t('common.joinConversation.whatsappdesc')}</p>
+        </div>
 
-        </div>
-        <div class="flex flex-col" style="height: 200px; width: 100vw; background-image: url(''); background-size: contain; background-position: top; opacity: 0.95; background-repeat: no-repeat;">
-          <h3 class="text-xl mt-12 text-left font-bold text-slate-800 mb-4 flex items-center">
-            Rejoins Bernadette, Guy et 230 autres <br>Have fun, play, laugh and learn</h3>
-            <div class="flex -space-x-1 overflow-hidden ml-2">
-                <img class="inline-block h-10 w-10 rounded-full ring-2 ring-white" src="/images/whatsapp.gif" alt="User 1">
-                <img class="inline-block h-10 w-10 rounded-full ring-2 ring-white" src="/images/meetups/bernadette1.png" alt="User 2">
-                <img class="inline-block h-10 w-10 rounded-full ring-2 ring-white" src="/images/avatars/guy1.jpg" alt="User 3">
-                <span class="inline-block h-10 w-10 rounded-full bg-gray-200 text-gray-700 items-center justify-center ring-2 ring-white">+230</span>
+        <div class="flex flex-col">
+            <div class="flex justify-center -space-x-1 overflow-hidden ml-2 mb-2">
+                <img class=" h-16 w-16 rounded-full ring-white" src="/images/whatsapp.gif" alt="User 1">
+                <img class=" h-16 w-16 rounded-full ring-white" src="/images/meetups/bernadette1.png" alt="User 2">
+                <img class=" h-16 w-16 rounded-full ring-white" src="/images/meetups/guy1.png" alt="User 3">
+                <img class=" h-16 w-16 rounded-full ring-white" src="/images/meetups/annie1.png" alt="User 3">
+                <img class=" h-16 w-16 rounded-full ring-white" src="/images/meetups/efel1.png" alt="User 3">
+                <img class=" h-16 w-16 rounded-full ring-white" src="/images/meetups/efel2.png" alt="User 3">
+                <img class=" h-16 w-16 rounded-full ring-white" src="/images/meetups/efel4.png" alt="User 3">
+                <span class=" font-medium h-16 w-16 rounded-full bg-gray-200 text-gray-700 flex items-center justify-center ring-2 ring-white text-center text-violet-800 text-xl leading-none">+230</span>
+
             </div>
-            <button class=" flex items-center px-4 py-2 text-white bg-gradient-to-r from-blue-500 to-blue-700 text-sm font-medium rounded shadow-md hover:from-blue-600 hover:to-blue-800 transition duration-300 ease-in-out mb-4 md:mb-0 md:mr-4">
-              <img class="w-8 h-8 mr-4 rounded-full" src="/images/whatsapp.png" alt="WhatsApp Icon"> <div>
-                {$t('common.joinConversation.button')}
-              </div>
-            </button>
-            {$t('common.hero.paragraphs.method')}
         </div>
-      </div>
+
+   
+   
+      
+
+      <button class=" flex items-center px-4 mt-12 py-2 text-white bg-gradient-to-r from-blue-500 to-blue-700 text-sm font-medium rounded shadow-md hover:from-blue-600 hover:to-blue-800 transition duration-300 ease-in-out mb-4 md:mb-0 md:mr-4">
+        <img class="w-12 h-12 mr-4 rounded-full" src="/images/whatsapp.png" alt="WhatsApp Icon"> <div>
+          {$t('common.joinConversation.button')}
+        </div>
+      </button>
+    </div>
+
   </div>
     
     
 
 
 
-    <!-- <div class="mt-8 p-8">
+<!-- <div class="mt-8 p-8">
       <Teachers/>
-    </div>
-   -->
+    </div> -->
+
+
+
   <!-- <div class="mt-8 p-4">
     <h3 class="text-5xl text-left font-bold text-slate-800 mb-12">{$t('common.games.playAndLearn')}</h3>
     <div class="mt-8 w-full p-8 border-4 border-gold-500 rounded-lg shadow-2xl bg-blue-50 mx-auto text-gray-800">
@@ -266,11 +275,11 @@
     </div>
   </div> -->
 
-  <div class="mt-2é p-12">
+  <div class="mt-2 p-12">
    <LanguageCuriosityCard />
   </div>
 
-  <section class="mt-8 mb-8 w-full mx-auto">
+  <section class="mt-4 mb-4 w-full mx-auto">
     <div class="text-center mb-8">
         <h2 class="text-2xl font-semibold">{$t('common.support.missionTitle')}</h2>
         <p class="text-md text-gray-600">{$t('common.support.missionDescription')}</p>
@@ -278,16 +287,16 @@
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 w-full">
         <!-- Donation Card -->
-        <div class="bg-white rounded-lg shadow-xl overflow-hidden transform transition duration-300 hover:scale-105">
+        <!-- <div class="bg-white rounded-lg shadow-xl overflow-hidden transform transition duration-300 hover:scale-105">
             <div class="p-6">
                 <h3 class="text-xl font-semibold text-blue-700 mb-4">{$t('common.support.donationTitle')}</h3>
                 <p>{$t('common.support.donationDescription')}</p>
                 <a href="/donate" class="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-300">{$t('common.support.donateButton')}</a>
             </div>
-        </div>
+        </div> -->
 
         <!-- One-on-One Lessons Card -->
-        <div class="bg-white rounded-lg shadow-xl overflow-hidden transform transition duration-300 hover:scale-105">
+        <!-- <div class="bg-white rounded-lg shadow-xl overflow-hidden transform transition duration-300 hover:scale-105">
             <div class="p-6">
                 <h3 class="text-xl font-semibold text-blue-700 mb-4">{$t('common.support.oneOnOneTitle')}</h3>
                 <p>{$t('common.support.oneOnOneDescription')}</p>
@@ -297,10 +306,10 @@
                 </ul>
                 <a href="/lessons" class="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-300">{$t('common.support.bookNowButton')}</a>
             </div>
-        </div>
+        </div> -->
 
         <!-- Low-Fee Activities Card -->
-        <div class="bg-white rounded-lg shadow-xl overflow-hidden transform transition duration-300 hover:scale-105">
+        <!-- <div class="bg-white rounded-lg shadow-xl overflow-hidden transform transition duration-300 hover:scale-105">
             <div class="p-6">
                 <h3 class="text-xl font-semibold text-blue-700 mb-4">{$t('common.support.activitiesTitle')}</h3>
                 <p>{$t('common.support.activitiesDescription')}</p>
@@ -309,7 +318,7 @@
                 </ul>
                 <a href="/activities" class="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-300">{$t('common.support.viewActivitiesButton')}</a>
             </div>
-        </div>
+        </div> -->
     </div>
   </section>
 
@@ -330,9 +339,9 @@
     </div>
   </section> -->
 
-  <div class="mt-8 p-12">
+  <!-- <div class="mt-8 p-12">
     <Sponsors />
-  </div>
+  </div> -->
 
   <!-- <section class="bg-gray-100 py-12 mb-24">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
