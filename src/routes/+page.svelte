@@ -216,9 +216,9 @@
                 <img class=" h-16 w-16 rounded-full ring-white" src="/images/meetups/guy1.png" alt="User 3">
                 <img class=" h-16 w-16 rounded-full ring-white" src="/images/meetups/annie1.png" alt="User 3">
                 <img class=" h-16 w-16 rounded-full ring-white" src="/images/meetups/efel1.png" alt="User 3">
-                <img class=" h-16 w-16 rounded-full ring-white" src="/images/meetups/efel2.png" alt="User 3">
+                <img class=" h-16 w-16 rounded-full ring-white" src="/images/meetups/efel-6.png" alt="User 3">
                 <img class=" h-16 w-16 rounded-full ring-white" src="/images/meetups/efel4.png" alt="User 3">
-                <span class=" font-medium h-16 w-16 rounded-full bg-gray-200 text-gray-700 flex items-center justify-center ring-2 ring-white text-center text-violet-800 text-xl leading-none">+230</span>
+                <span class=" font-medium h-16 w-16 rounded-full bg-gray-200 text-gray-700 flex items-center justify-center ring-2 ring-white text-center text-xl leading-none">+230</span>
 
             </div>
         </div>

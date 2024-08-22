@@ -1,10 +1,11 @@
-<footer class="bg-violet-950 text-white py-8">
+<footer class="bg-slate-100 text-black py-8">
   <div class="mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-12 text-center md:text-left">
 
    
    <div>
-        <a href="/about" class="block px-3 py-2 text-sm font-bold hover:text-yellow-400 transition duration-200">CGU</a>
-        <a href="/contact" class="block px-3 py-2 text-sm font-bold hover:text-yellow-400 transition duration-200">Contact</a>
+    <p class="text-sm">EFELCENTER est une association loi 1901
+      enregistrée à la préfecture des Hauts-de-Seine
+    </p>
       </div>
 
  

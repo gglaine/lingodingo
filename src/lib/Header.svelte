@@ -46,7 +46,7 @@
 
   <!-- Desktop Links Visible on Desktop -->
   <div class="hidden md:flex space-x-6 text-slate-800 font-light">
-    <a href="/about" class="hover:text-yellow-400 transition duration-200">
+    <!-- <a href="/about" class="hover:text-yellow-400 transition duration-200">
       {$t('common.navbar.whoWeAre')}
     </a>
     <a href="/" class="hover:text-yellow-400 transition duration-200">
@@ -54,7 +54,7 @@
     </a>
     <a href="/tutoring" class="hover:text-yellow-400 transition duration-200">
       {$t('common.tutoring.category')}
-    </a>
+    </a> -->
     <a href="/contact" class="hover:text-yellow-400 transition duration-200">
       {$t('common.navbar.contact')}
     </a>
@@ -83,7 +83,7 @@
     </div>
 
     <!-- Sign In / Up Link Visible on All Views -->
-    {#if !$isUserLoggedIn}
+    <!-- {#if !$isUserLoggedIn}
       <a href="/signin" class="px-4 py-2 rounded-md text-base font-thin text-white bg-violet-800 hover:bg-blue-600 transition duration-200">
         {$t('common.navbar.signIn')}
       </a>
@@ -92,7 +92,7 @@
       <div class="relative w-10 h-10 overflow-hidden bg-gray-100 rounded-full dark:bg-violet-850">
         <svg class="absolute w-12 h-12 text-gray-400 -left-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path></svg>
       </div>
-    {/if}
+    {/if} -->
 
     <!-- Hamburger Menu Icon for Mobile -->
     <button on:click={toggleMenu} class="ml-3 md:hidden p-2 text-gray-100 hover:text-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
@@ -108,9 +108,9 @@
       <a href="/" on:click={toggleMenu} class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">
         {$t('common.navbar.home')}
       </a>
-      <a href="/about" on:click={toggleMenu} class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">
+      <!-- <a href="/about" on:click={toggleMenu} class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">
         {$t('common.navbar.about')}
-      </a>
+      </a> -->
       <a href="/contact" on:click={toggleMenu} class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">
         {$t('common.navbar.contact')}
       </a>

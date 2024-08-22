@@ -17,7 +17,7 @@
         <p class="text-gray-600">efelcenter@gmail.com</p>
       </div>
       <div class="mb-6">
-        <p class="text-gray-600">54 Avenue de la Liberté 9 2000 NANTERRE</p>
+        <p class="text-gray-600">54 Avenue de la Liberté 92000 NANTERRE</p>
       </div>
 
       <div class="mt-8">

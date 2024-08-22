@@ -263,333 +263,333 @@ export const black_american = [
     
     ]
 
-    export const jamaican = [
-      {
-        "word": "Mi deh yah",
-        "meaning": "I am here",
-        "example": "Mi deh yah a enjoy di vibes."
-      },
-      {
-        "word": "Wa gwaan?",
-        "meaning": "What's going on? How are you?",
-        "example": "Wa gwaan mi bredda?"
-      },
-      {
-        "word": "Likkle more",
-        "meaning": "See you later, goodbye",
-        "example": "Mi a go a di shop, likkle more."
-      },
-      {
-        "word": "Mi deh pon it",
-        "meaning": "I am on it, I'm handling it",
-        "example": "Mi deh pon di job."
-      },
-      {
-        "word": "Wah yuh deh pan?",
-        "meaning": "What are you up to?",
-        "example": "Wah yuh deh pan dis evening?"
-      },
-      {
-        "word": "Irie",
-        "meaning": "Everything is good, all is well",
-        "example": "Di day deh did irie."
-      },
-      {
-        "word": "Mi deh yah suh",
-        "meaning": "I am here, right here",
-        "example": "Mi deh yah suh a chill."
-      },
-      {
-        "word": "Mi soon come",
-        "meaning": "I'll be right back, I'll come soon",
-        "example": "Mi soon come back."
-      },
-      {
-        "word": "Wicked",
-        "meaning": "Great, excellent, cool",
-        "example": "Dat tune deh wicked!"
-      },
-      {
-        "word": "Mek we link up",
-        "meaning": "Let's meet up",
-        "example": "Mek we link up later."
-      },
-      {
-        "word": "Mi deh pon di ends",
-        "meaning": "I'm in the neighborhood",
-        "example": "Mi deh pon di ends, come tru."
-      },
-      {
-        "word": "Mi deh yah fi yuh",
-        "meaning": "I'm here for you, I'm here to support you",
-        "example": "Mi deh yah fi yuh no matter what."
-      },
-      {
-        "word": "Nuh worry yuhself",
-        "meaning": "Don't worry, don't stress",
-        "example": "Nuh worry yuhself, everything will be alright."
-      },
-      {
-        "word": "Big up",
-        "meaning": "Respect, shout out to",
-        "example": "Big up di crew!"
-      },
-      {
-        "word": "Mi deh pon di grind",
-        "meaning": "I'm working hard, hustling",
-        "example": "Mi deh pon di grind fi di money."
-      },
-      {
-        "word": "Mi soon forward",
-        "meaning": "I'll be there soon",
-        "example": "Mi soon forward, just wait."
-      },
-      {
-        "word": "Mi deh pon di move",
-        "meaning": "I'm on the move, I'm busy",
-        "example": "Mi deh pon di move right now."
-      },
-      {
-        "word": "Mi deh ya",
-        "meaning": "I am here, I am present",
-        "example": "Mi deh ya, ready fi di vibes."
-      },
-      {
-        "word": "Mi deh pon chill",
-        "meaning": "I'm relaxing, taking it easy",
-        "example": "Mi deh pon chill dis weekend."
-      },
-      {
-        "word": "Mi deh yah fi di link",
-        "meaning": "I'm here for the meeting or connection",
-        "example": "Mi deh yah fi di link-up."
-      },
-      {
-        "word": "Mi deh yah fi di party",
-        "meaning": "I'm here for the party",
-        "example": "Mi deh yah fi di party vibes."
-      },
-      {
-        "word": "Mi deh yah fi di food",
-        "meaning": "I'm here for the food",
-        "example": "Mi deh yah fi di good eats."
-      },
-      {
-        "word": "Mi deh yah fi di vybz",
-        "meaning": "I'm here for the fun and energy",
-        "example": "Mi deh yah fi di vybz."
-      },
-      {
-        "word": "Mi deh yah fi di culture",
-        "meaning": "I'm here to experience the culture",
-        "example": "Mi deh yah fi di rich culture."
-      },
-      {
-        "word": "Mi deh yah fi di music",
-        "meaning": "I'm here for the music",
-        "example": "Mi deh yah fi di sweet melodies."
-      },
-      {
-        "word": "Mi deh yah fi di vibes",
-        "meaning": "I'm here for the good vibes",
-        "example": "Mi deh yah fi di positive vibes."
-      },
-      {
-        "word": "Mi deh yah fi di love",
-        "meaning": "I'm here for the love and connection",
-        "example": "Mi deh yah fi di love."
-      },
-      {
-        "word": "Mi deh yah fi di laughter",
-        "meaning": "I'm here for the laughter and joy",
-        "example": "Mi deh yah fi di laughter."
-      },
-      {
-        "word": "Mi deh yah fi di journey",
-        "meaning": "I'm here for the journey and experiences",
-        "example": "Mi deh yah fi di beautiful journey."
-      },
-      {
-        "word": "Mi deh yah fi di adventure",
-        "meaning": "I'm here for the adventure and excitement",
-        "example": "Mi deh yah fi di thrilling adventure."
-      },
-      {
-        "word": "Mi deh yah fi di memories",
-        "meaning": "I'm here for the memories and moments",
-        "example": "Mi deh yah fi di precious memories."
-      },
-      {
-        "word": "Mi deh yah fi di joy",
-        "meaning": "I'm here for the joy and happiness",
-        "example": "Mi deh yah fi di pure joy."
-      },
-      {
-        "word": "Mi deh yah fi di positivity",
-        "meaning": "I'm here for the positivity and optimism",
-        "example": "Mi deh yah fi di positive vibes."
-      },
-      {
-        "word": "Mi deh yah fi di blessings",
-        "meaning": "I'm here for the blessings and abundance",
-        "example": "Mi deh yah fi di abundant blessings."
-      },
-      {
-        "word": "Mi deh yah fi di unity",
-        "meaning": "I'm here for the unity and togetherness",
-        "example": "Mi deh yah fi di strong unity."
-      },
-      {
-        "word": "Mi deh yah fi di strength",
-        "meaning": "I'm here for the strength and resilience",
-        "example": "Mi deh yah fi di inner strength."
-      },
-      {
-        "word": "Mi deh yah fi di wisdom",
-        "meaning": "I'm here for the wisdom and knowledge",
-        "example": "Mi deh yah fi di timeless wisdom."
-      },
-      {
-        "word": "Mi deh yah fi di courage",
-        "meaning": "I'm here for the courage and bravery",
-        "example": "Mi deh yah fi di fearless courage."
-      },
-      {
-        "word": "Mi deh yah fi di growth",
-        "meaning": "I'm here for the growth and progress",
-        "example": "Mi deh yah fi di continuous growth."
-      },
-      {
-        "word": "Mi deh yah fi di freedom",
-        "meaning": "I'm here for the freedom and liberation",
-        "example": "Mi deh yah fi di ultimate freedom."
-      },
-      {
-        "word": "Mi deh yah fi di truth",
-        "meaning": "I'm here for the truth and authenticity",
-        "example": "Mi deh yah fi di profound truth."
-      },
-      {
-        "word": "Mi deh yah fi di love",
-        "meaning": "I'm here for the love and connection",
-        "example": "Mi deh yah fi di deep love."
-      },
-      {
-        "word": "Mi deh yah fi di vibes",
-        "meaning": "I'm here for the good vibes",
-        "example": "Mi deh yah fi di positive vibes."
-      },
-      {
-        "word": "Mi deh yah fi di energy",
-        "meaning": "I'm here for the energy and vitality",
-        "example": "Mi deh yah fi di vibrant energy."
-      },
-      {
-        "word": "Mi deh yah fi di music",
-        "meaning": "I'm here for the music and melodies",
-        "example": "Mi deh yah fi di sweet music."
-      },
-      {
-        "word": "Mi deh yah fi di culture",
-        "meaning": "I'm here for the culture and heritage",
-        "example": "Mi deh yah fi di rich culture."
-      },
-      {
-        "word": "Mi deh yah fi di vibes",
-        "meaning": "I'm here for the good vibes",
-        "example": "Mi deh yah fi di positive vibes."
-      },
-      {
-        "word": "Mi deh yah fi di love",
-        "meaning": "I'm here for the love and connection",
-        "example": "Mi deh yah fi di love."
-      },
-      {
-        "word": "Mi deh yah fi di laughter",
-        "meaning": "I'm here for the laughter and joy",
-        "example": "Mi deh yah fi di laughter."
-      },
-      {
-        "word": "Mi deh yah fi di journey",
-        "meaning": "I'm here for the journey and experiences",
-        "example": "Mi deh yah fi di beautiful journey."
-      },
-      {
-        "word": "Mi deh yah fi di adventure",
-        "meaning": "I'm here for the adventure and excitement",
-        "example": "Mi deh yah fi di thrilling adventure."
-      },
-      {
-        "word": "Mi deh yah fi di memories",
-        "meaning": "I'm here for the memories and moments",
-        "example": "Mi deh yah fi di precious memories."
-      },
-      {
-        "word": "Mi deh yah fi di joy",
-        "meaning": "I'm here for the joy and happiness",
-        "example": "Mi deh yah fi di pure joy."
-      },
-      {
-        "word": "Mi deh yah fi di positivity",
-        "meaning": "I'm here for the positivity and optimism",
-        "example": "Mi deh yah fi di positive vibes."
-      },
-      {
-        "word": "Mi deh yah fi di blessings",
-        "meaning": "I'm here for the blessings and abundance",
-        "example": "Mi deh yah fi di abundant blessings."
-      },
-      {
-        "word": "Mi deh yah fi di unity",
-        "meaning": "I'm here for the unity and togetherness",
-        "example": "Mi deh yah fi di strong unity."
-      },
-      {
-        "word": "Mi deh yah fi di strength",
-        "meaning": "I'm here for the strength and resilience",
-        "example": "Mi deh yah fi di inner strength."
-      },
-      {
-        "word": "Mi deh yah fi di wisdom",
-        "meaning": "I'm here for the wisdom and knowledge",
-        "example": "Mi deh yah fi di timeless wisdom."
-      },
-      {
-        "word": "Mi deh yah fi di courage",
-        "meaning": "I'm here for the courage and bravery",
-        "example": "Mi deh yah fi di fearless courage."
-      },
-      {
-        "word": "Mi deh yah fi di growth",
-        "meaning": "I'm here for the growth and progress",
-        "example": "Mi deh yah fi di continuous growth."
-      },
-      {
-        "word": "Mi deh yah fi di freedom",
-        "meaning": "I'm here for the freedom and liberation",
-        "example": "Mi deh yah fi di ultimate freedom."
-      },
-      {
-        "word": "Mi deh yah fi di truth",
-        "meaning": "I'm here for the truth and authenticity",
-        "example": "Mi deh yah fi di profound truth."
-      },
-      {
-        "word": "Mi deh yah fi di love",
-        "meaning": "I'm here for the love and connection",
-        "example": "Mi deh yah fi di deep love."
-      },
-      {
-        "word": "Mi deh yah fi di vibes",
-        "meaning": "I'm here for the good vibes",
-        "example": "Mi deh yah fi di positive vibes."
-      },
-      {
-        "word": "Mi deh yah fi di energy",
-        "meaning": "I'm here for the energy and vitality",
-        "example": "Mi deh yah fi di vibrant energy."
-      }
-    ]
+    // export const jamaican = [
+    //   {
+    //     "word": "Mi deh yah",
+    //     "meaning": "I am here",
+    //     "example": "Mi deh yah a enjoy di vibes."
+    //   },
+    //   {
+    //     "word": "Wa gwaan?",
+    //     "meaning": "What's going on? How are you?",
+    //     "example": "Wa gwaan mi bredda?"
+    //   },
+    //   {
+    //     "word": "Likkle more",
+    //     "meaning": "See you later, goodbye",
+    //     "example": "Mi a go a di shop, likkle more."
+    //   },
+    //   {
+    //     "word": "Mi deh pon it",
+    //     "meaning": "I am on it, I'm handling it",
+    //     "example": "Mi deh pon di job."
+    //   },
+    //   {
+    //     "word": "Wah yuh deh pan?",
+    //     "meaning": "What are you up to?",
+    //     "example": "Wah yuh deh pan dis evening?"
+    //   },
+    //   {
+    //     "word": "Irie",
+    //     "meaning": "Everything is good, all is well",
+    //     "example": "Di day deh did irie."
+    //   },
+    //   {
+    //     "word": "Mi deh yah suh",
+    //     "meaning": "I am here, right here",
+    //     "example": "Mi deh yah suh a chill."
+    //   },
+    //   {
+    //     "word": "Mi soon come",
+    //     "meaning": "I'll be right back, I'll come soon",
+    //     "example": "Mi soon come back."
+    //   },
+    //   {
+    //     "word": "Wicked",
+    //     "meaning": "Great, excellent, cool",
+    //     "example": "Dat tune deh wicked!"
+    //   },
+    //   {
+    //     "word": "Mek we link up",
+    //     "meaning": "Let's meet up",
+    //     "example": "Mek we link up later."
+    //   },
+    //   {
+    //     "word": "Mi deh pon di ends",
+    //     "meaning": "I'm in the neighborhood",
+    //     "example": "Mi deh pon di ends, come tru."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi yuh",
+    //     "meaning": "I'm here for you, I'm here to support you",
+    //     "example": "Mi deh yah fi yuh no matter what."
+    //   },
+    //   {
+    //     "word": "Nuh worry yuhself",
+    //     "meaning": "Don't worry, don't stress",
+    //     "example": "Nuh worry yuhself, everything will be alright."
+    //   },
+    //   {
+    //     "word": "Big up",
+    //     "meaning": "Respect, shout out to",
+    //     "example": "Big up di crew!"
+    //   },
+    //   {
+    //     "word": "Mi deh pon di grind",
+    //     "meaning": "I'm working hard, hustling",
+    //     "example": "Mi deh pon di grind fi di money."
+    //   },
+    //   {
+    //     "word": "Mi soon forward",
+    //     "meaning": "I'll be there soon",
+    //     "example": "Mi soon forward, just wait."
+    //   },
+    //   {
+    //     "word": "Mi deh pon di move",
+    //     "meaning": "I'm on the move, I'm busy",
+    //     "example": "Mi deh pon di move right now."
+    //   },
+    //   {
+    //     "word": "Mi deh ya",
+    //     "meaning": "I am here, I am present",
+    //     "example": "Mi deh ya, ready fi di vibes."
+    //   },
+    //   {
+    //     "word": "Mi deh pon chill",
+    //     "meaning": "I'm relaxing, taking it easy",
+    //     "example": "Mi deh pon chill dis weekend."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di link",
+    //     "meaning": "I'm here for the meeting or connection",
+    //     "example": "Mi deh yah fi di link-up."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di party",
+    //     "meaning": "I'm here for the party",
+    //     "example": "Mi deh yah fi di party vibes."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di food",
+    //     "meaning": "I'm here for the food",
+    //     "example": "Mi deh yah fi di good eats."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di vybz",
+    //     "meaning": "I'm here for the fun and energy",
+    //     "example": "Mi deh yah fi di vybz."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di culture",
+    //     "meaning": "I'm here to experience the culture",
+    //     "example": "Mi deh yah fi di rich culture."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di music",
+    //     "meaning": "I'm here for the music",
+    //     "example": "Mi deh yah fi di sweet melodies."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di vibes",
+    //     "meaning": "I'm here for the good vibes",
+    //     "example": "Mi deh yah fi di positive vibes."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di love",
+    //     "meaning": "I'm here for the love and connection",
+    //     "example": "Mi deh yah fi di love."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di laughter",
+    //     "meaning": "I'm here for the laughter and joy",
+    //     "example": "Mi deh yah fi di laughter."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di journey",
+    //     "meaning": "I'm here for the journey and experiences",
+    //     "example": "Mi deh yah fi di beautiful journey."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di adventure",
+    //     "meaning": "I'm here for the adventure and excitement",
+    //     "example": "Mi deh yah fi di thrilling adventure."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di memories",
+    //     "meaning": "I'm here for the memories and moments",
+    //     "example": "Mi deh yah fi di precious memories."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di joy",
+    //     "meaning": "I'm here for the joy and happiness",
+    //     "example": "Mi deh yah fi di pure joy."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di positivity",
+    //     "meaning": "I'm here for the positivity and optimism",
+    //     "example": "Mi deh yah fi di positive vibes."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di blessings",
+    //     "meaning": "I'm here for the blessings and abundance",
+    //     "example": "Mi deh yah fi di abundant blessings."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di unity",
+    //     "meaning": "I'm here for the unity and togetherness",
+    //     "example": "Mi deh yah fi di strong unity."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di strength",
+    //     "meaning": "I'm here for the strength and resilience",
+    //     "example": "Mi deh yah fi di inner strength."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di wisdom",
+    //     "meaning": "I'm here for the wisdom and knowledge",
+    //     "example": "Mi deh yah fi di timeless wisdom."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di courage",
+    //     "meaning": "I'm here for the courage and bravery",
+    //     "example": "Mi deh yah fi di fearless courage."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di growth",
+    //     "meaning": "I'm here for the growth and progress",
+    //     "example": "Mi deh yah fi di continuous growth."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di freedom",
+    //     "meaning": "I'm here for the freedom and liberation",
+    //     "example": "Mi deh yah fi di ultimate freedom."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di truth",
+    //     "meaning": "I'm here for the truth and authenticity",
+    //     "example": "Mi deh yah fi di profound truth."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di love",
+    //     "meaning": "I'm here for the love and connection",
+    //     "example": "Mi deh yah fi di deep love."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di vibes",
+    //     "meaning": "I'm here for the good vibes",
+    //     "example": "Mi deh yah fi di positive vibes."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di energy",
+    //     "meaning": "I'm here for the energy and vitality",
+    //     "example": "Mi deh yah fi di vibrant energy."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di music",
+    //     "meaning": "I'm here for the music and melodies",
+    //     "example": "Mi deh yah fi di sweet music."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di culture",
+    //     "meaning": "I'm here for the culture and heritage",
+    //     "example": "Mi deh yah fi di rich culture."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di vibes",
+    //     "meaning": "I'm here for the good vibes",
+    //     "example": "Mi deh yah fi di positive vibes."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di love",
+    //     "meaning": "I'm here for the love and connection",
+    //     "example": "Mi deh yah fi di love."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di laughter",
+    //     "meaning": "I'm here for the laughter and joy",
+    //     "example": "Mi deh yah fi di laughter."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di journey",
+    //     "meaning": "I'm here for the journey and experiences",
+    //     "example": "Mi deh yah fi di beautiful journey."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di adventure",
+    //     "meaning": "I'm here for the adventure and excitement",
+    //     "example": "Mi deh yah fi di thrilling adventure."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di memories",
+    //     "meaning": "I'm here for the memories and moments",
+    //     "example": "Mi deh yah fi di precious memories."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di joy",
+    //     "meaning": "I'm here for the joy and happiness",
+    //     "example": "Mi deh yah fi di pure joy."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di positivity",
+    //     "meaning": "I'm here for the positivity and optimism",
+    //     "example": "Mi deh yah fi di positive vibes."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di blessings",
+    //     "meaning": "I'm here for the blessings and abundance",
+    //     "example": "Mi deh yah fi di abundant blessings."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di unity",
+    //     "meaning": "I'm here for the unity and togetherness",
+    //     "example": "Mi deh yah fi di strong unity."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di strength",
+    //     "meaning": "I'm here for the strength and resilience",
+    //     "example": "Mi deh yah fi di inner strength."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di wisdom",
+    //     "meaning": "I'm here for the wisdom and knowledge",
+    //     "example": "Mi deh yah fi di timeless wisdom."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di courage",
+    //     "meaning": "I'm here for the courage and bravery",
+    //     "example": "Mi deh yah fi di fearless courage."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di growth",
+    //     "meaning": "I'm here for the growth and progress",
+    //     "example": "Mi deh yah fi di continuous growth."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di freedom",
+    //     "meaning": "I'm here for the freedom and liberation",
+    //     "example": "Mi deh yah fi di ultimate freedom."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di truth",
+    //     "meaning": "I'm here for the truth and authenticity",
+    //     "example": "Mi deh yah fi di profound truth."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di love",
+    //     "meaning": "I'm here for the love and connection",
+    //     "example": "Mi deh yah fi di deep love."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di vibes",
+    //     "meaning": "I'm here for the good vibes",
+    //     "example": "Mi deh yah fi di positive vibes."
+    //   },
+    //   {
+    //     "word": "Mi deh yah fi di energy",
+    //     "meaning": "I'm here for the energy and vitality",
+    //     "example": "Mi deh yah fi di vibrant energy."
+    //   }
+    // ]
 
     export const australian = [
           {
@@ -1314,7 +1314,7 @@ export const black_american = [
 export const languageCuriosities = [
     { country: "American Slang", data: american_slang },
     { country: "Black American Vernacular", data: black_american },
-    { country: "Jamaican Patois", data: jamaican },
+    // { country: "Jamaican Patois", data: jamaican },
     { country: "Welsh", data: welsh },
     { country: "Indian", data: indian },
     { country: "Scottish", data: scottish },
