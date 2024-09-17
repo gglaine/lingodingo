@@ -4,6 +4,9 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 const config = {
   kit: {
     adapter: adapter(),
+    files: {
+      serviceWorker: 'src/my-sw.js', // or `src/my-sw.ts`
+    },
     alias: {
 			// Define your aliases here
 			'$lib': './src/lib',

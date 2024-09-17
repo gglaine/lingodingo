@@ -31,14 +31,16 @@
       "activitiesPrice": "5€ par activité",
       "viewActivitiesButton": "Voir les Activités"
     },
-      "joinConversation": {
-        "whatsapp": "Rejoignez la conversation sur WhatsApp",
-        "whatsappdesc": "Connectez-vous avec d'autres étudiants, participez aux discussions et obtenez les dernières mises à jour et le soutien. Nos canaux WhatsApp sont actifs, engageants et un excellent moyen d'améliorer votre expérience d'apprentissage.",
-        "happyLearning": "Joyeux apprentissage !",
-        "header": "Hey, c'est Pape ! Je suis Franco-Américain et j'ai créé l'association EFELCenter à Nanterre en 2010 pour aider les jeunes et moins jeunes à parler anglais.",
-        "content": "La méthode EFELCenter est accessible à tous ages. Jouez à des jeux, inscrivez-vous aux ateliers thématiques, rencontrez des gens du monde entier tout en vous amusant.",
-        "button": "Rejoins #efelcenter sur WhatsApp pour poser tes questions et avoir les dernières nouvelles"
-      },
+"joinConversation": {
+  "whatsapp": "Venez échanger sous l'arbre à palabres avec nous",
+  "whatsappdesc": "Connectez-vous avec d'autres apprenants et participez à des discussions passionnantes avec Bernadette, Sofiane, Pape, ainsi que des centaines d'autres membres de la communauté EFELCenter.",
+  "whatsappdesc2": "Rejoignez-nous sur WhatsApp pour poser vos questions et recevoir les dernières nouvelles.",
+  "happyLearning": "Bon apprentissage !",
+  "header": "Salut, c'est Pape ! Franco-Américain, j'ai fondé l'association EFELCenter à Nanterre en 2010 pour aider jeunes et moins jeunes à parler anglais.",
+  "content": "La méthode EFELCenter s'adresse à tous les âges. Participez à nos jeux, inscrivez-vous aux ateliers thématiques et rencontrez des gens du monde entier tout en vous amusant.",
+  "button": "Rejoins EFELCenter sur WhatsApp pour poser tes questions et être au courant des dernières nouvelles"
+},
+
       "newsletter": {
         "title": "Restez Connecté",
         "description": "Abonnez-vous à notre newsletter pour les derniers conseils d'apprentissage des langues et les mises à jour.",
@@ -129,19 +131,19 @@
         "rightsReserved": "Tous droits réservés",
         "essCompany": "EFELCenter est une entreprise agrée ESS (Économie Sociale et Solidaire)"
     },
-    "hero": {
-        "title": "Parlez, apprenez, progressez. ",
-        "subtitle": "Rejoignez Une communauté passionnée",
-        "tagline": "Rejoignez la communauté EFEL Center pour des ateliers en ligne et des rencontres en personne.",
-        "cta": "Let's go ! ",
-        "paragraphs": {
-          "intro": "Hello c'est Paps !",
-          "method": "Le Centre EFEL (Easy French and English Learning) propose une méthode d'apprentissage unique basée sur le concept de l'« arbre à palabres », enrichie depuis 1989.",
-          "history": "Quand mes enfants sont arrivés à Paris depuis New York, il était essentiel de maintenir leur anglais tout en leur offrant un accès facile au français. Nous avons commencé dans notre salon, puis ouvert nos portes aux voisins et amis.",
-          "today": "Aujourd'hui, notre club offre des activités thématiques liées aux centres d'intérêt des membres, des cours particuliers pour les lycéens et des sessions d'anglais des affaires.",
-          "unique": "Chaque étudiant est unique. Nos programmes personnalisés sont basés sur les centres d'intérêt ou les jeux favoris. La meilleure façon d'apprendre une langue est de parler sans traduction ! Pas besoin de compétences en lecture ou en écriture. Le succès est garanti.",
-          "join": "Rejoignez-nous pour des ateliers thématiques, un soutien scolaire personnalisé et des ressources incontournables comme les flashcards. Avec EFEL, parler une nouvelle langue devient facile et amusant."
-      }
+"hero": {
+  "title": "Parlez, <span class='highlight'>apprenez</span>, progressez.",
+  "subtitle": "Rejoignez <strong>Une communauté passionnée</strong>",
+  "tagline": "Rejoignez la communauté EFEL Center pour des <span class='highlight'>ateliers en ligne</span> et des <span class='highlight'>rencontres en personne</span>.",
+  "cta": "Let's go!",
+  "paragraphs": {
+    "intro": "Hello c'est <span class='highlight'>Paps</span> !",
+    "method": "Le Centre EFEL (Easy French and English Learning) propose une <div class='highlight'>méthode d'apprentissage unique</div> basée sur le concept de l'« arbre à palabres », enrichie depuis 1989.",
+    "history": "Quand mes enfants sont arrivés à Paris depuis New York, il était essentiel de maintenir leur <span class='highlight'>anglais</span> tout en leur offrant un accès facile au français.",
+    "today": "Aujourd'hui, notre club offre des activités thématiques liées aux centres d'intérêt des membres, des cours particuliers pour les lycéens et des sessions d'anglais des affaires.",
+    "unique": "Chaque étudiant est <strong>unique</strong>. Nos programmes personnalisés sont basés sur les centres d'intérêt ou les jeux favoris.",
+    "join": "Rejoignez-nous pour des <span class='highlight'>ateliers thématiques</span>, un <span class='highlight'>soutien scolaire personnalisé</span> et des <strong>ressources incontournables</strong> comme les flashcards."
+  }
     },
     "cta": {
       "followUs": "Suivez-nous",
