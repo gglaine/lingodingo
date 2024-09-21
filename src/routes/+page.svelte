@@ -105,9 +105,9 @@
           { @html $t('common.hero.paragraphs.today')}
         </p>
     
-        <p class="text-lg text-gray-600 leading-relaxed" data-key="join">
+        <!-- <p class="text-lg text-gray-600 leading-relaxed" data-key="join">
           {@html $t('common.hero.paragraphs.join')}
-        </p>
+        </p> -->
       </div>
             <!-- Image Section -->
             <div class="w-1/2 md:w-auto flex-shrink-0">
@@ -120,9 +120,9 @@
   </div>
   <div class="mt-8 w-full z-50 ">
 
-
-    <div class="mt-6 w-full md:p-0 p-4">
-      <!-- Featured Methods Section -->
+    <!-- Featured Methods Section -->
+    <!-- <div class="mt-6 w-full md:p-0 p-4">
+  
       <div class="mx-auto overflow-visible mt-12 mb-24 p-4">
         <h2 class="text-4xl ml-8 font-bold mb-12 text-blue-500 tracking-tight leading-none" id="methods-section-title">{$t('common.homepage.methodsSection.title')}</h2>
         <p class="text-xl ml-8 md:ml-12 font-light mb-12 text-gray-700 tracking-tight leading-relaxed">
@@ -142,7 +142,7 @@
           {/each}
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="mx-auto flex flex-wrap p-1 justify-center mb-42 w-full">
       <!-- <h2 class="text-4xl text-center text-violet-800 font-bold mb-12 tracking-tight leading-none" id="methods-section-title">{$t('common.homepage.methodsSection.alttitle')}</h2> -->
@@ -239,8 +239,13 @@
         </div>
       
         <button class="flex items-center px-4 mt-12 py-2 text-white bg-blue-500 text-sm font-medium rounded shadow-md hover:bg-blue-600 transition duration-300 ease-in-out mb-4 md:mb-0 md:mr-4">
+          <a href="/contact
+          " class='flex items-center'>
           <img class="w-12 h-12 mr-4 rounded-full" src="/images/whatsapp.png" alt="WhatsApp Icon"> 
           <div class="text-left">{$t('common.joinConversation.button')}</div>
+        </a>
+    
+
         </button>
       </div>
       
@@ -287,9 +292,9 @@
     </div>
   </div> -->
 
-  <div class="mt-2 p-12">
+  <!-- <div class="mt-2 p-12">
    <LanguageCuriosityCard />
-  </div>
+  </div> -->
 
   <section class="mt-4 mb-4 w-full mx-auto">
 
@@ -344,10 +349,12 @@
         Si vous êtes motivé et souhaitez vous impliquer, nous serions ravis de discuter des façons dont vous pourriez nous aider.
       </p>
     </div>
-  
+    
     <button class="flex items-center px-4 mt-8 py-2 text-white bg-green-500 text-sm font-medium rounded shadow-md hover:bg-green-600 transition duration-300 ease-in-out mb-4">
-      <img class="w-8 h-8 mr-4" src="/images/volunteer-icon.png" alt="Volunteer Icon"> 
-      <div>Devenir bénévole</div>
+      <a href="/contact">
+        <div>Devenir bénévole</div>
+      </a>
+   
     </button>
   </div>
   
