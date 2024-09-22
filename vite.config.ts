@@ -14,7 +14,11 @@ export default defineConfig({
       SvelteKitPWA({
         strategies: 'injectManifest',
         srcDir: 'src',
-        filename: 'my-sw.js', // or `my-sw.ts`
+        filename: 'my-sw.ts', // or `my-sw.ts`
+        injectManifest: {
+          swSrc: './src/my-sw.ts', // Path to your service worker source file
+          // swDest is automatically handled
+        },
         /* other pwa options */  
       })
     ],

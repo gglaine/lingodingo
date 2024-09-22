@@ -5,7 +5,7 @@ const config = {
   kit: {
     adapter: adapter(),
     files: {
-      serviceWorker: 'src/my-sw.js', // or `src/my-sw.ts`
+      serviceWorker: 'src/my-sw.ts', // or `src/my-sw.ts`
     },
     alias: {
 			// Define your aliases here
