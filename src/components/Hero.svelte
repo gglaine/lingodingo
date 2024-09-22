@@ -33,7 +33,7 @@
     <img src="/images/methods/busriders.png" class="absolute w-full h-full object-cover parallax-layer" data-depth="1.2" alt="busriders">
   </div>
 
-  <div class="relative z-10 w-full p-6 md:w-1/2 bg-white bg-opacity-90 flex flex-col items-center justify-center p-2 rounded-md shadow-xl mt-4 md:mt-0 md:ml-auto">
+  <div class="relative z-10 w-full md:w-1/2 bg-white bg-opacity-90 flex flex-col items-center justify-center p-2 rounded-md shadow-xl mt-4 md:mt-0 md:ml-auto">
     <div class="p-4 rounded-lg opacity-90 text-center">
       <h1 class="text-6xl text-blue-600 font-bold mb-4">{@html $t('common.hero.title')}</h1>
       <h2 class="text-3xl text-blue-800 italic font-medium mb-4">{@html $t('common.hero.subtitle')}</h2>
