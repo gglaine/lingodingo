@@ -44,7 +44,7 @@
 <style>
   .hero::before {
     content: "";
-    background-image: url('images/blep.webp');
+    background-image: url('images/walkny.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
