@@ -78,6 +78,9 @@
         <p class="text-lg text-gray-600 mb-4 leading-relaxed" data-key="today">
           {@html $t('common.hero.paragraphs.today')}
         </p>
+        <p class="text-lg text-gray-600 mb-4 leading-relaxed" data-key="today">
+          {@html $t('common.hero.paragraphs.join')}
+        </p>
       </div>
       <!-- Image Section -->
       <div class="w-1/2 md:w-auto flex-shrink-0">
