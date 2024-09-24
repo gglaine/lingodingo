@@ -143,7 +143,15 @@
         "tagline": "Join the EFELCenter Community for Fun Workshops, Interactive Games, and Engaging Conversations",
 
         "subtitle": "F.E.E.L. the Learn!",
-        "cta": "Join a session online "
+        "cta": "Join a session online ",
+        "paragraphs": {
+          "intro": "Hi this is Paps !",
+          "method": "Efel center ( English and French Easy Learning ) is a  language learning method based on the «  palaver tree » concept enriched since 1989. When my kids came to Paris from New York  I had to keep their English alive and give them easy access to French.",
+          "history": "We started in the living room and later opened it to neighbors and friends .  !",
+          "today": "Every student is unique. So we provide personalized programs based either on center of interest or favorite games: The best way to learn  a language is to speak with no translation or fear ! No  reading  nor writing skills needed.",
+          "unique": "Chaque étudiant est <strong>unique</strong>. Nos programmes personnalisés sont basés sur les centres d'intérêt ou les jeux favoris.",
+          "join": "Success is guaranteed if you still to your personal program. That’s how we do it"
+        }
     },
     "cta": {
       "followUs": "Follow us",
