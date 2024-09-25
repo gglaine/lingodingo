@@ -34,7 +34,7 @@
 
 <nav class="p-4 bg-slate-100 shadow-lg sticky top-0 z-50 flex items-center justify-between text-slate-800">
   <a href="/" class="w-32 text-center flex flex-col items-center justify-around space-y-1 text-slate-800">
-    <div class="h-16 w-16 overflow-hidden flex items-center justify-center">
+    <div class="h-24 w-24 overflow-hidden flex items-center justify-center">
         <img src="/images/logoefelcenter.png" alt="Logo" class="object-cover h-full">
     </div>
     <span class="hidden md:block text-xl font-bold font-serif">EFEL CENTER</span>
